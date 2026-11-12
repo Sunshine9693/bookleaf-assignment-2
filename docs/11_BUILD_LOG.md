@@ -250,3 +250,9 @@ A running record of decisions, work, evidence and blockers. Times are local (IST
 - Updated the README to reference the current handoff and n8n Cloud workspace.
 - Excluded personal HR correspondence and Bubble record-ID mapping from Git. No credential-shaped values found in the initial documentation/script scan.
 - GitHub browser sign-in and remote repository creation are pending; no remote upload completed yet.
+
+### Repository setup completed
+- Created `https://github.com/Sunshine9693/bookleaf-assignment-2` as a private repository under the user's approved account.
+- Pushed the initial 22 documentation/tooling files on `main`; local `main` tracks `origin/main`.
+- Source dataset, reference PDFs and local data artifacts were not included in this initial upload. HR correspondence and Bubble ID mapping are ignored.
+- Bubble, n8n and GitHub browser sign-ins are verified. This milestone verifies access and repository setup only; it does not verify application behavior.
