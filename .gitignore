@@ -1,0 +1,25 @@
+# Secrets and private exports
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+payload.test.json
+n8n/.credentials*
+n8n/credentials*
+
+# Bubble exports that may contain Unique IDs or private data
+data/bubble-authors-export.csv
+data/books.bubble-import.csv
+data/author-id-map.csv
+data/bubble-author-ids.json
+
+# Personal correspondence stays local
+reference/HR_EMAIL.eml
+
+# Local tooling
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
