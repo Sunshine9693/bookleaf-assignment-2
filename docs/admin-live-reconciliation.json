@@ -1,0 +1,250 @@
+{
+  "verified_at_utc": "2026-11-13T09:30:01.148Z",
+  "scope": "Independent reconciliation of captured live admin DOM rows and payout-filter counts against the original source; this script did not drive the browser.",
+  "evidence_sha256": {
+    "docs/admin-author-rows-live.json": "37b105db31c3ba2d2aa59ce9bc5bcb0f807e97343f83e0d9970650b4594a1256",
+    "docs/admin-filter-live-results.json": "b10a6f8899c21a440669eeaf8abb0b962bd7d4b3cb519230ce0a84384dbf2d2a"
+  },
+  "authors_checked": 10,
+  "rows": [
+    {
+      "author_id": "AUTH001",
+      "expected": {
+        "city": "Mumbai",
+        "books": 2,
+        "earned": 19908,
+        "paid": 16338,
+        "pending": 3570,
+        "status": "Overdue"
+      },
+      "actual": {
+        "city": "Mumbai",
+        "books": 2,
+        "earned": 19908,
+        "paid": 16338,
+        "pending": 3570,
+        "status": "Overdue"
+      },
+      "passed": true
+    },
+    {
+      "author_id": "AUTH002",
+      "expected": {
+        "city": "Delhi",
+        "books": 2,
+        "earned": 84024,
+        "paid": 71000,
+        "pending": 13024,
+        "status": "Overdue"
+      },
+      "actual": {
+        "city": "Delhi",
+        "books": 2,
+        "earned": 84024,
+        "paid": 71000,
+        "pending": 13024,
+        "status": "Overdue"
+      },
+      "passed": true
+    },
+    {
+      "author_id": "AUTH003",
+      "expected": {
+        "city": "Hyderabad",
+        "books": 1,
+        "earned": 2546,
+        "paid": 0,
+        "pending": 2546,
+        "status": "Overdue"
+      },
+      "actual": {
+        "city": "Hyderabad",
+        "books": 1,
+        "earned": 2546,
+        "paid": 0,
+        "pending": 2546,
+        "status": "Overdue"
+      },
+      "passed": true
+    },
+    {
+      "author_id": "AUTH004",
+      "expected": {
+        "city": "Pune",
+        "books": 2,
+        "earned": 15195,
+        "paid": 11845,
+        "pending": 3350,
+        "status": "Overdue"
+      },
+      "actual": {
+        "city": "Pune",
+        "books": 2,
+        "earned": 15195,
+        "paid": 11845,
+        "pending": 3350,
+        "status": "Overdue"
+      },
+      "passed": true
+    },
+    {
+      "author_id": "AUTH005",
+      "expected": {
+        "city": "Kochi",
+        "books": 2,
+        "earned": 25295,
+        "paid": 22240,
+        "pending": 3055,
+        "status": "Overdue"
+      },
+      "actual": {
+        "city": "Kochi",
+        "books": 2,
+        "earned": 25295,
+        "paid": 22240,
+        "pending": 3055,
+        "status": "Overdue"
+      },
+      "passed": true
+    },
+    {
+      "author_id": "AUTH006",
+      "expected": {
+        "city": "Chandigarh",
+        "books": 1,
+        "earned": 2464,
+        "paid": 0,
+        "pending": 2464,
+        "status": "Overdue"
+      },
+      "actual": {
+        "city": "Chandigarh",
+        "books": 1,
+        "earned": 2464,
+        "paid": 0,
+        "pending": 2464,
+        "status": "Overdue"
+      },
+      "passed": true
+    },
+    {
+      "author_id": "AUTH007",
+      "expected": {
+        "city": "Bangalore",
+        "books": 3,
+        "earned": 60865,
+        "paid": 53000,
+        "pending": 7865,
+        "status": "Overdue"
+      },
+      "actual": {
+        "city": "Bangalore",
+        "books": 3,
+        "earned": 60865,
+        "paid": 53000,
+        "pending": 7865,
+        "status": "Overdue"
+      },
+      "passed": true
+    },
+    {
+      "author_id": "AUTH008",
+      "expected": {
+        "city": "Lucknow",
+        "books": 1,
+        "earned": 3120,
+        "paid": 3120,
+        "pending": 0,
+        "status": "Fully paid"
+      },
+      "actual": {
+        "city": "Lucknow",
+        "books": 1,
+        "earned": 3120,
+        "paid": 3120,
+        "pending": 0,
+        "status": "Fully paid"
+      },
+      "passed": true
+    },
+    {
+      "author_id": "AUTH009",
+      "expected": {
+        "city": "Nagpur",
+        "books": 2,
+        "earned": 850,
+        "paid": 0,
+        "pending": 850,
+        "status": "Overdue"
+      },
+      "actual": {
+        "city": "Nagpur",
+        "books": 2,
+        "earned": 850,
+        "paid": 0,
+        "pending": 850,
+        "status": "Overdue"
+      },
+      "passed": true
+    },
+    {
+      "author_id": "AUTH010",
+      "expected": {
+        "city": "Kolkata",
+        "books": 2,
+        "earned": 29115,
+        "paid": 25000,
+        "pending": 4115,
+        "status": "Overdue"
+      },
+      "actual": {
+        "city": "Kolkata",
+        "books": 2,
+        "earned": 29115,
+        "paid": 25000,
+        "pending": 4115,
+        "status": "Overdue"
+      },
+      "passed": true
+    }
+  ],
+  "filter_results": [
+    {
+      "test": "Fully paid",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "test": "Overdue",
+      "expected": 9,
+      "actual": 9,
+      "passed": true
+    },
+    {
+      "test": "Pending",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "test": "All",
+      "expected": 10,
+      "actual": 10,
+      "passed": true
+    }
+  ],
+  "reconciled_row_totals": {
+    "books": 18,
+    "earned": 243382,
+    "paid": 202543,
+    "pending": 40839
+  },
+  "not_verified": [
+    "Actual password login",
+    "Author-role isolation",
+    "City/name filter browser interactions absent from these JSON inputs",
+    "Single/bulk AI generation and callbacks",
+    "Visual screenshot layout"
+  ]
+}

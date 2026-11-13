@@ -2,7 +2,7 @@
 
 Workspace for BookLeaf's second technical assignment: a Bubble.io application with an n8n + AI royalty-summary automation.
 
-**Status (12 November 2026):** Work is in progress. The handoff records the verified 10-author / 18-book data layer, privacy rules, login page and author dashboard as complete; the admin dashboard is partially built. Codex has confirmed authenticated access to the existing Bubble admin editor. Backend automation, n8n integration and end-to-end acceptance testing remain pending. See [the current handoff](update_v2.md) for implementation details and known blockers.
+**Status (13 November 2026):** Work is in progress. The admin preview now shows 10 authors, 18 books and ₹40,839 pending. All ten author rows reconcile to the source, and name/city/payout filters have live test evidence. The selected-author detail page shows the correct Books and royalty totals. Three development test users exist, but password logins remain untested. The n8n draft and local validation suite are prepared; live AI/callback integration is still pending. See [the current status](update_v3.md) and [QA results](docs/13_QA_RESULTS.md).
 
 **Deadline:** 7 days from the HR email of **7 November 2026** → internal target **14 November 2026**. Confirm the exact cutoff timezone with HR.
 
@@ -72,4 +72,4 @@ node scripts/build-bubble-import.mjs --export="S:\path\to\Authors.csv"
 
 ## Immediate next action
 
-Finish verifying the n8n browser session, then resume the existing Bubble application by correcting `adm_stat_pending_v` to sum `royalty_pending` across Books. Follow [the latest handoff](update_v2.md); earlier documents and build-log entries are historical where their access or hosting instructions differ.
+Finish the protected Bubble callback/trigger and n8n credentials, complete the remaining admin controls/notifications page, then run the live integration and privacy acceptance tests. Follow [the latest status](update_v3.md); [the prior handoff](update_v2.md) and earlier build-log entries are historical where their status differs.

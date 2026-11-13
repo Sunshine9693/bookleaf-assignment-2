@@ -256,3 +256,28 @@ A running record of decisions, work, evidence and blockers. Times are local (IST
 - Pushed the initial 22 documentation/tooling files on `main`; local `main` tracks `origin/main`.
 - Source dataset, reference PDFs and local data artifacts were not included in this initial upload. HR correspondence and Bubble ID mapping are ignored.
 - Bubble, n8n and GitHub browser sign-ins are verified. This milestone verifies access and repository setup only; it does not verify application behavior.
+
+## 2026-11-12 — Admin dashboard continuation
+- User requested continued implementation and approved development test accounts (one admin, two authors); account creation/login tests remain pending.
+- Corrected `adm_stat_pending_v` to `Rs ` plus `Search for Books:each item's royalty_pending:sum`; confirmed the expression survives editor reload. Runtime total still requires an admin test session.
+- Added `name-search`, dynamic distinct-city `city-filter`, and option-set `payout-filter` controls.
+- Added `authors-list` repeating group with name and city constraints, row identity/royalty fields, and View navigation to `admin-author-detail` with the current Author.
+- Found a handoff/schema discrepancy: `Author.total_pending` is a NotificationLog relation, not a numeric field. Replaced the new row's incorrect log-status binding with a search of Books constrained to Current cell's Author, then `royalty_pending:sum`. Save persistence is being checked after a connection warning.
+- Set `admin-author-detail` content type to Author; the navigation type error cleared and the editor reported zero issues.
+- Bubble AI credits reached zero after the two dashboard additions. No upgrade or billing action was taken; continue with manual controls.
+- Created an unexposed `n8n_callback` backend workflow shell with required text `request_id`; callback actions/authentication remain unimplemented. No public endpoint was exposed.
+- Opened an empty n8n draft at `/workflow/THfIQmhfGo1r8Hzk`; it is not published or operational.
+- Bubble then displayed a weak-connection save warning. Closed the second Bubble editor and reloaded the primary editor before further changes; verify recent saves before resuming edits.
+
+
+## 2026-11-13 — Resumed build and live admin QA
+- Overnight agents stopped at the account usage limit; resumed after user instruction.
+- Created the three approved password-free development test users; Admin Run as session verified.
+- Live admin counts/totals verified: 10 Authors, 18 Books, Rs 40839 pending.
+- Replaced blank Author earned/paid helpers with per-author Book sums, added book count and table headings.
+- Fixed the Fully Paid/Fully paid option-display mismatch without modifying Author records. Live payout filters now return 1/9/0/10.
+- Independent reconciliation confirms all ten live author rows match the supplied source.
+- Priya detail navigation, two Books, badges and 19908/16338/3570 totals verified.
+- n8n initial draft imported/saved; final local workflow and 49/49 local tests prepared. Live integration remains pending.
+- Current continuation details and remaining work: update_v3.md. No billing, source-data changes, public publication or real email.
+

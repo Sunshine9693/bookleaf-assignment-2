@@ -1,0 +1,22 @@
+[
+  {
+    "test": "Fully paid",
+    "expected": 1,
+    "actual": 1
+  },
+  {
+    "test": "Overdue",
+    "expected": 9,
+    "actual": 9
+  },
+  {
+    "test": "Pending",
+    "expected": 0,
+    "actual": 0
+  },
+  {
+    "test": "All",
+    "expected": 10,
+    "actual": 10
+  }
+]

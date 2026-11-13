@@ -1,0 +1,213 @@
+{
+  "checked_at": "2026-11-13T04:29:56.333Z",
+  "status": "passed",
+  "test_type": "local pure logic and exported Code-node simulation; no live provider/Bubble/n8n execution",
+  "passed": 49,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "All ten original authors validate without modifying source records",
+      "result": "PASS"
+    },
+    {
+      "name": "Totals recompute to the verified 243382 / 202543 / 40839",
+      "result": "PASS"
+    },
+    {
+      "name": "Author contact details, request headers and unapproved fields never reach prompt data",
+      "result": "PASS"
+    },
+    {
+      "name": "Original null dates and in-production zeros are preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "Caller cannot override an overdue book with a forged Green status",
+      "result": "PASS"
+    },
+    {
+      "name": "Source-supplied totals reconcile and a forged aggregate fails",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects missing timestamp",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects stale timestamp",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects far future timestamp",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects missing author name",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects empty books caused by a broken search",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects negative royalty",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects numeric strings",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects noninteger copies",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects forged per-book totals",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects duplicate book IDs",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects cross-author book",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects impossible calendar date",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects omitted nullable date",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects unsupported book publication state",
+      "result": "PASS"
+    },
+    {
+      "name": "Timestamp names are case-insensitive and the five-minute boundary is inclusive",
+      "result": "PASS"
+    },
+    {
+      "name": "Production books cannot acquire invented sales/royalties",
+      "result": "PASS"
+    },
+    {
+      "name": "Badge date boundaries are strict (exact90 days remains Yellow)",
+      "result": "PASS"
+    },
+    {
+      "name": "Quarterly policy handles year and quarter boundaries in Asia/Kolkata",
+      "result": "PASS"
+    },
+    {
+      "name": "Exact replay is suppressed without mutating the original request marker",
+      "result": "PASS"
+    },
+    {
+      "name": "Different request for same author is rejected within60s and allowed at60s",
+      "result": "PASS"
+    },
+    {
+      "name": "One author failure does not block another author in a serial bulk run",
+      "result": "PASS"
+    },
+    {
+      "name": "Valid model-shaped output parses for every supplied author",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with truncated response",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with missing body marker",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with invented money amount",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with placeholder author",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with internal automation term",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with missing book",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with wrong per-book paid amount",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with wrong copy count",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with wrong payout date",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with unsupported payment promise with a permitted amount",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with invented bank reference",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejects AI output with swapped consolidated earned and paid totals",
+      "result": "PASS"
+    },
+    {
+      "name": "Provider error becomes failure without reflecting raw key-bearing error details",
+      "result": "PASS"
+    },
+    {
+      "name": "Below-threshold author requires both the minimum and rollover explanation",
+      "result": "PASS"
+    },
+    {
+      "name": "Synthetic Yellow book requires the actual quarter dates and45-day window",
+      "result": "PASS"
+    },
+    {
+      "name": "Grounded prompt isolates instruction-like titles as JSON data",
+      "result": "PASS"
+    },
+    {
+      "name": "Workflow stays inactive, uses built-in credential auth, fixed HTTPS destinations and no email nodes",
+      "result": "PASS"
+    },
+    {
+      "name": "All graph targets exist and each HTTP error has a connected failure route",
+      "result": "PASS"
+    },
+    {
+      "name": "Exported Code nodes execute the complete success preparation path in a mock n8n context",
+      "result": "PASS"
+    },
+    {
+      "name": "Exported error preparation produces a safe Failed callback after an AI error",
+      "result": "PASS"
+    },
+    {
+      "name": "Invalid output and provider errors never enter the success callback route",
+      "result": "PASS"
+    }
+  ],
+  "not_verified": [
+    "n8n Cloud import and node-schema compatibility",
+    "Credential assignment and actual webhook authentication",
+    "Real OpenRouter generation and factual human review",
+    "Real Bubble callback and terminal-state protections",
+    "Concurrent idempotency; static data is not atomic",
+    "Published webhook and persisted production static data"
+  ]
+}

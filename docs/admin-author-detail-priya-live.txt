@@ -1,0 +1,33 @@
+- generic: BOOK
+- generic: LAST PAYOUT
+- generic: PAID
+- generic: EARNED
+- generic: STATUS
+- generic: PENDING
+- generic: The Saffron Diaries
+- generic: Green — Fully paid
+- generic: "7938"
+- generic: "7938"
+- generic: "0"
+- generic: Dec 1, 2025 12:00 pm
+- generic: Whispers of the Ganges
+- generic: Red — Overdue
+- generic: "11970"
+- generic: "8400"
+- generic: "3570"
+- generic: Oct 15, 2025 12:00 pm
+- generic: My Books
+- generic: Author Royalty Portal
+- generic: Log out
+- generic: "Author: Priya Sharma"
+- generic: Aggregate royalties and last payout dates only. The supplied data has no transaction-level payout history.
+- generic: TOTAL PAID
+- generic: "16338"
+- generic: PENDING ROYALTY
+- generic: "3570"
+- generic: TOTAL EARNED
+- generic: "19908"
+- img "Bubble"
+- generic: Built on Bubble
+- link:
+  - /url: https://bubble.io?utm_source=app_mention&utm_content=sanathesunshine9693
