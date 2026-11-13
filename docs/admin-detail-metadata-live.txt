@@ -1,0 +1,36 @@
+BOOK
+LAST PAYOUT
+PAID
+EARNED
+STATUS
+PENDING
+The Saffron Diaries
+Green — Fully paid
+7938
+7938
+0
+Dec 1, 2025 12:00 pm
+ISBN: 978-93-5XXXX-02-8  |  Genre: Non-Fiction / Memoir  |  Published: Jan 10, 2024 12:00 pm
+MRP: Rs 450  |  Available on: Amazon India, BookLeaf Store  |  Copies sold: 189
+Publication status: Published & Live
+Whispers of the Ganges
+Red — Overdue
+11970
+8400
+3570
+Oct 15, 2025 12:00 pm
+ISBN: 978-93-5XXXX-01-1  |  Genre: Literary Fiction  |  Published: Jun 20, 2023 12:00 pm
+MRP: Rs 399  |  Available on: Amazon India, Flipkart, BookLeaf Store  |  Copies sold: 342
+Publication status: Published & Live
+Author books
+Author Royalty Portal
+Log out
+Author: Priya Sharma
+Aggregate royalties and last payout dates only. The supplied data has no transaction-level payout history.
+TOTAL PAID
+16338
+PENDING ROYALTY
+3570
+TOTAL EARNED
+19908
+Built on Bubble

@@ -281,3 +281,15 @@ A running record of decisions, work, evidence and blockers. Times are local (IST
 - n8n initial draft imported/saved; final local workflow and 49/49 local tests prepared. Live integration remains pending.
 - Current continuation details and remaining work: update_v3.md. No billing, source-data changes, public publication or real email.
 
+
+## 2026-11-13 — Independent logout and book-metadata QA
+- Verified captured author logout: Log out lands on login; subsequent logged-out author-dashboard and admin-dashboard requests also land on login (`docs/logout-live.json`). Actual password login and admin logout remain untested.
+- Both saved Author Run as dashboards and all six captured admin-route denial destinations continue to reconcile through `scripts/qa-author-live.mjs`; source records were not changed.
+- Priya admin-detail metadata matches the supplied ISBN, genre, publication date, MRP, complete platform list and copies sold for both Books. Independent report `docs/book-detail-live-reconciliation.json` records 12/14 checks: exact publication/production status is still missing from the captured row; the royalty badge is a different field.
+- Inspected `admin-detail-metadata-live.png`: the added field lines are legible and do not overlap in this captured state. Null/in-production runtime display and author-role metadata rendering still need capture.
+- Callback/API Connector/final n8n draft configuration progressed in the editor, but the callback stays unexposed and credentials/live provider/callback execution remain pending. No integration pass is claimed from a synthetic manual response schema or local mocked tests.
+
+### Metadata and no-payout follow-up
+- Added exact publication status on both author/admin book rows and recaptured Priya's admin detail. Independent `qa-book-detail-live.mjs` now passes 14/14 fields; the earlier missing-status gap is resolved. Updated screenshot remains legible without metadata overlap.
+- Independently verified captured Ananya/AUTH003 detail: exactly BK005, No payout recorded, earned 2546, paid numeric zero, pending 2546 and matching consolidated totals.
+- Current author-role metadata capture, in-production/null-MRP/empty-platform runtime cases, actual password login and live automation acceptance remain separate pending gates. No verified source records were changed.

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-13T10:01:01.169Z",
+  "priya": {
+    "dashboard_text": "BOOK\nEARNED\nLAST PAYOUT\nPAID\nPENDING\nSTATUS\nGreen — Fully paid\n7938\nDec 1, 2025 12:00 pm\n7938\n0\nThe Saffron Diaries\nRed — Overdue\n11970\nOct 15, 2025 12:00 pm\n8400\n3570\nWhispers of the Ganges\nMy Books\nAuthor Royalty Portal\nLog out\nWelcome back, Priya Sharma\nYour royalty overview, updated live.\nTOTAL PAID\n16338\nPENDING ROYALTY\n3570\nTOTAL EARNED\n19908\nBuilt on Bubble",
+    "denials": [
+      {
+        "requested": "admin-dashboard",
+        "landed": "/version-test/author-dashboard",
+        "text": "BOOK\nEARNED\nLAST PAYOUT\nPAID\nPENDING\nSTATUS\nGreen — Fully paid\n7938\nDec 1, 2025 12:00 pm\n7938\n0\nThe Saffron Diaries\nRed — Overdue\n11970\nOct 15, 2025 12:00 pm\n8400\n3570\nWhispers of the Ganges\nMy Books\nAuthor Royalty Portal\nLog out\nWelcome back, Priya Sharma\nYour royalty overview, updated live.\nTOTAL PAID\n16338\nPENDING ROYALTY\n3570\nTOTAL EARNED\n19908\nBuilt on Bubble"
+      },
+      {
+        "requested": "admin-notifications",
+        "landed": "/version-test/author-dashboard"
+      },
+      {
+        "requested": "admin-author-detail/AUTH002",
+        "landed": "/version-test/author-dashboard"
+      }
+    ]
+  },
+  "rohit": {
+    "dashboard_text": "BOOK\nEARNED\nLAST PAYOUT\nPAID\nPENDING\nSTATUS\nRed — Overdue\n26280\nSep 1, 2025 12:00 pm\n21000\n5280\nCode & Karma\nRed — Overdue\n57744\nNov 15, 2025 12:00 pm\n50000\n7744\nStartup Sutra\nMy Books\nAuthor Royalty Portal\nLog out\nWelcome back, Rohit Kapoor\nYour royalty overview, updated live.\nTOTAL PAID\n71000\nPENDING ROYALTY\n13024\nTOTAL EARNED\n84024\nBuilt on Bubble",
+    "denials": [
+      {
+        "requested": "admin-author-detail/AUTH001",
+        "landed": "/version-test/author-dashboard"
+      },
+      {
+        "requested": "admin-dashboard",
+        "landed": "/version-test/author-dashboard"
+      },
+      {
+        "requested": "admin-notifications",
+        "landed": "/version-test/author-dashboard"
+      }
+    ]
+  }
+}

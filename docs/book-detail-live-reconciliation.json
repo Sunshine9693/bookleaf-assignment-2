@@ -1,0 +1,124 @@
+{
+  "verified_at_utc": "2026-11-13T16:28:13.504Z",
+  "scope": "Source comparison of captured Priya admin-detail metadata plus the optional captured Ananya no-payout case; not an author-role preview or all-record/in-production null-handling test.",
+  "input": "docs/admin-detail-metadata-live.txt",
+  "input_sha256": "4814b06c37815f514ed16b9a6b1eeee3d8faab81792d004ee160ef951c57a0d8",
+  "author_id": "AUTH001",
+  "checks": [
+    {
+      "book_id": "BK001",
+      "field": "isbn",
+      "actual": "978-93-5XXXX-01-1",
+      "expected": "978-93-5XXXX-01-1",
+      "passed": true
+    },
+    {
+      "book_id": "BK001",
+      "field": "genre",
+      "actual": "Literary Fiction",
+      "expected": "Literary Fiction",
+      "passed": true
+    },
+    {
+      "book_id": "BK001",
+      "field": "publication_date",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "book_id": "BK001",
+      "field": "mrp",
+      "actual": 399,
+      "expected": 399,
+      "passed": true
+    },
+    {
+      "book_id": "BK001",
+      "field": "available_on",
+      "actual": "Amazon India, Flipkart, BookLeaf Store",
+      "expected": "Amazon India, Flipkart, BookLeaf Store",
+      "passed": true
+    },
+    {
+      "book_id": "BK001",
+      "field": "total_copies_sold",
+      "actual": 342,
+      "expected": 342,
+      "passed": true
+    },
+    {
+      "book_id": "BK001",
+      "field": "publication_status_visible",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "book_id": "BK002",
+      "field": "isbn",
+      "actual": "978-93-5XXXX-02-8",
+      "expected": "978-93-5XXXX-02-8",
+      "passed": true
+    },
+    {
+      "book_id": "BK002",
+      "field": "genre",
+      "actual": "Non-Fiction / Memoir",
+      "expected": "Non-Fiction / Memoir",
+      "passed": true
+    },
+    {
+      "book_id": "BK002",
+      "field": "publication_date",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "book_id": "BK002",
+      "field": "mrp",
+      "actual": 450,
+      "expected": 450,
+      "passed": true
+    },
+    {
+      "book_id": "BK002",
+      "field": "available_on",
+      "actual": "Amazon India, BookLeaf Store",
+      "expected": "Amazon India, BookLeaf Store",
+      "passed": true
+    },
+    {
+      "book_id": "BK002",
+      "field": "total_copies_sold",
+      "actual": 189,
+      "expected": 189,
+      "passed": true
+    },
+    {
+      "book_id": "BK002",
+      "field": "publication_status_visible",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    }
+  ],
+  "passed": 14,
+  "failed": 0,
+  "null_payout_verification": {
+    "verified": true,
+    "input": "docs/admin-null-payout-live.txt",
+    "input_sha256": "a435526426d45cf9ce306c21552ea27315e7e0b0e774bb897665394fa60811f3",
+    "author_id": "AUTH003",
+    "book_id": "BK005",
+    "visible_books": 1,
+    "label": "No payout recorded",
+    "totals": {
+      "earned": 2546,
+      "paid": 0,
+      "pending": 2546
+    },
+    "scope": "Captured Ananya admin-detail no-payout case only; not in-production/null-MRP handling."
+  }
+}

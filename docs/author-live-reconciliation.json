@@ -1,0 +1,139 @@
+{
+  "verified_at_utc": "2026-11-13T16:19:02.742Z",
+  "captured_at_utc": "2026-11-13T10:01:01.169Z",
+  "scope": "Source reconciliation of captured Run as author sessions and final admin-route destinations; no browser was operated by this verifier.",
+  "evidence_sha256": {
+    "docs/author-priya-live.txt": "ba3a85059baccb7b6b37c60ea8651601ba3aefd441e1de09fd79b6161882343f",
+    "docs/author-rohit-live.txt": "139ac56ae475f6ad9153557593112c87b4dcfbcdb198ca79c0e84d5c518c065f",
+    "docs/author-isolation-live.json": "7c63be3fd17c2fe9aedcf2a717cb4892fb391feb3abdb95c6007f5882cd8e5d2",
+    "docs/logout-live.json": "878137e2f12a5c64b09db07f1d52d618c505c273a384d8cee4628b985b5a8dbb"
+  },
+  "authors_checked": 2,
+  "results": [
+    {
+      "author_id": "AUTH001",
+      "visible_book_ids": [
+        "BK001",
+        "BK002"
+      ],
+      "totals": {
+        "earned": 19908,
+        "paid": 16338,
+        "pending": 3570
+      },
+      "books": [
+        {
+          "book_id": "BK001",
+          "earned": 11970,
+          "paid": 8400,
+          "pending": 3570,
+          "badge": "Red — Overdue",
+          "passed": true
+        },
+        {
+          "book_id": "BK002",
+          "earned": 7938,
+          "paid": 7938,
+          "pending": 0,
+          "badge": "Green — Fully paid",
+          "passed": true
+        }
+      ],
+      "protected_admin_route_denials": [
+        {
+          "requested": "admin-dashboard",
+          "landed": "/version-test/author-dashboard",
+          "passed": true,
+          "final_content_captured": true
+        },
+        {
+          "requested": "admin-notifications",
+          "landed": "/version-test/author-dashboard",
+          "passed": true,
+          "final_content_captured": false
+        },
+        {
+          "requested": "admin-author-detail/AUTH002",
+          "landed": "/version-test/author-dashboard",
+          "passed": true,
+          "final_content_captured": false
+        }
+      ],
+      "passed": true
+    },
+    {
+      "author_id": "AUTH002",
+      "visible_book_ids": [
+        "BK003",
+        "BK004"
+      ],
+      "totals": {
+        "earned": 84024,
+        "paid": 71000,
+        "pending": 13024
+      },
+      "books": [
+        {
+          "book_id": "BK003",
+          "earned": 26280,
+          "paid": 21000,
+          "pending": 5280,
+          "badge": "Red — Overdue",
+          "passed": true
+        },
+        {
+          "book_id": "BK004",
+          "earned": 57744,
+          "paid": 50000,
+          "pending": 7744,
+          "badge": "Red — Overdue",
+          "passed": true
+        }
+      ],
+      "protected_admin_route_denials": [
+        {
+          "requested": "admin-author-detail/AUTH001",
+          "landed": "/version-test/author-dashboard",
+          "passed": true,
+          "final_content_captured": false
+        },
+        {
+          "requested": "admin-dashboard",
+          "landed": "/version-test/author-dashboard",
+          "passed": true,
+          "final_content_captured": false
+        },
+        {
+          "requested": "admin-notifications",
+          "landed": "/version-test/author-dashboard",
+          "passed": true,
+          "final_content_captured": false
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "logout_verification": {
+    "verified": true,
+    "control": "author-dashboard Log out",
+    "after_logout": "/version-test/login",
+    "checks": [
+      {
+        "requested": "author-dashboard",
+        "landed": "/version-test/login"
+      },
+      {
+        "requested": "admin-dashboard",
+        "landed": "/version-test/login"
+      }
+    ],
+    "captured_at_utc": "2026-11-13T10:06:24.921Z"
+  },
+  "limitations": [
+    "Run as is not email/password login",
+    "Logout evidence covers the author control and logged-out author-dashboard/admin-dashboard only; other logged-out routes and admin logout are not established",
+    "Redirect destinations alone do not establish every underlying database privacy query",
+    "Only saved final denial content is checked; transient navigation frames were not captured",
+    "Required ISBN/genre/publication/MRP/platform/copies fields are not present in these original author snapshots"
+  ]
+}

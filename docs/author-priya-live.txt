@@ -1,0 +1,30 @@
+BOOK
+EARNED
+LAST PAYOUT
+PAID
+PENDING
+STATUS
+Green — Fully paid
+7938
+Dec 1, 2025 12:00 pm
+7938
+0
+The Saffron Diaries
+Red — Overdue
+11970
+Oct 15, 2025 12:00 pm
+8400
+3570
+Whispers of the Ganges
+My Books
+Author Royalty Portal
+Log out
+Welcome back, Priya Sharma
+Your royalty overview, updated live.
+TOTAL PAID
+16338
+PENDING ROYALTY
+3570
+TOTAL EARNED
+19908
+Built on Bubble

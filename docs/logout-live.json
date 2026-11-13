@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-11-13T10:06:24.921Z",
+  "control": "author-dashboard Log out",
+  "after_logout": "/version-test/login",
+  "checks": [
+    {
+      "requested": "author-dashboard",
+      "landed": "/version-test/login"
+    },
+    {
+      "requested": "admin-dashboard",
+      "landed": "/version-test/login"
+    }
+  ]
+}

@@ -80,15 +80,16 @@ The handoff records **62/62 author checks** and **276/276 book checks** against 
 
 | Area | Editor-level evidence | Runtime status |
 | --- | --- | --- |
-| Browser access | Existing Bubble and n8n sessions authenticated; GitHub connected | Service sign-ins verified; admin preview works through Run as; password login and author isolation pending |
+| Browser access | Existing Bubble and n8n sessions authenticated; GitHub connected | Service sign-ins and Admin/Author Run as sessions work; both author dashboards reconcile; author logout and logged-out dashboard redirects pass; password login pending |
 | Private repository | `Sunshine9693/bookleaf-assignment-2` created and documentation/tooling pushed | Verified repository access; no public sharing |
 | Dashboard pending total | `Rs ` plus Book `royalty_pending:sum`; survived reload | PASS in live Run as Admin preview: 10 Authors, 18 Books, Rs 40839 observed by implementation agent; row totals independently reconcile |
-| Author list | Name, city and payout controls, combined search, row data and View navigation added | PASS for all 10 rows and four payout counts; city/name cases observed by main agent, as detailed below; View target runtime still pending |
+| Author list | Name, city and payout controls, combined search, row data and View navigation added | PASS for all 10 rows/four payout counts and the captured Priya View target; city/name cases observed by main agent; remaining navigation coverage pending |
 | Money and book-count columns | Earned, paid and pending use per-author Book sums; book count added | PASS: all 10 captured live rows match the original source |
-| Admin access | Page-load guards built on all three admin pages | Logged-out and author-role redirects not yet acceptance-tested |
-| Author detail | Content type Author; copied royalty/book layout; searches changed to Current page's Author | Current-page identity, totals, badges and navigation not yet acceptance-tested |
-| Backend callback | Unexposed shell named `n8n_callback` | No callback acceptance test yet |
-| n8n | Automation agent building workflow and local modules | No live AI/callback acceptance result yet |
+| Admin access | Page-load guards built on all three admin pages; author-role guard added to author dashboard | PASS for six captured author-role admin-route attempts and logged-out author/admin dashboard redirects; other logged-out routes still pending |
+| Author detail | Content type Author; full copied book layout; searches use Current page's Author | Priya's identity, titles, badges, royalties and all seven metadata fields per book pass; Ananya no-payout label/royalties/totals pass; remaining profiles/actions pending |
+| Backend callback | Eight parameters, request-ID/nonterminal update target, allowed-status/existing-log event checks and return-data action built; remains UNEXPOSED | Native authentication, actual callback execution and terminal/unknown-ID behavior not yet tested |
+| API Connector | BookLeaf n8n action configured with private-key-header authentication, four body placeholders, dynamic timestamp, error-inclusive result and synthetic manual response schema | Shared secret is not entered; schema configuration is not a successful request |
+| n8n | Final 20-node draft saved; editor settings changed to no raw execution retention, 3-minute timeout, Asia/Kolkata | OpenRouter direct credential entry and real provider/callback acceptance remain pending |
 
 Important schema finding: the live `Author.total_pending` helper field is a NotificationLog relation, not a number. Use linked Book figures for pending sums. Do not change the verified supplied data to fit a mistaken helper-field assumption.
 
@@ -114,7 +115,50 @@ The Fully paid filter initially returned zero because its option Display used `F
 
 The implementation agent also observed Mumbai + lowercase `priya` returning one row and a `zzzz` search returning zero. Those browser checks were not independently rerun by this QA agent and do not yet have a separate JSON capture.
 
-Three development test users were created on 13 November: one Admin with no Author profile and two Authors linked to AUTH001/AUTH002. No password-login test is claimed. No real email was sent. Browser screenshots were temporarily unavailable with an “Unable to capture screenshot” error; the saved evidence above is DOM data, not a visual layout approval.
+[admin-author-detail-priya-live.txt](admin-author-detail-priya-live.txt) records Priya's selected-author detail. Independent text checks confirm the name, The Saffron Diaries / Whispers of the Ganges, Green / Red labels, 19908 / 16338 / 3570 totals and the transaction-history disclaimer. This supports the captured AUTH001 detail case; it does not verify all other authors, full metadata, back/logout actions or password login.
+
+Three development test users were created on 13 November: one Admin with no Author profile and two Authors linked to AUTH001/AUTH002. No password-login test is claimed. No real email was sent. Earlier browser screenshot capture failed with an “Unable to capture screenshot” error; the original evidence above remains DOM/text data. A later Priya metadata screenshot is inspected separately below.
+
+## Verified Run as author sessions
+
+Captured evidence:
+
+- [author-priya-live.txt](author-priya-live.txt) and [author-rohit-live.txt](author-rohit-live.txt): final dashboard text for the two approved author sessions.
+- [author-isolation-live.json](author-isolation-live.json): session text and protected-admin-route attempts.
+- [author-live-reconciliation.json](author-live-reconciliation.json): independent source comparison with input hashes and explicit scope limits.
+
+Reproduce the source comparison:
+
+```powershell
+node scripts/qa-author-live.mjs
+```
+
+| Run as session | Visible source books | Earned / paid / pending | Result |
+| --- | --- | --- | --- |
+| AUTH001 / Priya | BK001 Whispers of the Ganges; BK002 The Saffron Diaries | 19908 / 16338 / 3570 | PASS: only that author's two source books, each book's royalty fields/payout date, correct Green/Red labels and three totals |
+| AUTH002 / Rohit | BK003 Code & Karma; BK004 Startup Sutra | 84024 / 71000 / 13024 | PASS: only that author's two source books, each book's royalty fields/payout date, two Red labels and three totals |
+
+The Priya dashboard renders The Saffron Diaries first because it is sorted by title. The verifier matches titles back to the original business IDs, rather than assuming display order equals ID order.
+
+Both sessions attempted `admin-dashboard`, `admin-notifications` and an admin-author-detail path for the other author. All six saved final destinations are `/version-test/author-dashboard`, consistent with the admin guard redirecting through the login page and the login page routing the already authenticated Author back to their dashboard. The captured denial text contains no other author's book titles where final content was saved.
+
+This supports A04–A06 and the observed author-role admin/log-route denial cases. It does not prove email/password login, every underlying database/privacy query, or the absence of transient content during navigation. The saved final destinations are not a network trace. The original author snapshots predate the new metadata element; current author-role metadata rendering still needs a new capture.
+
+## Logout and added book metadata
+
+[logout-live.json](logout-live.json) records clicking the author dashboard's Log out control, landing on `/version-test/login`, then requesting author-dashboard and admin-dashboard while logged out and landing on login in both cases. The author evidence verifier now checks these fields too. **PASS for that author logout control and those two logged-out routes.** This does not establish actual password login, the admin logout control, or every protected route while logged out.
+
+The implementation agent added ISBN, genre, publication date, MRP, availability and copies sold to the author book row, increased its height, and copied/rebound that full card on admin author detail. Exact `Book.status` was then added separately from the royalty badge on both pages. The recaptured [admin-detail-metadata-live.txt](admin-detail-metadata-live.txt) independently matches all seven metadata fields for both Priya Books: **14/14 checks pass**, including `Publication status: Published & Live`. The earlier 12/14 gap is resolved.
+
+Reproduce that source comparison:
+
+```powershell
+node scripts/qa-book-detail-live.mjs
+```
+
+See [book-detail-live-reconciliation.json](book-detail-live-reconciliation.json) for each expected/actual field and the recaptured-text hash. The updated [Priya metadata screenshot](../admin-detail-metadata-live.png) was visually inspected again: all three metadata lines, including publication status, are legible, fit beneath each book's royalty row and do not overlap. This is a layout check for the captured Priya admin detail only, not a responsive/all-author visual pass.
+
+[admin-null-payout-live.txt](admin-null-payout-live.txt) now captures AUTH003/Ananya with exactly BK005 Between Two Temples. Independent checks confirm **No payout recorded**, earned 2546, paid literal numeric zero and pending 2546, with matching consolidated totals. This passes the captured never-paid display case. In-production/null-MRP/publication-date/empty-platform runtime handling is still pending.
 
 ## Remaining acceptance gates
 
@@ -122,10 +166,10 @@ Use the exact test IDs in [09_TEST_PLAN.md](09_TEST_PLAN.md). The groups below r
 
 | Gate | Minimum evidence to record |
 | --- | --- |
-| Admin and author authentication | Successful real logins and role routing; wrong-password rejection; logout clears session |
-| Author isolation | AUTH001 sees BK001/BK002 only; AUTH002 sees BK003/BK004 only; direct admin URLs expose no author data |
-| Complete book details | Title, ISBN, genre, publication/production status, publication date, MRP, platform availability and copies sold, in addition to royalty figures |
-| Null handling | BK013/BK015 preserve empty dates/platform lists; never-paid books say “No payout recorded” |
+| Admin and author authentication | Actual password logins/role routing and wrong-password rejection remain pending; author logout and two logged-out dashboard routes pass |
+| Author isolation | Captured own-book dashboards and six final admin-route denials pass for AUTH001/AUTH002; finish other logged-out routes and any deeper privacy-query checks needed for acceptance |
+| Complete book details | All seven metadata fields match both Priya Books (14/14); current author-role metadata rendering and other record types still need verification |
+| Null handling | AUTH003/BK005 no-payout label and numeric zero paid pass; BK013/BK015 null dates/MRP and empty platforms remain pending |
 | Admin overview | Core counts, all 10 row figures and payout-filter counts pass in captured Run as Admin preview; finish independent city/name evidence, empty-state/layout inspection and navigation |
 | Author detail | View sends the selected Author; figures match that Author, not the current admin's empty profile; back navigation and aggregate payout disclaimer |
 | Single summary | A real request creates one log; n8n executes; generated subject/body and timestamp return to that log |

@@ -1,0 +1,16 @@
+Format content as text
+Content to show per list item
+{"book_id": This Book's book_id:formatted as JSON-safeAdd, "title": This Book's title:formatted as JSON-safe, "status": This Book's status:formatted as JSON-safe, "total_copies_sold": This Book's total_copies_sold, "total_royalty_earned": This Book's total_royalty_earned, "royalty_paid": This Book's royalty_paid, "royalty_pending": This Book's royalty_pending, "publication_date": This Book's publication_date is empty:formatted as text, "last_royalty_payout_date": This Book's last_royalty_payout_date is empty:formatted as textAdd}
+Delimiter
+,
+
+Verified payout date branch:
+Boolean Formatting
+Type
+text
+Is a list
+Value if yes
+null
+Value if no
+  This Book's last_royalty_payout_date:formatted as JSON-safe
+Verified publication date branch: yes=null; no=This Book publication_date:formatted as JSON-safe (observed separately).

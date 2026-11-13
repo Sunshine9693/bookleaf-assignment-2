@@ -1,0 +1,30 @@
+BOOK
+EARNED
+LAST PAYOUT
+PAID
+PENDING
+STATUS
+Red — Overdue
+26280
+Sep 1, 2025 12:00 pm
+21000
+5280
+Code & Karma
+Red — Overdue
+57744
+Nov 15, 2025 12:00 pm
+50000
+7744
+Startup Sutra
+My Books
+Author Royalty Portal
+Log out
+Welcome back, Rohit Kapoor
+Your royalty overview, updated live.
+TOTAL PAID
+71000
+PENDING ROYALTY
+13024
+TOTAL EARNED
+84024
+Built on Bubble

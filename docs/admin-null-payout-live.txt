@@ -1,0 +1,26 @@
+BOOK
+LAST PAYOUT
+PAID
+EARNED
+STATUS
+PENDING
+Between Two Temples
+Red — Overdue
+2546
+0
+2546
+No payout recorded
+ISBN: 978-93-5XXXX-05-9  |  Genre: Historical Fiction  |  Published: Jul 5, 2024 12:00 pm
+MRP: Rs 425  |  Available on: Amazon India, BookLeaf Store  |  Copies sold: 67
+Author books
+Author Royalty Portal
+Log out
+Author: Ananya Reddy
+Aggregate royalties and last payout dates only. The supplied data has no transaction-level payout history.
+TOTAL PAID
+0
+PENDING ROYALTY
+2546
+TOTAL EARNED
+2546
+Built on Bubble
