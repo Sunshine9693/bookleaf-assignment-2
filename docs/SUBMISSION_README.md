@@ -27,6 +27,8 @@ A two-sided royalty portal for BookLeaf Publishing:
 
 **Test credentials:** three approved development users exist; passwords/provisioning and actual login tests remain pending. No password is stored here.
 
+**15 November provider-only follow-up:** A separate manual n8n test returned `valid=false` and `AI provider request failed after retries`. It produced no usable summary and made no Bubble callback or email request. The underlying provider failure is unconfirmed; this is not an integration pass. See the [component procedure](../n8n/PROVIDER_VERIFICATION_STEPS.md).
+
 ## 2. Dataset
 
 The supplied `bookleaf_sample_data.json` is imported verbatim:

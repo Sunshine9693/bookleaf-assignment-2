@@ -1,0 +1,32 @@
+{
+  "evidence_date_ist": "2026-11-15",
+  "evidence_source": "Primary builder's reported final validator output from a live manual n8n component run; this reviewer did not operate the browser.",
+  "test_scope": "Independent provider component only; no Bubble webhook, callback, NotificationLog write or email.",
+  "workflow_or_run_reference": "tpaIMrUqgNbEgBiY",
+  "execution_id": null,
+  "credential_reference_name": "Header Auth account 2",
+  "credential_value_verified": false,
+  "configured_model": "openai/gpt-4o-mini",
+  "provider_returned_model": null,
+  "observed_validator_output": {
+    "valid": false,
+    "error": "AI provider request failed after retries",
+    "request_id": "manual-provider-AUTH001-1794684139733"
+  },
+  "outcome": "Failed provider component attempt; no validated AI summary.",
+  "validated_summary_present": false,
+  "bubble_callback_executed": false,
+  "email_sent": false,
+  "configured_http_attempt_limit": 3,
+  "observed_http_attempt_count": null,
+  "upstream_http_status": null,
+  "root_cause": "Not established by the supplied sanitized evidence. Do not infer credential validity, provider balance, an outage, or receipt of an upstream response.",
+  "limitations": [
+    "A green overall manual n8n execution is not a pass when the final validator returns valid=false.",
+    "The execution reference type and exact n8n execution ID were not independently captured here.",
+    "Configured retry limits are not proof of the actual number of HTTP attempts.",
+    "No generated subject or body was supplied or fabricated for this result.",
+    "This attempt does not verify Bubble dispatch, callback authentication, terminal guards, successful bulk processing or email delivery.",
+    "The frozen main workflow and source dataset were not modified."
+  ]
+}

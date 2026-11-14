@@ -10,6 +10,7 @@ Packaging updated **15 November 2026 (IST)**, preserving 13–14 November captur
 
 ## Established evidence
 
+- **15 November provider-only follow-up:** A separate manual n8n workflow (`tpaIMrUqgNbEgBiY`) used the existing `Header Auth account 2` selection and returned `valid=false`, controlled error `AI provider request failed after retries`, request ID `manual-provider-AUTH001-1794684139733`. No usable summary or underlying provider-error category was verified. This attempt had no Bubble callback or email node and created no Bubble log. It does not change the acceptance boundary or establish credential validity. The user reaffirmed **Keep Free** after the Bubble limit was rechecked.
 - Original source preserved: 10 Authors / 18 Books; earned ₹2,43,382, paid ₹2,02,543, pending ₹40,839. Local isolated converter checks pass 686/686 at both original and 14 November dates; source and eight data files are unchanged.
 - Admin overview: ten source-matching rows, totals and four payout-filter counts. Two Author Run as sessions show only their own books/totals; six protected-admin-route attempts redirect. Author logout and logged-out dashboard routes pass. These are not password-login tests.
 - Priya admin detail: fourteen required metadata checks pass, including exact publication status. Ananya's missing-payout label and numeric-zero paid display pass. Current author-role metadata rendering and production/null-MRP/empty-platform cases still need acceptance.

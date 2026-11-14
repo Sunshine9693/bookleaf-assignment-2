@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+
+const bytes = readFileSync(new URL('../n8n/provider-component-live-result.json', import.meta.url), 'utf8');
+const result = JSON.parse(bytes);
+assert.equal(result.evidence_date_ist, '2026-11-15');
+assert.equal(result.workflow_or_run_reference, 'tpaIMrUqgNbEgBiY');
+assert.equal(result.execution_id, null);
+assert.equal(result.credential_reference_name, 'Header Auth account 2');
+assert.equal(result.credential_value_verified, false);
+assert.deepEqual(result.observed_validator_output, { valid: false, error: 'AI provider request failed after retries', request_id: 'manual-provider-AUTH001-1794684139733' });
+assert.equal(result.validated_summary_present, false);
+assert.equal(result.bubble_callback_executed, false);
+assert.equal(result.email_sent, false);
+assert.equal(result.observed_http_attempt_count, null);
+assert.equal(result.upstream_http_status, null);
+assert(!('summary_body' in result.observed_validator_output));
+assert(!('summary_subject' in result.observed_validator_output));
+assert(!/(?:sk-(?:or-v1-)?[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9_]{20,}|github_pat_[A-Za-z0-9_]{20,}|Bearer\s+[A-Za-z0-9_-]{20,}|eyJ[A-Za-z0-9_-]{15,}\.[A-Za-z0-9_-]{15,}\.[A-Za-z0-9_-]{15,})/.test(bytes));
+assert.equal(createHash('sha256').update(readFileSync(new URL('../n8n/royalty-summary-workflow.json', import.meta.url))).digest('hex').toUpperCase(), '66A20C051A143F2ED0B6E4FAA7023BA58BEBDA5FE4698D2C7E30A917874F8353');
+console.log('Sanitized failed-provider result is structurally consistent; no credential-shaped values, fabricated summary, new network request or frozen-main change. Browser execution is reported evidence, not independently reverified.');
