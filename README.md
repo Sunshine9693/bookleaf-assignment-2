@@ -2,7 +2,7 @@
 
 Workspace for BookLeaf's second technical assignment: a Bubble.io application with an n8n + AI royalty-summary automation.
 
-**Status (13 November 2026):** Work is in progress. The admin preview now shows 10 authors, 18 books and ₹40,839 pending. All ten author rows reconcile to the source, and name/city/payout filters have live test evidence. The selected-author detail page shows the correct Books and royalty totals. Three development test users exist, but password logins remain untested. The n8n draft and local validation suite are prepared; live AI/callback integration is still pending. See [the current status](update_v3.md) and [QA results](docs/13_QA_RESULTS.md).
+**Status (14 November 2026):** Work is in progress. Admin totals/filters, both authors' displayed book isolation and protected-route redirects, author logout, full book metadata and missing-payout handling have captured evidence. The protected backend trigger and single-author control are configured; one real click created one log with a safe disconnected-service rejection result. Credentials, notification history, bulk controls and successful live AI/callback acceptance remain unfinished. Password login is not verified. See [the current status](update_v4.md), [backend configuration](docs/19_BACKEND_IMPLEMENTATION_STATUS.md) and [QA results](docs/13_QA_RESULTS.md).
 
 **Deadline:** 7 days from the HR email of **7 November 2026** → internal target **14 November 2026**. Confirm the exact cutoff timezone with HR.
 
@@ -14,7 +14,7 @@ Workspace for BookLeaf's second technical assignment: a Bubble.io application wi
 | `data/` | Validated CSV files, review snapshots, manifest and validation report. |
 | `scripts/` | Dataset conversion and Bubble author-link builder. No dependencies. |
 | `docs/` | Audit, plan, requirements checklist, database design, status rules, import runbook, n8n/AI specs, security, tests, submission checklist, build log and risk register. |
-| `n8n/` | Reserved for the exported workflow JSON and its README. Currently empty. |
+| `n8n/` | Main/error workflow drafts, shared validation logic, local test results and setup notes. |
 
 ## Source of truth
 
