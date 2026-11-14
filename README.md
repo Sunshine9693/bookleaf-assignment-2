@@ -74,6 +74,8 @@ node scripts/build-bubble-import.mjs --export="S:\path\to\Authors.csv"
 
 ## Immediate next action
 
+The [final Free-plan follow-up](docs/15-NOVEMBER-FOLLOWUP.md) adds observed wrong-password rejection, admin-detail logout and protected-route denial. It also records incomplete missing-value labels on a production book. These checks do not establish successful password login or AI/callback success.
+
 **Latest provider-only check (15 November):** A separate manual n8n component test reached the validator but returned `valid=false`, with `AI provider request failed after retries`. It did not call Bubble or send email. This is a failed real-provider attempt, not an AI/callback pass; the provider's underlying failure cause is unconfirmed. See [component procedure](n8n/PROVIDER_VERIFICATION_STEPS.md).
 
 Finish the free-plan evidence package and confirm reviewer access, using the completed saved-evidence video with its explicit limitations. Keep the main workflow inactive and callback unexposed until private credential rotation/setup and authorized testing are available. A future live acceptance run must verify genuine AI/callback success, authentication/replay protection, actual password logins and successful bulk summaries. Follow [the latest checkpoint](update_v5.md); older handoffs are historical where they differ. Do not repeat the already reconciled bulk failure run merely to increase the log count.

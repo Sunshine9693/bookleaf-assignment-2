@@ -27,6 +27,8 @@ A two-sided royalty portal for BookLeaf Publishing:
 
 **Test credentials:** three approved development users exist; passwords/provisioning and actual login tests remain pending. No password is stored here.
 
+**Final Free-plan follow-up:** Wrong-password rejection, admin-detail logout and subsequent logged-out admin-route denial are now observed passes; successful password login remains pending. Production-book metadata has explicit stage/zero values but missing-value label gaps. [Details and evidence](15-NOVEMBER-FOLLOWUP.md). A login workflow ran, so the earlier workflow-limit notice does not establish that all app workflows are blocked. The user requested continued packaging without credential entry.
+
 **15 November provider-only follow-up:** A separate manual n8n test returned `valid=false` and `AI provider request failed after retries`. It produced no usable summary and made no Bubble callback or email request. The underlying provider failure is unconfirmed; this is not an integration pass. See the [component procedure](../n8n/PROVIDER_VERIFICATION_STEPS.md).
 
 ## 2. Dataset

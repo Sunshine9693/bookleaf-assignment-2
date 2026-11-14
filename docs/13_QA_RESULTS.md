@@ -1,5 +1,7 @@
 # QA results and acceptance ledger
 
+**15 November follow-up:** Author-detail logout, wrong-password rejection and subsequent logged-out admin-route denial passed in the browser. Production/null rendering is partial: exact stage and numeric zeros are correct, but missing metadata lacks explicit unavailable labels. See [scoped follow-up evidence](15-NOVEMBER-FOLLOWUP.md). Successful password login and live AI/callback remain pending. The negative-login workflow ran; the previously reported platform notice does not prove that all workflows are blocked.
+
 Last local verification: **14 November 2026 (IST)**. Machine evidence: [qa-evidence.json](qa-evidence.json). Saved live UI captures were re-reconciled locally on this date; this does not make them new browser sessions.
 
 This ledger distinguishes local verification, editor inspection and end-to-end behavior. A correct editor expression or zero editor issues does not establish that authentication, privacy or an external callback works.

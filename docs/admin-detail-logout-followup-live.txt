@@ -1,0 +1,15 @@
+Browser tab: 13, Title: "Your Bubble app", URL: "https://sanathesunshine9693.bubbleapps.io/version-test/login".
+1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/login
+	2 container
+		3 text BookLeaf
+		4 text Author Royalty Portal
+		5 text field (settable)
+		6 text field (settable)
+		7 button Log in
+	8 container
+		9 container
+			10 image Bubble
+			11 text Built on Bubble
+		12 link bubble.io/?utm_source=app_mention&utm_content=sanathesunshine9693
+
+The focused UI element is 1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/login
