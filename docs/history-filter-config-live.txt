@@ -1,0 +1,496 @@
+Browser tab: 10, Title: "Sanathesunshine9693 | Bubble Editor", URL: "https://bubble.io/page?id=sanathesunshine9693&tab=Design&name=admin-notifications&type=page&elements=bTGap".
+0 AXWebArea Sanathesunshine9693 | Bubble Editor, URL: bubble.io/page?id=sanathesunshine9693&tab=Design&name=admin-notifications&type=page&elements=bTGap
+	1 container
+		2 container
+			3 button Description: Main Menu, ID: main-menu-button
+				4 image
+				5 image
+			6 pop up button (collapsed) Description: Selected app: Web, ID: dropdownmenu-cl-34-trigger, Secondary Actions: Expand
+				7 image
+				8 image
+			326 button Description: App Manager Button, ID: app-interface-manager-button
+				327 image
+				328 text admin-notifications
+				329 image
+			165 container
+				166 button button
+					870 image
+					168 text notification-list
+				169 button button
+					170 image
+			331 button Description: button, ID: menubar-zoom-dropdown-btn
+				332 text 100%
+				333 image
+			171 button Description: Switch to responsive mode, ID: responsive-mode-toggle
+				172 image
+			334 button Description: Show component library, ID: component-library-button
+				335 image
+			17 button (disabled) button
+				1120 image
+			19 button Description: Open app search tool, ID: menubar-search-button
+				20 image
+			21 button button
+				22 image
+			23 button Description: button, ID: undo-button
+				24 image
+			25 button (disabled) Description: button, ID: redo-button
+				26 image
+			27 button Description: 0, ID: issues-button
+				28 image
+				29 text 0
+			30 button Description: Show AI Agent, ID: menubar-agent-panel-toggle
+			31 container menubar-preview-button
+				32 button Preview
+					33 image
+				34 pop up button (collapsed) ID: dropdownmenu-cl-77-trigger, Secondary Actions: Expand
+					35 image
+			36 button Description: Upgrade to deploy, ID: upgrade-to-deploy
+		37 button Preview
+			38 image
+		39 button Design
+			40 image
+		41 button Workflow
+			42 image
+		43 button Backend Workflows
+			44 image
+		45 button Data
+			46 image
+		47 button API Connector
+			48 image
+		49 button Global
+			50 image
+		51 button Plugins
+			52 image
+		53 button Settings
+			54 image
+		55 button Logs
+			56 image
+		57 button Description: button, ID: leftnav-theme-toggle-button
+			58 image
+		59 button Description: button, ID: menubar-help-menu-button
+			60 image
+		61 button S
+		174 container pop-toolbox
+			175 container
+				176 button
+					177 image
+				178 text field (settable)
+				179 text Elements Tree
+				180 button button
+					181 image
+				182 button button
+					183 image
+				184 button Close panel
+					185 image
+				336 container
+					337 image
+					338 text admin-notifications
+				339 container
+					375 image
+					341 text Layers
+				342 container
+					343 image
+					344 image
+					345 text header
+				346 container
+					347 image
+					348 text Text BookLeaf
+				349 container
+					350 image
+					351 text header-sub
+				352 container
+					353 image
+					354 text header-logout
+				355 container
+					356 image
+					357 image
+					358 text notification-list
+				361 container
+					362 image
+					363 text notification-summary
+				364 container
+					365 image
+					366 text retry-summary
+					367 image
+				368 container
+					369 image
+					370 text history-title
+				371 container
+					372 image
+					373 text back-to-authors
+				376 container
+					377 image
+					378 text status-filter
+			203 container
+				204 button
+					205 image
+				206 text field (settable)
+			207 container
+				208 container accordion-cl-410-item-cl-411
+					209 button (expanded) Visual Elements, ID: accordion-cl-410-item-cl-411-trigger, Secondary Actions: Collapse
+						210 image
+						211 text Visual Elements
+					212 container Visual Elements, ID: accordion-cl-410-item-cl-411-content
+						213 image
+						214 text Text
+						215 image
+						216 text Button
+						217 image
+						218 text Icon
+						219 image
+						220 text Link
+						221 image
+						222 text Image
+						223 image
+						224 text Shape
+						225 image
+						226 text Alert
+						227 image
+						228 text Video
+						229 image
+						230 text HTML
+						231 image
+						232 text Map
+						233 image
+						234 text Built on Bubble
+						235 image
+						236 text Install More
+				237 container accordion-cl-413-item-cl-414
+					238 button (expanded) Containers, ID: accordion-cl-413-item-cl-414-trigger, Secondary Actions: Collapse
+						239 image
+						240 text Containers
+					241 container Containers, ID: accordion-cl-413-item-cl-414-content
+						242 image
+						243 text Group
+						244 image
+						245 text Repeating Group
+						246 image
+						247 text Popup
+						248 image
+						249 text Floating Group
+						250 image
+						251 text Group Focus
+						252 image
+						253 text Table
+						254 image
+						255 text Install More
+				256 container accordion-cl-416-item-cl-417
+					257 button (expanded) Input forms, ID: accordion-cl-416-item-cl-417-trigger, Secondary Actions: Collapse
+						258 image
+						259 text Input forms
+					260 container Input forms, ID: accordion-cl-416-item-cl-417-content
+						261 image
+						262 text Input
+						263 image
+						264 text Multiline Input
+						265 image
+						266 text Checkbox
+						267 image
+						268 text Dropdown
+						269 image
+						270 text Searchbox
+						271 image
+						272 text Radio Buttons
+						273 image
+						274 text Slider Input
+						275 image
+						276 text Date/Time Picker
+						277 image
+						278 text Picture Uploader
+						279 image
+						280 text File Uploader
+						281 image
+						282 text Install More
+				283 container accordion-cl-419-item-cl-420
+					284 button (expanded) Authentication, ID: accordion-cl-419-item-cl-420-trigger, Secondary Actions: Collapse
+						285 image
+						286 text Authentication
+					287 container Authentication, ID: accordion-cl-419-item-cl-420-content
+						288 image
+						289 text Apple Sign-In Button
+				290 container accordion-cl-422-item-cl-423
+					291 button (expanded) Reusable elements, ID: accordion-cl-422-item-cl-423-trigger, Secondary Actions: Collapse
+						292 image
+						293 text Reusable elements
+					294 container Reusable elements, ID: accordion-cl-422-item-cl-423-content
+						295 image
+						296 text New Reusable
+		1121 container bTGMs
+			1122 container bTGaT
+				1123 text BookLeaf
+				1124 text Author Royalty Portal
+				1125 text Log out
+			1126 container
+				1127 container bTGap
+					1128 container
+						1129 text Author: Current cell's NotificationLog's author's name | Status: Current cell's NotificationLog's status's Display
+Requested: Current cell's NotificationLog's requested_at
+						1130 text Subject: Current cell's NotificationLog's summary_subject
+						1131 text Summary: Current cell's NotificationLog's summary_body
+						1132 text Error: Current cell's NotificationLog's error_message
+						1133 text Model: Current cell's NotificationLog's ai_model | Completed: Current cell's NotificationLog's completed_at
+						1134 text Request ID: Current cell's NotificationLog's request_id
+						1135 text Source: Current cell's NotificationLog's trigger_source's Display
+						1136 text Email delivery: disabled (test mode).
+					1137 container
+						1138 text Author: Current cell's NotificationLog's author's name | Status: Current cell's NotificationLog's status's Display
+Requested: Current cell's NotificationLog's requested_at
+						1139 text Subject: Current cell's NotificationLog's summary_subject
+						1140 text Summary: Current cell's NotificationLog's summary_body
+						1141 text Error: Current cell's NotificationLog's error_message
+						1142 text Model: Current cell's NotificationLog's ai_model | Completed: Current cell's NotificationLog's completed_at
+						1143 text Request ID: Current cell's NotificationLog's request_id
+						1144 text Source: Current cell's NotificationLog's trigger_source's Display
+						1145 text Email delivery: disabled (test mode).
+				1146 image
+				1147 text notification-list
+				1148 button Edit with agent
+				1149 image
+			1150 text Notification history
+			1151 button Back to authors, ID: bTGbg
+			1152 pop up button (collapsed, settable) Value: All statuses, ID: bTGeB, Secondary Actions: Expand
+				1153 menu
+					1154 (selected) All statuses
+		99 container
+			100 button Agent
+				101 image
+				102 text Agent
+			103 button Properties
+				104 image
+				105 text Properties
+			106 button Close panel
+				107 image
+			899 container notification-list
+				900 container
+					901 image
+					902 container Description: notification-list, ID: property-editor-title-label
+						903 text field (settable) Description: Current node name, Value: notification-list
+				904 button button
+					905 image
+				906 pop up button (collapsed) Description: More options, ID: dropdownmenu-cl-849-trigger, Secondary Actions: Expand
+					907 image
+				908 container
+					909 button Visual
+					910 button Interaction
+					911 button Conditional
+					912 image
+					913 heading Content, Value: 3
+						914 text Content
+					1155 button button
+						1156 container Docs
+					915 text Type of content
+					916 combo box (collapsed) Type of content, Secondary Actions: Expand
+						917 text NotificationLog
+						918 image
+					919 text Data source
+					920 container
+						1075 container Search for NotificationLogs
+							1157 text Search for NotificationLogs
+							1158 combo box (collapsed) Secondary Actions: Expand
+								1159 text Add
+						922 text Expand
+						923 image
+					924 image
+					925 heading Configure, Value: 3
+						926 text Configure
+					927 text Rows
+					928 pop up button (collapsed) Fit to content, ID: select-cl-855-trigger, Secondary Actions: Expand
+						929 text Fit to content
+						930 image
+					931 text Min. row height
+					932 container NumberField-cl-857
+						933 text field (settable)
+							934 stepper (settable, integer) Value: 260, ID: NumberField-cl-857-input
+						935 pop up button (collapsed) px, ID: select-cl-863-trigger, Secondary Actions: Expand
+							936 text px
+					937 text Columns
+					938 pop up button (collapsed) Fixed number, ID: select-cl-865-trigger, Secondary Actions: Expand
+						939 text Fixed number
+						940 image
+					941 text # of columns
+					942 text field (settable)
+						943 stepper (settable, integer) # of columns, Value: 1, ID: field_columns
+					944 text Separators
+					945 text Style
+					946 combo box (collapsed) Style, Secondary Actions: Expand
+						947 text None
+						948 image
+					949 text Width
+					950 combo box (collapsed) Width, Secondary Actions: Expand
+						951 text 1
+						952 image
+					953 text Color
+					954 button #969696 %
+						955 Color Swatch
+						956 text field (settable) Color, Value: #969696, ID: field_separator_color
+						957 stepper (settable, integer) Value: 0, Details: 100, ID: NumberField-cl-869-input
+						958 text %
+					959 text Display items as masonry grid
+					960 switch Description: Display items as masonry grid, Value: 0, ID: field_masonry
+					961 image
+					962 heading Size, Value: 3
+						963 text Size
+					964 text Width
+					965 pop up button (disabled, collapsed) Fixed, ID: select-cl-872-trigger, Secondary Actions: Expand
+						966 text Fixed
+						967 image
+					968 container NumberField-cl-874
+						969 text field (settable)
+							970 stepper (settable, integer) Value: 1000, Details: 1,000, ID: field_width
+						971 text px
+					972 text Height
+					973 pop up button (disabled, collapsed) Fixed, ID: select-cl-876-trigger, Secondary Actions: Expand
+						974 text Fixed
+						975 image
+					976 container NumberField-cl-878
+						977 text field (settable)
+							978 stepper (settable, integer) Value: 740, ID: field_height
+						979 text px
+					980 image
+					981 heading Layout, Value: 3
+						982 text Layout
+					983 text Position
+					984 text field (settable) X
+						985 text X
+						986 stepper (settable, integer) Value: 40, ID: field_left
+					987 text field (settable) Y
+						988 text Y
+						989 stepper (settable, integer) Value: 200, ID: field_top
+					990 text Alignment
+					991 text Cell's container layout
+					992 container group-cl-884
+						993 checkbox Description: Column, Value: 1, ID: group-cl-884-item-cl-885
+							994 image
+							995 text Column
+						996 checkbox Description: Row, Value: 0, ID: group-cl-884-item-cl-886
+							997 image
+							998 text Row
+						999 checkbox Description: Align, Value: 0, ID: group-cl-884-item-cl-887
+							1000 image
+							1001 text Align
+						1002 checkbox Description: Fixed, Value: 0, ID: group-cl-884-item-cl-888
+							1003 image
+							1004 text Fixed
+					1005 text Container alignment
+					1006 container group-cl-889
+						1007 checkbox Description: Top-aligned, Value: 1, ID: group-cl-889-item-cl-890
+							1008 image
+						1009 checkbox Description: Centered, Value: 0, ID: group-cl-889-item-cl-891
+							1010 image
+						1011 checkbox Description: Bottom-aligned, Value: 0, ID: group-cl-889-item-cl-892
+							1012 image
+						1013 checkbox Description: Space around, Value: 0, ID: group-cl-889-item-cl-893
+							1014 image
+						1015 checkbox Description: Space between, Value: 0, ID: group-cl-889-item-cl-894
+							1016 image
+					1017 text Spacing
+					1018 text Margin
+					1019 text field (settable)
+						1020 image
+						1021 stepper (settable, integer) Value: 0, ID: NumberField-cl-895-input
+					1022 text field (settable)
+						1023 image
+						1024 stepper (settable, integer) Value: 0, ID: NumberField-cl-897-input
+					1025 button button
+						1026 image
+					1027 container
+						1028 image
+						1029 heading Style, Value: 3
+							1030 text Style
+						1031 button Create Style
+							1032 image
+						1033 button Edit Style
+							1034 image
+						1035 button Detach Style
+							1036 image
+						1037 button (collapsed) Transparent, Secondary Actions: Expand
+							1038 image
+							1039 text Transparent
+					1040 image
+					1041 heading Appearance, Value: 3
+						1042 text Appearance
+					1043 text Opacity
+					1044 container NumberField-cl-899
+						1045 text field (settable)
+							1046 image
+							1047 stepper (settable, integer) Opacity, Value: 100, ID: field_opacity
+						1048 text %
+					1049 text Radius
+					1050 text field (settable)
+						1051 image
+						1052 stepper (settable, integer) Value: 0, ID: NumberField-cl-901-input
+					1053 button button
+						1054 image
+					1055 image
+					1056 heading Border, Value: 3
+						1057 text Border
+					1058 button Add
+						1059 image
+					1060 text No border added yet.
+					1061 image
+					1062 heading Background, Value: 3
+						1063 text Background
+					1064 combo box (collapsed) Secondary Actions: Expand
+						1065 image
+					1066 text No background added yet.
+					1067 image
+					1068 heading Shadow, Value: 3
+						1069 text Shadow
+					1070 combo box (collapsed) Secondary Actions: Expand
+						1071 image
+					1072 text No shadow added yet.
+		110 AXWebArea bubble.io/appeditor/clipboard
+		1160 container Search for NotificationLogs, ID: popover-cl-917-content
+			1161 button
+			1162 button
+			1163 button
+			1164 button
+			1165 button
+			1166 button
+			1167 button
+			1168 button
+			1169 container drag-handle
+				1170 heading Search for NotificationLogs, Value: 2, ID: popover-cl-917-title
+					1171 text Search for NotificationLogs
+				1172 button button
+					1173 image
+				1174 button Dismiss
+					1175 button button
+						1176 image
+			1177 text Type
+			1178 combo box (collapsed) Type, Secondary Actions: Expand
+				1179 text NotificationLog
+				1180 image
+			1181 container field_name_label
+				1182 text Display name
+				1183 image
+			1184 text field (settable) Display name, ID: field_name
+			1185 text Ignore empty constraints
+			1186 switch Description: Ignore empty constraints, Value: 1, ID: field_ignore_empty_constraints
+			1187 heading Constraints, Value: 3
+				1188 text Constraints
+			1189 button Add
+				1190 image
+			1191 container
+				1192 combo box (collapsed) Secondary Actions: Expand
+					1193 text status
+				1194 combo box (collapsed) Secondary Actions: Expand
+					1195 text =
+				1196 text status-filter
+				1197 text 's value
+			1198 button Remove item
+				1199 image
+			1200 heading Sorting, Value: 3
+				1201 text Sorting
+			1202 button Add
+				1203 image
+			1204 combo box (collapsed) Secondary Actions: Expand
+				1205 text requested_at
+				1206 image
+			1207 text Descending order
+			1208 text "yes"
+			1209 button Remove item
+				1210 image
+			1211 text Sorted lists return a maximum of 50,000 results.
+
+The focused UI element is 1075 container Search for NotificationLogs

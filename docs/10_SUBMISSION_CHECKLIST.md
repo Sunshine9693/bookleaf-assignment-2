@@ -2,13 +2,15 @@
 
 **Deadline:** 7 days from the 7 November 2026 HR email → internal target **Saturday 14 November 2026**. Confirm the exact cutoff/timezone with HR.
 
+**14 November checkpoint:** the current executable packaging order is [21_FINAL_PACKAGING_CHECKLIST.md](21_FINAL_PACKAGING_CHECKLIST.md). Bubble now reports a Free-plan workflow-testing limit; no upgrade/trial was authorized or taken. Existing failure/history evidence is preserved, while genuine AI/callback success and password logins remain pending. Sections below describe the original target, not a set of passed checks. Use [the conditional recording script](14_RECORDING_SCRIPT.md); do not narrate this document's planned Success scene as an observed run. Submission email, invitations and purchases are not authorized by this checklist.
+
 ## 1. Deliverables
 
 | # | Deliverable | Required content | Status |
 | --- | --- | --- | --- |
-| 1 | Bubble application | Working app, editor access (or fallback), URL, test logins | Blocked on build |
-| 2 | n8n workflow export | JSON file, view access if Cloud | Blocked on build |
-| 3 | Documentation (README/PDF) | Schema + rationale, Bubble ↔ n8n integration, prompt strategy, error handling, challenges/learning | Draft specs complete; final narrative pending |
+| 1 | Bubble application | Working app, editor access (or fallback), URL, test logins | Portal and failed-request lifecycle evidenced; password access/live success pending; Free-plan testing restriction |
+| 2 | n8n workflow export | JSON file, view access if Cloud | Main/error artifacts and local tests available; live credentials/execution/final export acceptance pending |
+| 3 | Documentation (README/PDF) | Schema + rationale, Bubble ↔ n8n integration, prompt strategy, error handling, challenges/learning | Current README and honest implementation checkpoint prepared; reconcile any final new evidence |
 | 4 | Screen recording (3–5 min) | Author portal, admin portal, trigger, n8n execution, log, failure, bulk | Pending |
 
 ## 2. Bubble access

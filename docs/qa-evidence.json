@@ -1,6 +1,6 @@
 {
-  "verified_at_utc": "2026-11-13T09:31:30.613Z",
-  "assessment_date": "2026-11-13",
+  "verified_at_utc": "2026-11-14T04:49:53.950Z",
+  "assessment_date": "2026-11-14",
   "scope": "Local source, generated CSV reproducibility, map structure and converter behavior only; no live Bubble/n8n assertion.",
   "source_sha256": "34fd3b03f4b26e68b466a6364c3b7fe2f3884d3d7dc65134b67cac8e006b59f8",
   "preserved_input_files": 9,
@@ -27,7 +27,7 @@
       }
     },
     {
-      "assessment_date": "2026-11-13",
+      "assessment_date": "2026-11-14",
       "checks_passed": 686,
       "checks_total": 686,
       "status_counts": {
@@ -143,6 +143,14 @@
     },
     {
       "file": "scripts/qa-admin-live.mjs",
+      "passed": true
+    },
+    {
+      "file": "scripts/qa-author-live.mjs",
+      "passed": true
+    },
+    {
+      "file": "scripts/qa-book-detail-live.mjs",
       "passed": true
     },
     {

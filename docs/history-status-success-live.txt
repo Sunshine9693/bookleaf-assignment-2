@@ -1,0 +1,23 @@
+Browser tab: 13, Title: "Your Bubble app", URL: "https://sanathesunshine9693.bubbleapps.io/version-test/admin-notifications".
+0 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/admin-notifications
+	1 container
+		2 text Author Royalty Portal
+		3 text Log out
+		81 text Notification history
+		82 button Back to authors
+		83 pop up button (collapsed, settable) Value: Success, Secondary Actions: Expand
+			84 menu
+				85 (disabled) All statuses
+				86 Queued
+				87 Processing
+				88 (selected) Success
+				89 Failed
+		90 link Description: Clear filter, Value: sanathesunshine9693.bubbleapps.io/version-test/admin-notifications
+		96 text No notifications match this status.
+	91 container
+		92 container
+			93 image Bubble
+			94 text Built on Bubble
+		95 link bubble.io/?utm_source=app_mention&utm_content=sanathesunshine9693
+
+The focused UI element is 0 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/admin-notifications

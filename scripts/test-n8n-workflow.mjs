@@ -209,6 +209,11 @@ test('Workflow stays inactive, uses built-in credential auth, fixed HTTPS destin
   assert.equal(workflow.settings.saveDataErrorExecution, 'none');
   assert.equal(workflow.settings.saveExecutionProgress, false);
   assert.equal(workflow.settings.saveManualExecutions, false);
+  assert.equal(errorWorkflow.settings.saveDataSuccessExecution, 'none');
+  assert.equal(errorWorkflow.settings.saveDataErrorExecution, 'none');
+  assert.equal(errorWorkflow.settings.saveManualExecutions, false);
+  assert.equal(errorWorkflow.settings.saveExecutionProgress, false);
+  assert.equal(errorWorkflow.settings.executionTimeout, 30);
 });
 test('All graph targets exist and each HTTP error has a connected failure route', () => {
   const names = new Set(workflow.nodes.map(node => node.name));

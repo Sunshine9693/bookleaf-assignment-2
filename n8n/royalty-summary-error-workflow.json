@@ -43,8 +43,11 @@
   "settings": {
     "executionOrder": "v1",
     "timezone": "Asia/Kolkata",
-    "saveDataErrorExecution": "all",
-    "saveDataSuccessExecution": "all"
+    "executionTimeout": 30,
+    "saveExecutionProgress": false,
+    "saveDataErrorExecution": "none",
+    "saveDataSuccessExecution": "none",
+    "saveManualExecutions": false
   },
   "pinData": {},
   "tags": []

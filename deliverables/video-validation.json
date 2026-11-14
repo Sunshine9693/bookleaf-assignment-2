@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "kind": "Narrated saved-evidence slideshow, not interactive screen recording",
+  "avi": {
+    "file": "bookleaf-evidence-walkthrough.avi",
+    "sha256": "2d96dd36bb4f98ab8632d377869e0d6badbb497d1f285543ac8317c7833586fc",
+    "duration_seconds": 226,
+    "frames": 226,
+    "frame_rate": 1,
+    "width": 1280,
+    "height": 720,
+    "video_codec": "MJPEG",
+    "audio_codec": "PCM",
+    "audio_rate": 22050,
+    "audio_nonzero_samples": 3962834,
+    "audio_rms": 3091.14870502536
+  },
+  "mp4": {
+    "file": "bookleaf-evidence-walkthrough-final.mp4",
+    "sha256": "5753b645204a358a93791ad4bdb92a999ac8bad958b5fdf05818345061f6bd2d",
+    "tracks": [
+      {
+        "width": 0.0,
+        "height": 0.0,
+        "duration_seconds": 225.97918367346938,
+        "handler": "soun",
+        "codecs": [
+          "mp4a"
+        ],
+        "sample_count": 4866
+      },
+      {
+        "width": 1280.0,
+        "height": 720.0,
+        "duration_seconds": 226.0,
+        "handler": "vide",
+        "codecs": [
+          "avc1"
+        ],
+        "sample_count": 224
+      }
+    ],
+    "duration_seconds": 226.0
+  },
+  "limits": [
+    "Metadata/structure and nonzero source narration checked; no live browser or integration test.",
+    "Final MP4 extends the last still-card sample by three seconds to match the complete narration; underlying encoded media bytes are unchanged.",
+    "Source screenshots were visually inspected; generated panel spot-checks are separate from decoder validation."
+  ],
+  "decoded_mp4_audio": {
+    "decoded_audio_seconds": 225.93015873015872,
+    "decoded_audio_rate": 22050,
+    "decoded_audio_rms": 3090.607668201986,
+    "nonzero_samples": 4000590
+  },
+  "decoded_video_frame": {
+    "time_seconds": 120,
+    "file": "evidence-video-assets/decoded-frame.png",
+    "result": "Decoded through VLC; spot frame visually inspected by QA agent"
+  }
+}

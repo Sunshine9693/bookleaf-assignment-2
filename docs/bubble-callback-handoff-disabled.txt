@@ -1,0 +1,274 @@
+Browser tab: 10, Title: "Sanathesunshine9693 | Bubble Editor", URL: "https://bubble.io/page?id=sanathesunshine9693&tab=BackendWorkflows&name=admin-notifications&type=api&wf_item=bTGSX0".
+0 AXWebArea Sanathesunshine9693 | Bubble Editor, URL: bubble.io/page?id=sanathesunshine9693&tab=BackendWorkflows&name=admin-notifications&type=api&wf_item=bTGSX0
+	1 container
+		2 container
+			3 button Description: Main Menu, ID: main-menu-button
+				4 image
+				5 image
+			6 pop up button (collapsed) Description: Selected app: Web, ID: dropdownmenu-cl-34-trigger, Secondary Actions: Expand
+				7 image
+				8 image
+			9 button Description: App Manager Button, ID: app-interface-manager-button
+				10 image
+				11 text admin-notifications
+				12 image
+			13 container workflowSearch
+				14 button button
+					111 text n8n_callback is called and status is not Queued and Search for NotificationLogs:count > 0 and status is not Processing
+					16 image
+			17 button (disabled) button
+			19 button Description: Open app search tool, ID: menubar-search-button
+				20 image
+			21 button button
+				22 image
+			23 button Description: button, ID: undo-button
+				24 image
+			25 button (disabled) Description: button, ID: redo-button
+				26 image
+			27 button Description: 0, ID: issues-button
+				28 image
+				29 text 0
+			30 button Description: Show AI Agent, ID: menubar-agent-panel-toggle
+			31 container menubar-preview-button
+				32 button Preview
+					33 image
+				34 pop up button (collapsed) ID: dropdownmenu-cl-77-trigger, Secondary Actions: Expand
+					35 image
+			36 button Description: Upgrade to deploy, ID: upgrade-to-deploy
+		37 button Preview
+			38 image
+		39 button Design
+			40 image
+		41 button Workflow
+			42 image
+		43 button Backend Workflows
+			44 image
+		45 button Data
+			46 image
+		47 button API Connector
+			48 image
+		49 button Global
+			50 image
+		51 button Plugins
+			52 image
+		53 button Settings
+			54 image
+		55 button Logs
+			56 image
+		57 button Description: button, ID: leftnav-theme-toggle-button
+			58 image
+		59 button Description: button, ID: menubar-help-menu-button
+			60 image
+		61 button S
+		62 container
+			63 text Backend Workflows
+			64 button Add Workflow
+				65 image
+				66 text New
+			67 text IN THIS APP 3
+			68 button button
+				69 image
+			70 container
+				71 button button
+					72 image
+			73 button button
+				74 image
+			75 container
+				76 container Description: tree-item-uncategorized, ID: uncategorized
+					77 button Caret
+						78 image
+					79 image
+					80 text field (settable) Description: inline input, Value: Uncategorized
+					81 text 3
+				82 container Description: tree-item-bTGZQ, ID: bTGZQ
+					83 container Icon Badge
+						84 image
+					85 text field (settable) Description: inline input, Value: mark_summary_timeout
+					86 text Current User's role is Admin and log's status is not Success and log's status is not Failed and log is not empty
+				87 container Description: tree-item-bTGSX0, ID: bTGSX0
+					88 container Icon Badge
+						89 image
+					90 text field (settable) Description: inline input, Value: n8n_callback
+					91 text status is not Queued and Search for NotificationLogs:count > 0 and status is not Processing
+				92 container Description: tree-item-bTGYx, ID: bTGYx
+					93 container Icon Badge
+						94 image
+					95 text field (settable) Description: inline input, Value: trigger_royalty_summary
+					96 text Current User's role is Admin and author is not empty and Search for NotificationLogs:count is 0
+			114 text WORKFLOW:
+			115 text field (settable) Description: Current workflow name, Value: n8n_callback
+			116 button (disabled) button
+				117 image
+				118 text 0  trigger s
+			119 button
+				120 image
+			121 button
+				122 image
+			123 button Add/view notes button
+				124 image
+				125 text Add notes
+			126 button Explain this workflow
+				127 image
+				128 text Explain this workflow
+			129 container
+				130 button Card
+					131 image
+					132 text API Event
+					133 text n8n_callback is called
+					134 text Only when status is not Queued and Search for NotificationLogs:count > 0 and status is not Processing
+				135 button Add
+					136 image
+				137 button Drag handle
+				138 button Card
+					139 image
+					140 text Step 
+					141 text 1
+					142 text Make changes to NotificationLog...
+				143 button Add
+					144 image
+				145 button Drag handle
+				146 button Card
+					147 image
+					148 text Step 
+					149 text 2
+					150 text Return data from API
+				151 button Add
+					152 image
+				153 button Zoom out
+					154 image
+				155 container
+					156 text 100 %
+				157 button Zoom in
+					158 image
+		99 container
+			100 button Agent
+				101 image
+				102 text Agent
+			103 button Properties
+				104 image
+				105 text Properties
+			106 button Close panel
+				107 image
+			159 container n8n_callback is called
+				160 container
+					161 image
+					162 container Description: n8n_callback is called, ID: property-editor-title-label
+						163 text n8n_callback is called
+				164 button button
+					165 image
+				166 container
+					167 image
+					168 heading Properties, Value: 3
+						169 text Properties
+					285 button button
+						286 container Docs
+					170 text Endpoint name
+					171 text field (settable) Endpoint name, Value: n8n_callback, ID: field_wf_name
+					172 text Expose as a public API workflow
+					173 switch Description: Expose as a public API workflow, Value: 0, ID: field_expose
+					174 button (disabled) Copy public endpoint URL
+						175 image
+					180 text Ignore privacy rules when running the workflow
+					181 switch Description: Ignore privacy rules when running the workflow, Value: 0, ID: field_ignore_privacy_rules
+					186 text Parameter definition
+					187 combo box (collapsed) Parameter definition, Secondary Actions: Expand
+						188 text Manual definition
+						189 image
+					190 text Response type
+					191 combo box (collapsed) Response type, Secondary Actions: Expand
+						192 text JSON Object
+						193 image
+					194 text Return a 200 if condition is not met
+					195 switch Description: Return a 200 if condition is not met, Value: 0, ID: field_return_200_if_not_run
+					196 image
+					197 heading Parameters, Value: 3
+						198 text Parameters
+					199 button Add
+						200 image
+					201 button request_id text, Required
+						202 image
+						203 text request_id
+						204 text text
+						205 text ,
+						206 text  Required
+					207 button Remove item
+						208 image
+					209 button status NotificationStatus, Required
+						210 image
+						211 text status
+						212 text NotificationStatus
+						213 text ,
+						214 text  Required
+					215 button Remove item
+						216 image
+					217 button summary_subject text, Optional
+						218 image
+						219 text summary_subject
+						220 text text
+						221 text ,
+						222 text  Optional
+					223 button Remove item
+						224 image
+					225 button summary_body text, Optional
+						226 image
+						227 text summary_body
+						228 text text
+						229 text ,
+						230 text  Optional
+					231 button Remove item
+						232 image
+					233 button error_message text, Optional
+						234 image
+						235 text error_message
+						236 text text
+						237 text ,
+						238 text  Optional
+					239 button Remove item
+						240 image
+					241 button ai_model text, Optional
+						242 image
+						243 text ai_model
+						244 text text
+						245 text ,
+						246 text  Optional
+					247 button Remove item
+						248 image
+					249 button n8n_execution_id text, Optional
+						250 image
+						251 text n8n_execution_id
+						252 text text
+						253 text ,
+						254 text  Optional
+					255 button Remove item
+						256 image
+					257 button completed_at date, Optional
+						258 image
+						259 text completed_at
+						260 text date
+						261 text ,
+						262 text  Optional
+					263 button Remove item
+						264 image
+					265 image
+					266 heading Only when, Value: 3
+						267 text Only when
+					268 text Condition
+					269 container
+						270 text status
+						271 text  is not 
+						272 text Queued
+						273 text  and 
+						274 text Search for NotificationLogs
+						275 text :count
+						276 text  > 
+						277 text 0
+						278 text  and 
+						279 text status
+						280 text  is not 
+						281 text Processing
+					282 container
+						283 text Expand
+						284 image
+		110 AXWebArea bubble.io/appeditor/clipboard
+
+The focused UI element is 173 switch Description: Expose as a public API workflow, Value: 0, ID: field_expose

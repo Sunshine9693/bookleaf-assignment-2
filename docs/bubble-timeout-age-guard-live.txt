@@ -1,0 +1,5 @@
+Browser tab: 9, Title: "Sanathesunshine9693 | Bubble Editor", URL: "https://bubble.io/page?id=sanathesunshine9693&tab=BackendWorkflows&name=admin-notifications&type=api&wf_item=bTGZb".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
++				582 image
++				583 text Saved
+The focused UI element is 0 AXWebArea Sanathesunshine9693 | Bubble Editor, URL: bubble.io/page?id=sanathesunshine9693&tab=BackendWorkflows&name=admin-notifications&type=api&wf_item=bTGZb

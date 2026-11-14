@@ -1,0 +1,20 @@
+Browser tab: 8, Title: "Your Bubble app", URL: "https://sanathesunshine9693.bubbleapps.io/version-test/admin-notifications".
+1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/admin-notifications
+	2 container
+		3 text Author Royalty Portal
+		4 text Log out
+		5 container
+			6 text Author: Priya Sharma | Status: Failed
+Requested: Nov 14, 2026 9:57 am
+			7 text Subject: 
+			8 text Summary: 
+			9 text Error: The summary service did not accept this request. Check its authentication or connection, then retry.
+			10 text Model:  | Completed: Nov 14, 2026 9:57 am
+			11 text Email delivery: disabled (test mode).
+	12 container
+		13 container
+			14 image Bubble
+			15 text Built on Bubble
+		16 link bubble.io/?utm_source=app_mention&utm_content=sanathesunshine9693
+
+The focused UI element is 1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/admin-notifications

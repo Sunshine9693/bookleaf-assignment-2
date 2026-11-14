@@ -1,5 +1,5 @@
 {
-  "verified_at_utc": "2026-11-13T09:30:01.148Z",
+  "verified_at_utc": "2026-11-14T04:49:52.691Z",
   "scope": "Independent reconciliation of captured live admin DOM rows and payout-filter counts against the original source; this script did not drive the browser.",
   "evidence_sha256": {
     "docs/admin-author-rows-live.json": "37b105db31c3ba2d2aa59ce9bc5bcb0f807e97343f83e0d9970650b4594a1256",

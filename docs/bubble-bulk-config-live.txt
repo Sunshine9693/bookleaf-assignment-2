@@ -1,0 +1,209 @@
+Browser tab: 9, Title: "Sanathesunshine9693 | Bubble Editor", URL: "https://bubble.io/page?id=sanathesunshine9693&tab=Workflow&name=admin-dashboard&type=page&elements=bTGbz&wf_item=bTGcQ".
+0 AXWebArea Sanathesunshine9693 | Bubble Editor, URL: bubble.io/page?id=sanathesunshine9693&tab=Workflow&name=admin-dashboard&type=page&elements=bTGbz&wf_item=bTGcQ
+	1 container
+		2 container
+			3 button Description: Main Menu, ID: main-menu-button
+				4 image
+				5 image
+			6 pop up button (collapsed) Description: Selected app: Web, ID: dropdownmenu-cl-34-trigger, Secondary Actions: Expand
+				7 image
+				644 text Web
+				9 image
+			645 button Description: App Manager Button, ID: app-interface-manager-button
+				646 image
+				647 text admin-dashboard
+				648 image
+			649 container workflowSearch
+				650 button button
+					651 text Schedule API Workflow trigger_royalty_summary on a list
+					652 image
+			27 button (disabled) button
+				944 image
+				945 text Saved
+			30 button Description: Open app search tool, ID: menubar-search-button
+				31 image
+			32 button Description: button, ID: undo-button
+				33 image
+			34 button (disabled) Description: button, ID: redo-button
+				35 image
+			36 button Description: 0 issues, ID: issues-button
+				37 image
+				38 text 0 issues
+			39 button Description: Show AI Agent, ID: menubar-agent-panel-toggle
+			40 container menubar-preview-button
+				41 button Preview
+					42 image
+				43 pop up button (collapsed) ID: dropdownmenu-cl-77-trigger, Secondary Actions: Expand
+					44 image
+			45 button Description: Upgrade to deploy, ID: upgrade-to-deploy
+		46 button Preview
+			47 image
+		48 button Design
+			49 image
+		50 button Workflow
+			51 image
+		52 button Backend Workflows
+			53 image
+		54 button Data
+			55 image
+		56 button API Connector
+			57 image
+		58 button Global
+			59 image
+		60 button Plugins
+			61 image
+		62 button Settings
+			63 image
+		64 button Logs
+			65 image
+		66 button Description: button, ID: leftnav-theme-toggle-button
+			67 image
+		68 button Description: button, ID: menubar-help-menu-button
+			69 image
+		70 button S
+		653 container
+			654 text Workflows
+			655 button Add Workflow
+				656 image
+				657 text New
+			658 text ON THIS PAGE 3
+			659 button button
+				660 image
+			661 container
+				662 button button
+					663 image
+			664 button button
+				665 image
+			666 container
+				667 container Description: tree-item-uncategorized, ID: uncategorized
+					668 button Caret
+						669 image
+					670 image
+					671 text field (settable) Description: inline input, Value: Uncategorized
+					672 text 3
+				673 container Description: tree-item-bTGSl0, ID: bTGSl0
+					674 container Icon Badge
+						675 image
+					676 text field (settable) Description: inline input, Value: Admin access guard
+					677 text Current User's role is not Admin
+				678 container Description: tree-item-bTGcJ, ID: bTGcJ
+					679 container Icon Badge
+						680 image
+					681 text field (settable) Description: inline input, Value: bulk-generate-summaries is clicked
+				682 container Description: tree-item-ad_wf_view, ID: ad_wf_view
+					683 container Icon Badge
+						684 image
+					685 text field (settable) Description: inline input, Value: View
+			686 button button
+				687 image
+			688 text WORKFLOW:
+			689 text field (settable) Description: Current workflow name, Value: bulk-generate-summaries is clicked
+			690 button
+				691 image
+			692 button
+				693 image
+			694 button Add/view notes button
+				695 image
+				696 text Add notes
+			697 button Explain this workflow
+				698 image
+				699 text Explain this workflow
+			700 container
+				701 button Card
+					702 image
+					703 text Element Event
+					704 text bulk-generate-summaries is clicked
+				705 button Add
+					706 image
+				905 button Card
+				906 button Card
+				907 container
+					908 button Drag handle
+					909 button Card
+						910 image
+						911 text Step 
+						912 text 1
+						913 text Schedule API Workflow trigger_royalty_summary on a list
+						938 text Only when Current User's role is Admin
+				716 button Add
+					717 image
+				718 button Zoom out
+					719 image
+				720 container
+					721 text 100 %
+				722 button Zoom in
+					723 image
+		205 container
+			206 button Agent
+				459 image
+				208 text Agent
+			460 button Properties
+				461 image
+				462 text Properties
+			212 button Close panel
+				213 image
+			724 container Schedule API Workflow trigger_royalty_summary on a list
+				725 container
+					726 image
+					727 container Description: Schedule API Workflow trigger_royalty_summary on a list, ID: property-editor-title-label
+						728 text field (settable) Description: Current node name, Value: Schedule API Workflow trigger_royalty_summary on a list
+				729 button button
+					730 image
+				731 container
+					732 image
+					733 heading Properties, Value: 3
+						734 text Properties
+					735 text Type of things
+					785 combo box (collapsed) Type of things, Secondary Actions: Expand
+						786 text Author
+						787 image
+					739 container field_data_source_label
+						740 text List to run on
+						741 image
+					914 container
+						915 text Search for Books
+						916 text :each item's author
+						917 text :unique elements
+					743 text API Workflow
+					929 combo box (collapsed) API Workflow, Secondary Actions: Expand
+						930 text trigger_royalty_summary
+						931 image
+					747 text Scheduled date
+					922 text Current date/time
+					749 container field_interval_label
+						750 text Interval (seconds)
+						751 image
+					752 text field (settable)
+						753 stepper (settable, integer) Interval (seconds), Value: 5, ID: field_interval
+					754 text Ignore privacy rules when running the workflow
+					755 switch Description: Ignore privacy rules when running the workflow, Value: 0, ID: field_ignore_privacy_rules
+					756 image
+					757 heading Parameters, Value: 3
+						758 text Parameters
+					923 text author
+					934 text This Author
+					925 text trigger_source
+					935 text Bulk
+					759 image
+					760 heading Execution options, Value: 3
+						761 text Execution options
+					762 text Add a breakpoint in debug mode
+					763 switch Description: Add a breakpoint in debug mode, Value: 0, ID: field_breakpoint
+					764 text Disable action
+					765 switch Description: Disable action, Value: 0, ID: field_action_disabled
+					766 image
+					767 heading Only when, Value: 3
+						768 text Only when
+					769 text Condition
+					939 container
+						940 text Current User
+						941 text 's role
+						942 text  is 
+						943 text Admin
+					771 container
+						772 text Expand
+						773 image
+		375 AXWebArea bubble.io/appeditor/clipboard
+		376 text entry area (settable)
+
+The focused UI element is 0 AXWebArea Sanathesunshine9693 | Bubble Editor, URL: bubble.io/page?id=sanathesunshine9693&tab=Workflow&name=admin-dashboard&type=page&elements=bTGbz&wf_item=bTGcQ

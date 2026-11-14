@@ -1,0 +1,330 @@
+{
+  "checked_at": "2026-11-14T18:54:24.388Z",
+  "review_type": "Read-only local export comparison and credential-pattern scan; no network request or live execution.",
+  "main": {
+    "template": "n8n/royalty-summary-workflow.json",
+    "exported_file": "n8n/royalty-summary-live-export.json",
+    "template_sha256": "66A20C051A143F2ED0B6E4FAA7023BA58BEBDA5FE4698D2C7E30A917874F8353",
+    "exported_sha256": "4F6A31244748A5298D398CB1AF8B14CB25BA715C858965BF0426C0A6D92E3551",
+    "workflow_id_matches_expected": true,
+    "workflow_id": "THfIQmhfGo1r8Hzk",
+    "workflow_name": "BookLeaf — Royalty Summary",
+    "active": false,
+    "active_matches_expected": true,
+    "node_count": 20,
+    "unique_node_names": true,
+    "node_comparisons": [
+      {
+        "name": "Webhook royalty summary",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Validate payload",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": true
+      },
+      {
+        "name": "Payload valid",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Reject invalid payload",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Request guard",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": true
+      },
+      {
+        "name": "Request accepted",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Reject duplicate request",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Accept 202",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Build grounded prompt",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": true
+      },
+      {
+        "name": "OpenRouter AI",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Validate AI summary",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": true
+      },
+      {
+        "name": "Summary valid",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Success callback payload",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": true
+      },
+      {
+        "name": "Failure callback payload",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": true
+      },
+      {
+        "name": "Success callback to Bubble",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Failure callback to Bubble",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Callback delivery failed",
+        "matching_runtime_fields": false,
+        "different_paths": [
+          "parameters.errorType"
+        ],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [
+          "Omitted StopAndError errorType uses the official node default errorMessage."
+        ],
+        "code_matches": null
+      },
+      {
+        "name": "Receive and validate",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Idempotency limitation",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Generate and return",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      }
+    ],
+    "unexpected_node_names": [],
+    "connections_match_template": false,
+    "connection_edges_match_template": true,
+    "template_edge_count": 18,
+    "live_edge_count": 18,
+    "retention": {
+      "saveDataErrorExecution": "none",
+      "saveDataSuccessExecution": "none",
+      "saveManualExecutions": false,
+      "saveExecutionProgress": false
+    },
+    "all_execution_data_retention_off": true,
+    "timezone": "Asia/Kolkata",
+    "execution_timeout_seconds": 180,
+    "error_workflow_id": "CNrpnRtjpWmuCFjq",
+    "pin_data_empty": true,
+    "static_data_empty": true,
+    "credential_references": [
+      {
+        "node": "Webhook royalty summary",
+        "references": [
+          {
+            "type": "httpHeaderAuth",
+            "name": "Header Auth account",
+            "reference_fields_only": true,
+            "id_present": true
+          }
+        ]
+      },
+      {
+        "node": "OpenRouter AI",
+        "references": [
+          {
+            "type": "httpHeaderAuth",
+            "name": "Header Auth account 2",
+            "reference_fields_only": true,
+            "id_present": true
+          }
+        ]
+      },
+      {
+        "node": "Success callback to Bubble",
+        "references": [
+          {
+            "type": "httpHeaderAuth",
+            "name": "Header Auth account 3",
+            "reference_fields_only": true,
+            "id_present": true
+          }
+        ]
+      },
+      {
+        "node": "Failure callback to Bubble",
+        "references": [
+          {
+            "type": "httpHeaderAuth",
+            "name": "Header Auth account 3",
+            "reference_fields_only": true,
+            "id_present": true
+          }
+        ]
+      }
+    ],
+    "credential_value_validity": "Not checked; references and UI selection do not verify credential values.",
+    "credential_pattern_findings": [],
+    "additional_setting_names": [
+      "binaryMode",
+      "timeSavedMode",
+      "callerPolicy",
+      "availableInMCP",
+      "errorWorkflow"
+    ],
+    "review_required": false
+  },
+  "error": {
+    "template": "n8n/royalty-summary-error-workflow.json",
+    "exported_file": "n8n/royalty-summary-error-live-export.json",
+    "template_sha256": "EFD8025AA1E0D08CDB9C636C3AF41B9329E55F94195482383B728ABAF55AD764",
+    "exported_sha256": "5BD993F7F2355B5D353BFE3E9E2D50FDE0CB9A5B1C5D92E278C2F50ADF8CF8A6",
+    "workflow_id_matches_expected": true,
+    "workflow_id": "CNrpnRtjpWmuCFjq",
+    "workflow_name": "BookLeaf — Royalty Summary Error Audit",
+    "active": true,
+    "active_matches_expected": true,
+    "node_count": 2,
+    "unique_node_names": true,
+    "node_comparisons": [
+      {
+        "name": "Unhandled workflow failure",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": null
+      },
+      {
+        "name": "Keep safe execution reference",
+        "matching_runtime_fields": true,
+        "different_paths": [],
+        "semantically_equivalent_runtime_fields": true,
+        "known_default_normalizations": [],
+        "code_matches": true
+      }
+    ],
+    "unexpected_node_names": [],
+    "connections_match_template": true,
+    "connection_edges_match_template": true,
+    "template_edge_count": 1,
+    "live_edge_count": 1,
+    "retention": {
+      "saveDataErrorExecution": "none",
+      "saveDataSuccessExecution": "none",
+      "saveManualExecutions": false,
+      "saveExecutionProgress": false
+    },
+    "all_execution_data_retention_off": true,
+    "timezone": "Asia/Kolkata",
+    "execution_timeout_seconds": 30,
+    "error_workflow_id": null,
+    "pin_data_empty": true,
+    "static_data_empty": true,
+    "credential_references": [],
+    "credential_value_validity": "Not checked; references and UI selection do not verify credential values.",
+    "credential_pattern_findings": [],
+    "additional_setting_names": [
+      "binaryMode",
+      "timeSavedMode",
+      "callerPolicy",
+      "availableInMCP",
+      "redactCallerExecutions"
+    ],
+    "review_required": false
+  },
+  "main_error_workflow_link_matches": true,
+  "frozen_main_unchanged": true,
+  "known_serialization_differences": [
+    "Live StopAndError omits the default errorType=errorMessage; this is equivalent to the template.",
+    "n8n exports unconnected success branches as empty arrays instead of template null entries; the 18 actual graph edges are identical."
+  ],
+  "default_reference": "https://github.com/n8n-io/n8n/blob/master/packages/nodes-base/nodes/StopAndError/StopAndError.node.ts",
+  "limits": [
+    "Credential values were neither printed nor verified.",
+    "Pattern scans cannot prove absence of every possible secret.",
+    "UI export contents are configuration evidence, not live AI/callback acceptance.",
+    "Free-plan workflow-testing limit blocks further live integration testing.",
+    "Error-handler output is transient; Bubble NotificationLog is the durable operational record."
+  ],
+  "local_export_configuration_checks_passed": true
+}

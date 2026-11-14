@@ -1,6 +1,8 @@
 # Submission status and architecture notes
 
-Status checkpoint: **13 November 2026 (IST)**. Implementation is ongoing. This document supersedes outdated access/status claims in the original planning documents; it does not replace the live test ledger.
+Packaging checkpoint: **15 November 2026 (IST)**, preserving 13–14 November evidence plus new 15 November read-only history-filter checks. Implementation remains incomplete and the user has chosen to keep the Free plan. This document supersedes outdated access/status claims; it does not replace the live ledger. See [current handoff](../update_v5.md) and [backend configuration](19_BACKEND_IMPLEMENTATION_STATUS.md).
+
+**Current blockers:** Bubble reports a Free-plan workflow limit requiring an upgrade to continue testing; the saved plan view shows Free, 128 of 50K and overages disabled ([evidence](bubble-free-limit-live.txt)). No upgrade or trial was authorized/taken. Private callback credential rotation and replacement entry remain required after a value became tool-visible during copy troubleshooting; no value is reproduced here and the builder reports none saved to files/Git. Genuine AI/callback and password-login acceptance remain pending. Preserve the established evidence and disclose these limits if testing cannot continue within authorized scope.
 
 ## Delivery inventory
 
@@ -9,12 +11,12 @@ Status checkpoint: **13 November 2026 (IST)**. Implementation is ongoing. This d
 | Existing Bubble app | `sanathesunshine9693` | Admin/Author Run as data and six author-role admin-route denials verified. Author logout/logged-out dashboard redirects pass. Priya metadata passes 14/14, including exact publication status; Ananya no-payout display passes. Current author-role metadata capture and password login/non-editor access remain pending. |
 | Private repository | [Sunshine9693/bookleaf-assignment-2](https://github.com/Sunshine9693/bookleaf-assignment-2) | Created private and initial documentation/tooling pushed. This repository is not public assignment sharing. |
 | n8n workspace | [Existing n8n Cloud workspace](https://sanafatma.app.n8n.cloud) | Authenticated access verified. Live workflow, credentials, callback and execution evidence are being completed. |
-| Workflow JSON | `n8n/royalty-summary-workflow.json` and error-audit companion | Final 20-node main draft saved; no raw execution retention, 3-minute timeout and Asia/Kolkata editor settings reported. 49/49 local checks pass. Credential completion, error-workflow assignment and real AI/callback execution remain pending. |
+| Workflow JSON | Generated main/error artifacts plus saved live exports in `n8n/` | [Live-export configuration audit](../n8n/live-export-verification.json) passes: main inactive, error handler published/attached, raw retention off, timezone/timeout configured. 49/49 local logic checks pass. Invocation, credential validity and real AI/callback remain unverified. |
 | Source validation | [qa-evidence.json](qa-evidence.json) | Local verification passed; original source and data files remained unchanged. |
 | Test results | [13_QA_RESULTS.md](13_QA_RESULTS.md) | Local tests pass. Live admin row/filter reconciliation passes; remaining runtime gates are listed explicitly. |
-| Recording | [14_RECORDING_SCRIPT.md](14_RECORDING_SCRIPT.md) | A usable 3–5 minute script is prepared. No finished video is claimed. |
+| Evidence walkthrough | [226-second MP4](../deliverables/bookleaf-evidence-walkthrough-final.mp4) | Complete and [artifact-validated](../deliverables/video-validation.json): actual safe screenshots, labeled fact panels and local synthetic narration. This is not an interactive screen recording, password-login proof or live successful AI execution. |
 | Test credentials | Three user-approved development accounts created | Admin has no Author profile; Authors link to AUTH001/AUTH002. Three Run as sessions, author dashboards, six role-route denials and author logout verified. Actual password login remains pending; passwords must never enter repository or chat. |
-| Final narrative | `docs/SUBMISSION_README.md` | Existing draft contains TODOs. Main implementation agent must reconcile it with actual delivered behavior. |
+| Final narrative | [SUBMISSION_README.md](SUBMISSION_README.md) | Known links and evidence limits supplied; no claim that pending integration/password gates passed. Reviewer access and final checkpoint push remain to confirm. |
 
 The dataset and reference materials were intentionally kept local during the initial repository setup. A fresh clone needs the originally supplied `bookleaf_sample_data.json` copied into `reference/` before the converter or QA script can run. Personal HR correspondence and Bubble ID mappings stay excluded from Git.
 
@@ -42,7 +44,12 @@ These paragraphs describe the intended separation of responsibilities. The final
 - Captured Priya and Rohit author text independently reconciles each book's royalty fields, current badges, payout dates and consolidated totals. This is session/UI evidence; it is not password-login proof or a network trace of transient navigation frames.
 - Bubble AI credits reached zero. No subscription or paid upgrade was taken; manual editing continues.
 - A zero editor-issue count and the “24” editor placeholder are not runtime royalty values or test evidence.
-- The callback is built with eight parameters and request/state conditions but stays unexposed and untested live. The API Connector has private-key-header authentication and dynamic JSON/timestamp configuration, but its secret is empty; a manually entered synthetic response schema is not an integration success.
+- The callback has eight parameters, existing-request/terminal-state conditions, server completion time and `email_sent = no`. It was temporarily exposed with Admin only during approved setup, but is now **unexposed for handoff**, as [captured](bubble-callback-handoff-disabled.txt). Authenticated acceptance is still untested. Other backend events remain unexposed and the Data API stays disabled.
+- The private Admin trigger, five-minute recovery schedule and Single button are configured. One actual click created one development NotificationLog with attempt_count 1, email_sent false, a completion timestamp and the safe service-rejection message. [The later history capture](notification-history-live.txt) directly confirms **Failed** for the original Priya 9:57 request, with empty subject/body/model and delivery disabled. This is a visible disconnected-service failure, not AI/callback success.
+- The API Connector has private-key-header authentication and dynamic JSON/timestamp configuration; credential replacement/setup remains unverified. A manually entered synthetic response schema is not an integration success. The saved live n8n exports audit confirms the error handler published/attached and the main inactive; callable webhook, credential validity and invocation remain unverified.
+- Full [notification history](notification-history-all-live.txt) and [independent reconciliation](notification-live-reconciliation.json) now confirm eleven distinct request IDs: nine requests covering every pending author once in the reported Bulk click's 10:41 window, plus Priya's original 9:57 and retry 10:28 requests. AUTH008 is absent. Two bulk rows failed immediately; seven show timeout errors/completion 10:46. All eleven are Failed with delivery disabled and no generated content. Original captured fields are preserved; this establishes request/failure/recovery scope, not successful AI/callback acceptance.
+- The original capture lacked trigger_source; the new [15 November Failed-filter capture](history-status-failed-live.txt) resolves that gap with nine Bulk/two Single labels on exactly the same eleven IDs and unchanged captured fields. Success filtering returns zero rows plus the empty message; Clear filter restores All statuses and seven initially rendered known rows without the empty message. [Updated independent reconciliation](notification-live-reconciliation.json) passes. Seven is not a total-count claim. Filter/empty-state desktop screenshots were visually reviewed; the historical video is unchanged.
+- Minute-level times do not prove exact timeout seconds or early-call rejection. Original/retry distinct IDs are visible; Retry click causation is builder-reported. Concurrent duplicate protection and preservation of unseen database fields remain unverified. See [backend status](19_BACKEND_IMPLEMENTATION_STATUS.md).
 
 ## Final release gates
 
@@ -53,9 +60,9 @@ Before calling the assignment ready:
 3. Demonstrate a real single-author generation and callback with a readable summary.
 4. Demonstrate a visible Failed state, safe retry, duplicate prevention and terminal callback protection.
 5. Demonstrate nine independent bulk results, skipping AUTH008.
-6. Export/import the final n8n JSON and scan all changed files plus the export for real secrets.
+6. Preserve the audited saved live n8n exports and re-scan the final staged paths; clean-instance re-import and credential validity are not implied by export comparison.
 7. Replace final README TODOs with verified values or explicit limitations; check all private reviewer links.
-8. Record the 3–5 minute walkthrough, or deliver the recording script with a clear statement that a video is not included.
+8. Include the ready 3:46 narrated saved-evidence walkthrough, clearly identified as a slideshow rather than an interactive screen recording. Confirm reviewer access to the actual artifact and preview/repository.
 
 For the shortest remaining verification order, use [18_PRIORITY_ACCEPTANCE_CHECKLIST.md](18_PRIORITY_ACCEPTANCE_CHECKLIST.md): author sessions/isolation first, then missing book fields and null handling, selected-author navigation, and real callback/failure/bulk proof.
 

@@ -1,0 +1,3 @@
+# Preserve raw UI evidence, including spaces after empty field labels.
+docs/*-live.txt whitespace=-blank-at-eol
+docs/bubble-callback-handoff-disabled.txt whitespace=-blank-at-eol

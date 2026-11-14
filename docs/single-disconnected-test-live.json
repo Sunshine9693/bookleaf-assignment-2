@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-14T04:35:19.961Z",
+  "path": "/version-test/admin-author-detail/1794393105994x430533808439727200",
+  "button": {
+    "disabled": false,
+    "text": "Generate & Send Royalty Summary"
+  },
+  "observed_app_data": {
+    "entry_count": 1,
+    "attempt_count": 1,
+    "email_sent": false,
+    "error_message": "The summary service did not accept this request. Check its authentication or connection, then retry.",
+    "completed_at_display": "Nov 14, 2026 9:57 am"
+  },
+  "limits": [
+    "No successful provider or callback execution verified",
+    "Final status column not directly inspected in this capture",
+    "Busy-state rendering during execution not yet captured"
+  ]
+}

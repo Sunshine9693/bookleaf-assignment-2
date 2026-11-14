@@ -1,0 +1,20 @@
+							445 heading Free, Value: 2
+								446 text Free
+							449 text Free forever
+						469 text 50K workload units/mo
+						477 text Development Version
+						490 heading 128 of 50K, Value: 4
+							491 text 128  of  50K
+						495 text Overages are disabled
+						497 button Free Plan Change 50K Workload Units per month
+							498 text Free Plan
+							500 heading 50K, Value: 4
+								501 text 50K
+						512 text Free Plan Credits 500 AI credits/mo
+						513 level indicator Description: Free Plan Credits, Value: 100
+						515 button Free Plan Change 500 AI credits per month
+							516 text Free Plan
+						535 button Free Plan Change 500MB File Storage
+							536 text Free Plan
+						548 text API Connector by  Bubble Free
+						550 text Free Plan

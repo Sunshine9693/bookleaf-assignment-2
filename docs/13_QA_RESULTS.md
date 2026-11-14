@@ -1,6 +1,6 @@
 # QA results and acceptance ledger
 
-Last local verification: **13 November 2026 (IST)**. Machine evidence: [qa-evidence.json](qa-evidence.json).
+Last local verification: **14 November 2026 (IST)**. Machine evidence: [qa-evidence.json](qa-evidence.json). Saved live UI captures were re-reconciled locally on this date; this does not make them new browser sessions.
 
 This ledger distinguishes local verification, editor inspection and end-to-end behavior. A correct editor expression or zero editor issues does not establish that authentication, privacy or an external callback works.
 
@@ -9,7 +9,7 @@ This ledger distinguishes local verification, editor inspection and end-to-end b
 Command, run from the workspace root:
 
 ```powershell
-node scripts/qa-readonly.mjs --as-of=2026-11-13
+node scripts/qa-readonly.mjs --as-of=2026-11-14
 ```
 
 The verifier copies the existing conversion script and the supplied JSON into an isolated OS temporary directory. It runs the real converter there, tests its actual classification functions, and confirms that the original source and every local `data/` file are unchanged. It does not import or write Bubble records, call an AI API, or send email.
@@ -23,11 +23,11 @@ The verifier copies the existing conversion script and the supplied JSON into an
 | Earned / paid / pending | PASS: ₹2,43,382 / ₹2,02,543 / ₹40,839 | Local JSON |
 | Author ID map | PASS: 10 supplied author IDs map to 10 unique, nonempty Bubble IDs | Map structure only; actual live links were not re-exported |
 | Original converter at 10 November 2026 | PASS: 686/686 checks | Isolated regeneration |
-| Original converter at 13 November 2026 | PASS: 686/686 checks | Isolated regeneration |
+| Original converter at 14 November 2026 | PASS: 686/686 checks | Isolated regeneration |
 | Existing CSV reproducibility | PASS: four byte-identical CSV files | `authors.csv`, `books.csv`, `author-summary.csv`, `book-status-snapshot.csv`, using the original 10 November assessment date |
-| Dynamic snapshot at 13 November 2026 | PASS: 4 Green, 0 Yellow, 12 Red, 2 In Production | Local classifier |
+| Dynamic snapshot at 14 November 2026 | PASS: 4 Green, 0 Yellow, 12 Red, 2 In Production | Local classifier |
 | Source and data preservation | PASS: original source plus eight local data files unchanged | SHA-256 checked before and after |
-| JavaScript syntax | PASS: eight scripts at the time of the latest run | `node --check`; see machine evidence for the exact paths |
+| JavaScript syntax | PASS: ten scripts at the time of the latest run | `node --check`; see machine evidence for the exact paths |
 
 The converter's 686 checks include required fields, nulls, zeros, empty platform lists, nonnegative numbers, royalty arithmetic and author totals. These checks do not replace privacy and rendering tests in Bubble.
 
@@ -160,7 +160,49 @@ See [book-detail-live-reconciliation.json](book-detail-live-reconciliation.json)
 
 [admin-null-payout-live.txt](admin-null-payout-live.txt) now captures AUTH003/Ananya with exactly BK005 Between Two Temples. Independent checks confirm **No payout recorded**, earned 2546, paid literal numeric zero and pending 2546, with matching consolidated totals. This passes the captured never-paid display case. In-production/null-MRP/publication-date/empty-platform runtime handling is still pending.
 
+## Single-request disconnected-service observation — 14 November
+
+[single-disconnected-test-live.json](single-disconnected-test-live.json) captures one actual Single-button click and the resulting development App Data observation: exactly one entry, attempt_count 1, email_sent false, a completion timestamp and the configured safe service-rejection message. This establishes that the click reached log creation and the rejection-update path for that particular disconnected-service response. The final status column and in-flight busy state were not captured. **It does not establish a visible Failed state, generic HTTP/transport recovery, a real AI response, authenticated callback acceptance or end-to-end success.**
+
+The builder's [backend configuration ledger](19_BACKEND_IMPLEMENTATION_STATUS.md) now records the private Admin trigger, request-ID persistence, scheduled recovery, API Connector mapping, Single control and exposed Admin-only callback. Those are editor observations, not additional live test passes. No source Author/Book data change is part of this observation.
+
+**Follow-up history evidence:** [notification-history-live.txt](notification-history-live.txt) directly shows `Author: Priya Sharma | Status: Failed`, requested/completed 14 November 9:57 am, the safe service-rejection error, empty subject/body/model and delivery disabled. The final status gap for this original disconnected-service request is now resolved: **PASS for visible Failed history on that observed rejection path.** This does not establish provider-failure callback handling or timeout recovery.
+
+The first retry capture contained only an unchanged-tree notice. That evidence gap is superseded by the complete follow-up below.
+
+## Complete history: retry, bulk coverage and recovery outcomes
+
+[notification-history-all-live.txt](notification-history-all-live.txt) captures eleven complete rows with distinct request IDs. Reproduce independent reconciliation with:
+
+```powershell
+node scripts/qa-notification-live.mjs
+```
+
+[notification-live-reconciliation.json](notification-live-reconciliation.json) records the source/capture hashes, per-request fields and limitations.
+
+| Observed check | Result and scope |
+| --- | --- |
+| Bulk request coverage | PASS: nine requests in the builder-reported Bulk click's 10:41 window cover each source author with positive Book pending royalties exactly once; AUTH008 is absent |
+| Independent failure outcomes | PASS: all nine rows are terminal Failed; Priya/Rohit show immediate service rejection at 10:41, seven others show timeout errors and completion 10:46 |
+| Original and retry requests | PASS: Priya's 9:57 original and 10:28 subsequent request have different IDs and remain separate Failed rows after Bulk |
+| Preserved original display | PASS: the original author's status, requested/completed minute, safe error and empty summary/subject/model match the earlier capture |
+| Safe delivery state | PASS: all eleven displayed rows state delivery disabled and show Retry; none displays an AI summary |
+
+This is meaningful live **request-coverage and failure/recovery evidence**, not successful summary generation. The capture does not display trigger_source; grouping as Bulk uses the common request minute and builder-reported action. Retry-button causation is builder-reported while distinct coexisting request IDs are independently visible. Displayed timestamps have minute precision: seven recovery outcomes are observed, but exact elapsed seconds, an early-timeout denial and a terminal-success immunity test remain unverified. Preservation covers the original fields present in the earlier capture, not unseen database fields. No concurrency/exactly-once, real AI, authenticated callback or email-delivery pass is claimed.
+
+## Read-only notification history filters — 15 November
+
+The new [Failed-filter capture](history-status-failed-live.txt) independently matches **all eleven earlier request IDs**, authors, statuses, requested/completed display times and safe errors. It now displays **nine Source: Bulk** rows and **two Source: Single** rows. The nine Bulk authors exactly match source eligibility; the earlier missing-trigger-source evidence gap is resolved. Original and retry Priya requests retain their distinct IDs and captured fields.
+
+The [Success-filter capture](history-status-success-live.txt) has Success selected, zero author rows and **No notifications match this status.** The [Clear filter/reset capture](history-status-reset-live.txt) restores All statuses, shows seven initially rendered known IDs and no empty message. Seven is the initial rendering count, not a total-record assertion. The [editor capture](history-filter-config-live.txt) shows status equals the dropdown value, Ignore empty constraints on, and requested_at descending. All checks pass in the updated `scripts/qa-notification-live.mjs`; [the JSON report](notification-live-reconciliation.json) includes hashes and per-row comparisons.
+
+The safe [All-status screenshot](../history-filter-final-live.png) and [Success empty-state screenshot](../history-filter-empty-live.png) were visually inspected: filter/back/clear controls and the captured content are legible. This is a limited 1280×900 desktop-state check, not a responsive/all-device pass. These read-only UI checks neither created requests nor establish live AI/callback success. The video remains unchanged and is identified as an earlier saved-evidence walkthrough.
+
 ## Remaining acceptance gates
+
+**15 November packaging checkpoint:** new read-only history passes are limited to the section above; no additional live pass is inferred from packaging earlier captures. The [226-second saved-evidence walkthrough](../deliverables/bookleaf-evidence-walkthrough-final.mp4) is complete; [artifact validation](../deliverables/video-validation.json) confirms H.264 video/AAC audio, full duration, decoded nonzero narration and a visually inspected decoded frame. It is a narrated evidence slideshow, not an interactive login/AI-success recording.
+
+The saved live main/error exports pass [configuration-only audit](../n8n/live-export-verification.json): twenty main nodes and eighteen graph edges match the template semantically; raw retention is off; the main is inactive; the error handler is published and attached. This does not verify error-handler invocation or credential values. [The final Bubble editor capture](bubble-callback-handoff-disabled.txt) shows the callback's Expose switch off. It remains unexposed for handoff; prior exposed-callback entries in this ledger are historical setup observations, not current availability.
 
 Use the exact test IDs in [09_TEST_PLAN.md](09_TEST_PLAN.md). The groups below remain **pending live verification** unless this ledger is updated with actual evidence.
 
@@ -174,9 +216,9 @@ Use the exact test IDs in [09_TEST_PLAN.md](09_TEST_PLAN.md). The groups below r
 | Author detail | View sends the selected Author; figures match that Author, not the current admin's empty profile; back navigation and aggregate payout disclaimer |
 | Single summary | A real request creates one log; n8n executes; generated subject/body and timestamp return to that log |
 | AI content | AUTH001, AUTH008, AUTH007 and AUTH009 cover overdue, fully paid, in-production and threshold behavior |
-| Bulk | Exactly nine eligible authors, AUTH008 skipped; individual failures remain visible and do not stop others |
-| Failure paths | Missing/wrong webhook auth, stale timestamp, bad payload, AI failure, callback failure, stale-log recovery and retry |
+| Bulk | Nine eligible request IDs and nine independent failure outcomes captured; AUTH008 skipped. Genuine AI summaries and callback outcomes remain pending |
+| Failure paths | Disconnected-service Failed history, distinct retry request and seven timed-out rows captured. Missing/wrong auth, stale/bad payload, AI/callback failure, early timeout and successful-terminal protection remain pending |
 | Idempotency | Repeated clicks/requests do not cause duplicate AI work; terminal callbacks cannot overwrite a completed log |
-| Final delivery | Private preview access, workflow re-import, reviewer access, final README and 3–5 minute recording or honest recording script |
+| Final delivery | Saved live export audit and 3:46 evidence slideshow are ready; actual reviewer/password preview access, final checkpoint push and any interactive recording remain separate gates |
 
 Do not call the assignment fully verified while these live gates remain pending.

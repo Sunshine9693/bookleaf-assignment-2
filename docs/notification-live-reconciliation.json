@@ -1,0 +1,357 @@
+{
+  "verified_at_utc": "2026-11-14T18:57:36.580Z",
+  "status": "passed",
+  "scope": "Independent reconciliation of saved notification history against original pending-author eligibility. No browser or AI execution in this script.",
+  "input_sha256": {
+    "reference/bookleaf_sample_data.json": "34fd3b03f4b26e68b466a6364c3b7fe2f3884d3d7dc65134b67cac8e006b59f8",
+    "docs/notification-history-all-live.txt": "63531ed367be8f1fe00d322d57b411fea539c56993d237110a5f93483068863d",
+    "docs/notification-history-live.txt": "58a32f14cd4d6478ab6b25244ffbaa3e4c6ad7c24c183d66c928df0d9f96171b",
+    "docs/history-status-failed-live.txt": "c456d0382e87fc0abfb272ed40b7b14e3fe601a9b0f3aab4da9cb5c95d5312e2",
+    "docs/history-status-success-live.txt": "a9125bae0097c1a7e2c89578909ac81c9be9c631086655bed95dabef8da3bdfd",
+    "docs/history-status-reset-live.txt": "f98fa8b0eb06a6fbe75bb7541d9ae38c8b02c522720d728d12b51d9b0a73bb00",
+    "docs/history-filter-config-live.txt": "a7fa2177ed780c7ffd3bb58bca00f7247ab0152940bfc0b0f6d1514e7bb0fa46"
+  },
+  "total_distinct_requests": 11,
+  "bulk_window": {
+    "requested": "Nov 14, 2026 10:41 am",
+    "eligible_author_ids": [
+      "AUTH001",
+      "AUTH002",
+      "AUTH003",
+      "AUTH004",
+      "AUTH005",
+      "AUTH006",
+      "AUTH007",
+      "AUTH009",
+      "AUTH010"
+    ],
+    "observed_author_ids": [
+      "AUTH001",
+      "AUTH002",
+      "AUTH003",
+      "AUTH004",
+      "AUTH005",
+      "AUTH006",
+      "AUTH007",
+      "AUTH009",
+      "AUTH010"
+    ],
+    "distinct_requests": 9,
+    "immediate_rejections": 2,
+    "timeout_failures": 7,
+    "success_count": 0,
+    "fully_paid_author_absent": true,
+    "source_labels_now_confirmed": true
+  },
+  "prior_requests": {
+    "original": {
+      "author_id": "AUTH001",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 9:57 am",
+      "completed": "Nov 14, 2026 9:57 am",
+      "request_id": "1794630479353x966706198379300900",
+      "error": "The summary service did not accept this request. Check its authentication or connection, then retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    "retry": {
+      "author_id": "AUTH001",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 10:28 am",
+      "completed": "Nov 14, 2026 10:28 am",
+      "request_id": "1794632302371x557800736775072600",
+      "error": "The summary service did not accept this request. Check its authentication or connection, then retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    "distinct_ids": true,
+    "original_captured_fields_preserved": true
+  },
+  "rows": [
+    {
+      "author_id": "AUTH010",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 10:41 am",
+      "completed": "Nov 14, 2026 10:46 am",
+      "request_id": "1794633116905x398606905264543800",
+      "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    {
+      "author_id": "AUTH009",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 10:41 am",
+      "completed": "Nov 14, 2026 10:46 am",
+      "request_id": "1794633111932x758645877625330200",
+      "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    {
+      "author_id": "AUTH007",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 10:41 am",
+      "completed": "Nov 14, 2026 10:46 am",
+      "request_id": "1794633106896x413746211259253570",
+      "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    {
+      "author_id": "AUTH006",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 10:41 am",
+      "completed": "Nov 14, 2026 10:46 am",
+      "request_id": "1794633101808x151908692346280220",
+      "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    {
+      "author_id": "AUTH005",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 10:41 am",
+      "completed": "Nov 14, 2026 10:46 am",
+      "request_id": "1794633096840x808368880756631400",
+      "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    {
+      "author_id": "AUTH004",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 10:41 am",
+      "completed": "Nov 14, 2026 10:46 am",
+      "request_id": "1794633091887x291278089722804030",
+      "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    {
+      "author_id": "AUTH003",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 10:41 am",
+      "completed": "Nov 14, 2026 10:46 am",
+      "request_id": "1794633086916x888047937807467300",
+      "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    {
+      "author_id": "AUTH002",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 10:41 am",
+      "completed": "Nov 14, 2026 10:41 am",
+      "request_id": "1794633082175x194592701323720100",
+      "error": "The summary service did not accept this request. Check its authentication or connection, then retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    {
+      "author_id": "AUTH001",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 10:41 am",
+      "completed": "Nov 14, 2026 10:41 am",
+      "request_id": "1794633077293x654545442368435000",
+      "error": "The summary service did not accept this request. Check its authentication or connection, then retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    {
+      "author_id": "AUTH001",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 10:28 am",
+      "completed": "Nov 14, 2026 10:28 am",
+      "request_id": "1794632302371x557800736775072600",
+      "error": "The summary service did not accept this request. Check its authentication or connection, then retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    },
+    {
+      "author_id": "AUTH001",
+      "status": "Failed",
+      "requested": "Nov 14, 2026 9:57 am",
+      "completed": "Nov 14, 2026 9:57 am",
+      "request_id": "1794630479353x966706198379300900",
+      "error": "The summary service did not accept this request. Check its authentication or connection, then retry.",
+      "summary_empty": true,
+      "subject_empty": true,
+      "model_empty": true,
+      "delivery_disabled": true,
+      "retry_visible": true
+    }
+  ],
+  "history_filters_15_november": {
+    "failed": {
+      "selected": "Failed",
+      "matched_prior_ids": 11,
+      "source_bulk": 9,
+      "source_single": 2,
+      "empty_message": false,
+      "rows": [
+        {
+          "author_id": "AUTH010",
+          "request_id": "1794633116905x398606905264543800",
+          "source": "Bulk",
+          "status": "Failed",
+          "requested": "Nov 14, 2026 10:41 am",
+          "completed": "Nov 14, 2026 10:46 am",
+          "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry."
+        },
+        {
+          "author_id": "AUTH009",
+          "request_id": "1794633111932x758645877625330200",
+          "source": "Bulk",
+          "status": "Failed",
+          "requested": "Nov 14, 2026 10:41 am",
+          "completed": "Nov 14, 2026 10:46 am",
+          "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry."
+        },
+        {
+          "author_id": "AUTH007",
+          "request_id": "1794633106896x413746211259253570",
+          "source": "Bulk",
+          "status": "Failed",
+          "requested": "Nov 14, 2026 10:41 am",
+          "completed": "Nov 14, 2026 10:46 am",
+          "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry."
+        },
+        {
+          "author_id": "AUTH006",
+          "request_id": "1794633101808x151908692346280220",
+          "source": "Bulk",
+          "status": "Failed",
+          "requested": "Nov 14, 2026 10:41 am",
+          "completed": "Nov 14, 2026 10:46 am",
+          "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry."
+        },
+        {
+          "author_id": "AUTH005",
+          "request_id": "1794633096840x808368880756631400",
+          "source": "Bulk",
+          "status": "Failed",
+          "requested": "Nov 14, 2026 10:41 am",
+          "completed": "Nov 14, 2026 10:46 am",
+          "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry."
+        },
+        {
+          "author_id": "AUTH004",
+          "request_id": "1794633091887x291278089722804030",
+          "source": "Bulk",
+          "status": "Failed",
+          "requested": "Nov 14, 2026 10:41 am",
+          "completed": "Nov 14, 2026 10:46 am",
+          "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry."
+        },
+        {
+          "author_id": "AUTH003",
+          "request_id": "1794633086916x888047937807467300",
+          "source": "Bulk",
+          "status": "Failed",
+          "requested": "Nov 14, 2026 10:41 am",
+          "completed": "Nov 14, 2026 10:46 am",
+          "error": "Summary request timed out. No completed AI response was recorded within five minutes. You can retry."
+        },
+        {
+          "author_id": "AUTH002",
+          "request_id": "1794633082175x194592701323720100",
+          "source": "Bulk",
+          "status": "Failed",
+          "requested": "Nov 14, 2026 10:41 am",
+          "completed": "Nov 14, 2026 10:41 am",
+          "error": "The summary service did not accept this request. Check its authentication or connection, then retry."
+        },
+        {
+          "author_id": "AUTH001",
+          "request_id": "1794633077293x654545442368435000",
+          "source": "Bulk",
+          "status": "Failed",
+          "requested": "Nov 14, 2026 10:41 am",
+          "completed": "Nov 14, 2026 10:41 am",
+          "error": "The summary service did not accept this request. Check its authentication or connection, then retry."
+        },
+        {
+          "author_id": "AUTH001",
+          "request_id": "1794632302371x557800736775072600",
+          "source": "Single",
+          "status": "Failed",
+          "requested": "Nov 14, 2026 10:28 am",
+          "completed": "Nov 14, 2026 10:28 am",
+          "error": "The summary service did not accept this request. Check its authentication or connection, then retry."
+        },
+        {
+          "author_id": "AUTH001",
+          "request_id": "1794630479353x966706198379300900",
+          "source": "Single",
+          "status": "Failed",
+          "requested": "Nov 14, 2026 9:57 am",
+          "completed": "Nov 14, 2026 9:57 am",
+          "error": "The summary service did not accept this request. Check its authentication or connection, then retry."
+        }
+      ]
+    },
+    "success": {
+      "selected": "Success",
+      "rendered_rows": 0,
+      "empty_message": true
+    },
+    "reset": {
+      "selected": "All statuses",
+      "initially_rendered_rows": 7,
+      "ids_are_prior_capture_subset": true,
+      "empty_message": false,
+      "clear_filter_link_present": true,
+      "total_count_not_inferred_from_initial_render": true
+    },
+    "editor_configuration": {
+      "status_equals_dropdown_value": true,
+      "ignore_empty_constraints": true,
+      "requested_at_descending": true
+    }
+  },
+  "limits": [
+    "The original 14 November capture lacks trigger_source; the 15 November Failed-filter capture now confirms nine Bulk/two Single labels on the same eleven IDs.",
+    "Retry click causation is builder-reported; captures independently prove distinct coexisting Single Priya requests and preserved original displayed fields.",
+    "Completion times have minute precision: seven five-minute recovery outcomes are visible, but exact elapsed seconds and early-timeout rejection are not proved.",
+    "Reset capture contains seven initially rendered rows, not evidence of a seven-record total.",
+    "Original fields absent from the prior capture cannot be compared; no database transaction or concurrency proof.",
+    "No genuine AI generation, authenticated callback acceptance, successful bulk summaries, email delivery, or credential verification."
+  ]
+}

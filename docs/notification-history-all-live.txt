@@ -1,0 +1,135 @@
+Browser tab: 8, Title: "Your Bubble app", URL: "https://sanathesunshine9693.bubbleapps.io/version-test/admin-notifications".
+1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/admin-notifications
+	2 container
+		3 text Author Royalty Portal
+		4 text Log out
+		68 container
+			69 container
+				70 text Author: Diya Chatterjee | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				71 text Subject: 
+				72 text Summary: 
+				73 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				74 text Model:  | Completed: Nov 14, 2026 10:46 am
+				75 text Request ID: 1794633116905x398606905264543800
+				76 text Email delivery: disabled (test mode).
+			77 button Retry failed summary
+		78 container
+			79 container
+				80 text Author: Kavita Deshmukh | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				81 text Subject: 
+				82 text Summary: 
+				83 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				84 text Model:  | Completed: Nov 14, 2026 10:46 am
+				85 text Request ID: 1794633111932x758645877625330200
+				86 text Email delivery: disabled (test mode).
+			87 button Retry failed summary
+		88 container
+			89 container
+				90 text Author: Sneha Kulkarni | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				91 text Subject: 
+				92 text Summary: 
+				93 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				94 text Model:  | Completed: Nov 14, 2026 10:46 am
+				95 text Request ID: 1794633106896x413746211259253570
+				96 text Email delivery: disabled (test mode).
+			97 button Retry failed summary
+		98 container
+			99 container
+				100 text Author: Arjun Malhotra | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				101 text Subject: 
+				102 text Summary: 
+				103 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				104 text Model:  | Completed: Nov 14, 2026 10:46 am
+				105 text Request ID: 1794633101808x151908692346280220
+				106 text Email delivery: disabled (test mode).
+			107 button Retry failed summary
+		108 container
+			109 container
+				110 text Author: Meera Nair | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				111 text Subject: 
+				112 text Summary: 
+				113 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				114 text Model:  | Completed: Nov 14, 2026 10:46 am
+				115 text Request ID: 1794633096840x808368880756631400
+				116 text Email delivery: disabled (test mode).
+			117 button Retry failed summary
+		118 container
+			119 container
+				120 text Author: Vikram Joshi | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				121 text Subject: 
+				122 text Summary: 
+				123 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				124 text Model:  | Completed: Nov 14, 2026 10:46 am
+				125 text Request ID: 1794633091887x291278089722804030
+				126 text Email delivery: disabled (test mode).
+			127 button Retry failed summary
+		128 container
+			129 container
+				130 text Author: Ananya Reddy | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				131 text Subject: 
+				132 text Summary: 
+				133 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				134 text Model:  | Completed: Nov 14, 2026 10:46 am
+				135 text Request ID: 1794633086916x888047937807467300
+				136 text Email delivery: disabled (test mode).
+			137 button Retry failed summary
+		138 container
+			139 container
+				140 text Author: Rohit Kapoor | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				141 text Subject: 
+				142 text Summary: 
+				143 text Error: The summary service did not accept this request. Check its authentication or connection, then retry.
+				144 text Model:  | Completed: Nov 14, 2026 10:41 am
+				145 text Request ID: 1794633082175x194592701323720100
+				146 text Email delivery: disabled (test mode).
+			147 button Retry failed summary
+		148 container
+			149 container
+				150 text Author: Priya Sharma | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				151 text Subject: 
+				152 text Summary: 
+				153 text Error: The summary service did not accept this request. Check its authentication or connection, then retry.
+				154 text Model:  | Completed: Nov 14, 2026 10:41 am
+				155 text Request ID: 1794633077293x654545442368435000
+				156 text Email delivery: disabled (test mode).
+			157 button Retry failed summary
+		158 container
+			159 container
+				160 text Author: Priya Sharma | Status: Failed
+Requested: Nov 14, 2026 10:28 am
+				161 text Subject: 
+				162 text Summary: 
+				163 text Error: The summary service did not accept this request. Check its authentication or connection, then retry.
+				164 text Model:  | Completed: Nov 14, 2026 10:28 am
+				165 text Request ID: 1794632302371x557800736775072600
+				166 text Email delivery: disabled (test mode).
+			167 button Retry failed summary
+		168 container
+			169 container
+				170 text Author: Priya Sharma | Status: Failed
+Requested: Nov 14, 2026 9:57 am
+				171 text Subject: 
+				172 text Summary: 
+				173 text Error: The summary service did not accept this request. Check its authentication or connection, then retry.
+				174 text Model:  | Completed: Nov 14, 2026 9:57 am
+				175 text Request ID: 1794630479353x966706198379300900
+				176 text Email delivery: disabled (test mode).
+			177 button Retry failed summary
+		61 text Notification history
+		62 button Back to authors
+	63 container
+		64 container
+			65 image Bubble
+			66 text Built on Bubble
+		67 link bubble.io/?utm_source=app_mention&utm_content=sanathesunshine9693
+
+The focused UI element is 1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/admin-notifications

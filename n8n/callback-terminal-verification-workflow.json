@@ -1,0 +1,92 @@
+{
+  "name": "BookLeaf — Manual Terminal Callback Verification",
+  "active": false,
+  "nodes": [
+    {
+      "id": "manual-terminal-callback-trigger",
+      "name": "Run terminal callback check manually",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "parameters": {},
+      "notes": "Manual credential/terminal-guard verification only. This workflow has no webhook, no AI call and no email. Capture the existing terminal log before running; verify its original error, completion time and fields stay unchanged. Do not publish this workflow.",
+      "notesInFlow": true
+    },
+    {
+      "id": "fixed-existing-terminal-callback-payload",
+      "name": "Existing Failed request unchanged",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [260, 0],
+      "parameters": {
+        "jsCode": "// Fixed existing terminal Failed request. No new completion time or AI output is invented.\nreturn [{ json: { request_id: '1794630479353x966706198379300900', status: 'Failed', error_message: 'The summary service did not accept this request. Check its authentication or connection, then retry.' } }];"
+      },
+      "notes": "The request ID and original safe error identify the previously failed disconnected test. Callback terminal-state protection must acknowledge the duplicate without writing to that record. This test is not AI-generation evidence."
+    },
+    {
+      "id": "authenticated-terminal-callback-request",
+      "name": "Verify saved Bubble callback credential",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [540, 0],
+      "parameters": {
+        "method": "POST",
+        "url": "https://sanathesunshine9693.bubbleapps.io/version-test/api/1.1/wf/n8n_callback",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "options": {
+          "timeout": 15000,
+          "redirect": {
+            "redirect": {
+              "followRedirects": false
+            }
+          },
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "responseFormat": "json",
+              "neverError": false
+            }
+          }
+        }
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "name": "Header Auth account 3"
+        }
+      },
+      "retryOnFail": false,
+      "notes": "Select the existing saved Header Auth account 3 credential in the UI. This reference contains no credential value and does not create credentials. Header must already be Authorization with the valid bearer value. Keep authentication enabled. One attempt only; inspect HTTP status/body and independently verify the Bubble log is unchanged."
+    }
+  ],
+  "connections": {
+    "Run terminal callback check manually": {
+      "main": [[{
+        "node": "Existing Failed request unchanged",
+        "type": "main",
+        "index": 0
+      }]]
+    },
+    "Existing Failed request unchanged": {
+      "main": [[{
+        "node": "Verify saved Bubble callback credential",
+        "type": "main",
+        "index": 0
+      }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "executionTimeout": 30,
+    "saveExecutionProgress": false,
+    "saveDataErrorExecution": "none",
+    "saveDataSuccessExecution": "none",
+    "saveManualExecutions": false
+  },
+  "pinData": {},
+  "tags": []
+}

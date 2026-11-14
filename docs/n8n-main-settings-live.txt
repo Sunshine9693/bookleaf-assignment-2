@@ -1,0 +1,342 @@
+Browser tab: 2, Title: "▶️ BookLeaf — Royalty Summary - n8n", URL: "https://sanafatma.app.n8n.cloud/workflow/THfIQmhfGo1r8Hzk".
+0 AXWebArea ▶️ BookLeaf — Royalty Summary - n8n, URL: sanafatma.app.n8n.cloud/workflow/THfIQmhfGo1r8Hzk
+	1 container n8n-app
+		2 container
+			3 container
+				4 text Get ready for n8n 3.0: see which workflows need changes in 
+				5 link Description: Settings > Migration Report, Value: sanafatma.app.n8n.cloud/settings/migration-report
+				6 text .
+		7 container
+			8 container
+				9 container
+					10 container
+						11 text BookLeaf — Royalty Summary
+					12 pop up button (collapsed) Description: More actions, ID: reka-dropdown-menu-trigger-v-0-29, Secondary Actions: Expand
+					13 button Publish
+					14 pop up button (collapsed) Description: More actions, ID: reka-dropdown-menu-trigger-v-0-32, Secondary Actions: Expand
+				15 radio button Description: Editor, Value: 1
+				16 radio button Description: Executions, Value: 0
+				17 radio button Description: Evaluations, Value: 0
+			18 container side-menu
+				19 link sanafatma.app.n8n.cloud/home
+				20 pop up button (collapsed) Description: Add new item, ID: reka-dropdown-menu-trigger-v-0-5, Secondary Actions: Expand
+				21 button Open command palette
+				22 button Description: Toggle sidebar, ID: toggle-sidebar-button
+				23 container
+					24 Description: Assistant, ID: instance-ai
+						25 text Assistant
+					26 Description: Overview, ID: home
+						27 text Overview
+					28 Description: Personal, ID: 0bOtppAi6lxHT6OC
+						29 text Personal
+					30 button (expanded) Chats, Secondary Actions: Collapse
+					31 link Description: View all, Value: sanafatma.app.n8n.cloud/assistant/history
+					32 Description: New conversation, ID: instance-ai-thread-199c8819-9972-4125-94a4-69c0c50f0dba
+						33 text New conversation
+				34 Description: Cloud console, ID: cloud-admin
+					35 text Cloud console
+				36 Description: Templates, ID: templates
+					37 text Templates
+				38 Description: Insights, ID: insights
+					39 text Insights
+				40 Description: Help, ID: help
+					41 text Help
+				42 pop up button (collapsed) Settings, ID: reka-dropdown-menu-trigger-v-0-18, Secondary Actions: Expand
+					43 Description: Settings, ID: settings
+						44 text Settings
+			45 container content
+				46 container
+					47 container
+						48 container
+							49 image
+								50 container Edge from 28fe2f08-6c3e-4c20-a368-1ca6e12a72f0 to 2a160e87-07c1-4593-b0dc-0a380c30efed
+							51 image
+								52 container Edge from 2a160e87-07c1-4593-b0dc-0a380c30efed to 8d1beb7a-218c-4b1b-a8b2-795d8357dbde
+							53 image
+								54 container Edge from 8d1beb7a-218c-4b1b-a8b2-795d8357dbde to 4e4d422d-9b4b-4e39-8bed-167044574856
+							55 image
+								56 container Edge from 8d1beb7a-218c-4b1b-a8b2-795d8357dbde to d4017802-fd9f-405f-b03d-7dc2fd0f3673
+							57 image
+								58 container Edge from 4e4d422d-9b4b-4e39-8bed-167044574856 to b8111d81-2690-4bbe-bb1a-5c3044b7eead
+							59 image
+								60 container Edge from b8111d81-2690-4bbe-bb1a-5c3044b7eead to cd946c39-7e8e-4d00-b0f3-2dad1e8489b0
+							61 image
+								62 container Edge from b8111d81-2690-4bbe-bb1a-5c3044b7eead to 0862fecb-21b2-46f3-a51a-9d587895d4cc
+							63 image
+								64 container Edge from cd946c39-7e8e-4d00-b0f3-2dad1e8489b0 to 04b5aed0-cae2-4024-8685-7de734df0790
+							65 image
+								66 container Edge from 04b5aed0-cae2-4024-8685-7de734df0790 to 08159cce-195f-4218-9d3a-ed2455d252b7
+							67 image
+								68 container Edge from 08159cce-195f-4218-9d3a-ed2455d252b7 to b05d803d-0983-4736-8cec-440548971fad
+							69 image
+								70 container Edge from 08159cce-195f-4218-9d3a-ed2455d252b7 to ce655146-1719-4342-8b81-5f9181d52a9f
+							71 image
+								72 container Edge from b05d803d-0983-4736-8cec-440548971fad to f7ed4f33-0604-4118-987b-692d119a82c5
+							73 image
+								74 container Edge from f7ed4f33-0604-4118-987b-692d119a82c5 to 36e59cb5-3cc5-4371-a6f7-3c55577a7133
+							75 image
+								76 container Edge from f7ed4f33-0604-4118-987b-692d119a82c5 to ce655146-1719-4342-8b81-5f9181d52a9f
+							77 image
+								78 container Edge from 36e59cb5-3cc5-4371-a6f7-3c55577a7133 to f9c8596a-7bd0-40ff-b1cc-3f85f8ae1f12
+							79 image
+								80 container Edge from ce655146-1719-4342-8b81-5f9181d52a9f to f999c071-45c1-4ca7-9209-22684a317735
+							81 image
+								82 container Edge from f9c8596a-7bd0-40ff-b1cc-3f85f8ae1f12 to a4a3dd86-9ac6-40a2-9ffe-b274345cd319
+							83 image
+								84 container Edge from f999c071-45c1-4ca7-9209-22684a317735 to a4a3dd86-9ac6-40a2-9ffe-b274345cd319
+							85 container
+								86 text POST
+								87 button Execute step
+								88 button Deactivate
+								89 button Delete
+								90 button Add to chat
+								91 button More actions
+								92 text Webhook royalty summary
+								93 container
+									94 button Execute workflow
+							95 container
+								96 button Execute step
+								97 button Deactivate
+								98 button Delete
+								99 button Add to chat
+								100 button More actions
+								101 text Validate payload
+							102 container
+								103 text true
+								104 text false
+								105 button Execute step
+								106 button Deactivate
+								107 button Delete
+								108 button Add to chat
+								109 button More actions
+								110 text Payload valid
+							111 container
+								112 button Execute step
+								113 button Deactivate
+								114 button Delete
+								115 button Add to chat
+								116 button More actions
+								117 text Reject invalid payload
+							118 container
+								119 button Execute step
+								120 button Deactivate
+								121 button Delete
+								122 button Add to chat
+								123 button More actions
+								124 text Request guard
+							125 container
+								126 text true
+								127 text false
+								128 button Execute step
+								129 button Deactivate
+								130 button Delete
+								131 button Add to chat
+								132 button More actions
+								133 text Request accepted
+							134 container
+								135 button Execute step
+								136 button Deactivate
+								137 button Delete
+								138 button Add to chat
+								139 button More actions
+								140 text Reject duplicate request
+							141 container
+								142 button Execute step
+								143 button Deactivate
+								144 button Delete
+								145 button Add to chat
+								146 button More actions
+								147 text Accept 202
+							148 container
+								149 button Execute step
+								150 button Deactivate
+								151 button Delete
+								152 button Add to chat
+								153 button More actions
+								154 text Build grounded prompt
+							155 container
+								156 text Success
+								157 text Error
+								158 button Execute step
+								159 button Deactivate
+								160 button Delete
+								161 button Add to chat
+								162 button More actions
+								163 container
+									164 text OpenRouter AI POST: https://openrouter.ai/api/v1/chat/completions
+							165 container
+								166 button Execute step
+								167 button Deactivate
+								168 button Delete
+								169 button Add to chat
+								170 button More actions
+								171 text Validate AI summary
+							172 container
+								173 text true
+								174 text false
+								175 button Execute step
+								176 button Deactivate
+								177 button Delete
+								178 button Add to chat
+								179 button More actions
+								180 text Summary valid
+							181 container
+								182 button Execute step
+								183 button Deactivate
+								184 button Delete
+								185 button Add to chat
+								186 button More actions
+								187 text Success callback payload
+							188 container
+								189 button Execute step
+								190 button Deactivate
+								191 button Delete
+								192 button Add to chat
+								193 button More actions
+								194 text Failure callback payload
+							195 container
+								196 text Success
+								197 text Error
+								198 button Execute step
+								199 button Deactivate
+								200 button Delete
+								201 button Add to chat
+								202 button More actions
+								203 container
+									204 text Success callback to Bubble POST: https://sanathesunshine9693.bubbleapps.io/version-test/api/1.1/wf/n8n_callback
+							205 container
+								206 text Success
+								207 text Error
+								208 button Execute step
+								209 button Deactivate
+								210 button Delete
+								211 button Add to chat
+								212 button More actions
+								213 container
+									214 text Failure callback to Bubble POST: https://sanathesunshine9693.bubbleapps.io/version-test/api/1.1/wf/n8n_callback
+							215 container
+								216 button Execute step
+								217 button Deactivate
+								218 button Delete
+								219 button Add to chat
+								220 button More actions
+								221 text Callback delivery failed
+							222 container
+								223 button Delete
+								224 container
+									225 color well (settable) #000000
+								226 button More actions
+								227 container
+									228 heading Receive and validate, Value: 2
+										229 text Receive and validate
+									230 text Header Auth credential is required before activation. Timestamp must be within ±300 seconds. Books and totals are validated; statuses are recomputed from dates. No real email is sent.
+							231 container
+								232 button Delete
+								233 container
+									234 color well (settable) #000000
+								235 button More actions
+								236 container
+									237 heading Important: sequential-demo guard, Value: 2
+										238 text Important: sequential-demo guard
+									239 text Static data is a secondary server-side guard, not an atomic lock. Exact request IDs are remembered for 24 hours after successful workflow executions; an author is throttled for 60 seconds. Static data does not persist in manual tests or after failed executions, and may race across concurrent executions. Bubble must create and guard NotificationLog first. Do not claim concurrent exactly-once processing. Replace with an atomic unique-key store before production.
+							240 container
+								241 button Delete
+								242 container
+									243 color well (settable) #000000
+								244 button More actions
+								245 container
+									246 heading Generate and return, Value: 2
+										247 text Generate and return
+									248 text OpenRouter credential must use a newly configured key, never the exposed portfolio key. Provider receives only the allowlisted author/book data, without email or phone. Failure never becomes a fake Success. Callback URL is fixed; payloads cannot choose another destination. Three attempts per HTTP node; callback errors fail the execution visibly. Execution-data saving is OFF because incoming webhook headers include the shared secret. Bubble NotificationLog and the safe error audit retain operational results. Keep this draft inactive until Bubble authentication, terminal-state guards and stale handling are verified.
+						249 image
+						250 image
+						251 container
+							252 button Zoom to Fit
+							253 button Zoom In
+							254 button Zoom Out
+							255 button Tidy Up
+					256 button Execute workflow
+						257 text Execute
+					258 button Open nodes panel
+					259 button Command bar
+					260 button Add sticky note
+					261 button Open side panel
+					262 button Open in Assistant
+				263 container
+					264 container
+						265 text Logs
+						266 button Pop out panel
+						267 button Open panel
+			268 container
+				269 heading Workflow settings for BookLeaf — Royalty Summary (#THfIQmhfGo1r8Hzk), Value: 1
+					270 text Workflow settings for BookLeaf — Royalty Summary (#THfIQmhfGo1r8Hzk)
+				271 button Close this dialog
+				272 container el-id-275-387
+					334 container
+						335 text Execution Logic
+						336 container
+							337 combo box (collapsed, settable) Value: v1 (recommended), ID: el-id-275-434, Secondary Actions: Expand
+							338 image
+						339 text Error Workflow (to notify when this one errors)
+						340 container
+							341 combo box (collapsed, settable) Value: BookLeaf — Royalty Summary Error Audit, ID: el-id-275-435, Secondary Actions: Expand
+							342 image
+						343 text This workflow can be called by
+						344 container
+							345 combo box (collapsed, settable) Value: Workflows created by Sana Fatma (sanathesunshine9693@gmail.com), ID: el-id-275-436, Secondary Actions: Expand
+							346 image
+						347 text Timezone
+						348 container
+							349 combo box (collapsed, settable) Value: Asia/Kolkata, ID: el-id-275-437, Secondary Actions: Expand
+							350 image
+						351 text Save failed production executions
+						352 container
+							353 combo box (collapsed, settable) Value: Do not save, ID: el-id-275-438, Secondary Actions: Expand
+							354 image
+						355 text Save successful production executions
+						356 container
+							357 combo box (collapsed, settable) Value: Do not save, ID: el-id-275-439, Secondary Actions: Expand
+							358 image
+						359 text Save manual executions
+						360 container
+							361 combo box (collapsed, settable) Value: Do not save, ID: el-id-275-440, Secondary Actions: Expand
+							362 image
+						363 text Save execution progress
+						364 container
+							365 combo box (collapsed, settable) Value: Do not save, ID: el-id-275-441, Secondary Actions: Expand
+							366 image
+						367 text Redact production execution data
+						368 text Upgrade
+						369 container
+							370 combo box (disabled, collapsed, settable) Value: Default - Do not redact, ID: el-id-275-442, Secondary Actions: Expand
+							371 image
+						372 text Redact manual execution data
+						373 text Upgrade
+						374 container
+							375 combo box (disabled, collapsed, settable) Value: Default - Do not redact, ID: el-id-275-443, Secondary Actions: Expand
+							376 image
+						377 text Timeout Workflow
+						378 switch (settable, boolean) Value: 1, ID: el-id-275-444
+						379 text Timeout After
+						380 container
+							381 text field (settable) 0
+							382 text hours
+						383 container
+							384 text field (settable) 3
+							385 text minutes
+						386 container
+							387 text field (settable) 0
+							388 text seconds
+						389 container
+							390 text Estimated time saved
+						391 container
+							392 combo box (collapsed, settable) Value: Fixed, ID: el-id-275-445, Secondary Actions: Expand
+							393 image
+						394 container
+							395 Number field (settable, integer) Estimated time saved, Value: 0, ID: timeSavedPerExecution
+							396 button Increase
+							397 button Decrease
+						398 text Minutes per production execution
+					333 button Save
+
+The focused UI element is 341 combo box (collapsed, settable) Value: BookLeaf — Royalty Summary Error Audit, ID: el-id-275-435, Secondary Actions: Expand

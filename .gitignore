@@ -23,3 +23,15 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.log
+
+# Local credential handoff views
+callback-credential-help.png
+n8n-webhook-credential-form.png
+
+# Keep only the reviewed final video artifacts in version control
+/deliverables/*
+!/deliverables/README.md
+!/deliverables/NARRATION.md
+!/deliverables/bookleaf-evidence-walkthrough-final.mp4
+!/deliverables/evidence-video-manifest.json
+!/deliverables/video-validation.json

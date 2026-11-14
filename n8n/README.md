@@ -2,12 +2,19 @@
 
 The generated workflow is an **inactive importable draft**. It implements the local processing logic; live credentials, callback execution and end-to-end acceptance must be verified separately. The generated JSON is not evidence of a successful OpenRouter call or Bubble callback.
 
+**Packaging review: 15 November 2026.** The read-only local comparison and credential-pattern scan passed again against the saved UI exports below. The live configuration observations and downloads are from **14 November**; no new live call, credential check or platform test was performed during this packaging review. The workflow templates and actual exported JSON files were not changed.
+
+**14 November final Free-plan handoff:** the saved main workflow `THfIQmhfGo1r8Hzk` is inactive. Its saved settings point to the published internal error handler `CNrpnRtjpWmuCFjq`. Both workflows have all four execution-data retention modes OFF, timezone Asia/Kolkata and timeouts of 180/30 seconds respectively. The Bubble callback is **unexposed** at handoff. The user chose to keep the Free plan; further live workflow tests are blocked. Credential references are selected but their values, real AI generation and authenticated callback execution remain unverified. A callback credential exposed during prior private-copy troubleshooting still requires user rotation/replacement; no value is present in these artifacts.
+
 ## Files and local verification
 
 | File | Purpose |
 | --- | --- |
 | `royalty-summary-workflow.json` | Main authenticated webhook, validation, sequential request guard, prompt, AI call and callbacks. |
-| `royalty-summary-error-workflow.json` | Safe error metadata only; assign its imported ID as the main workflow's Error Workflow. |
+| `royalty-summary-error-workflow.json` | Transient sanitized error output; assign its imported ID as the main workflow's Error Workflow. It does not retain a durable audit. |
+| `royalty-summary-live-export.json` | Actual UI download of the saved inactive main workflow, including selected credential references and attached error-handler ID. |
+| `royalty-summary-error-live-export.json` | Actual UI download of the published internal error handler; retention OFF. |
+| `live-export-verification.json` | Read-only comparison, graph/default normalization and credential-pattern scan of both UI downloads. |
 | `lib/royalty.mjs` | Dependency-free processing logic embedded in Code nodes. |
 | `local-test-results.json` | Current local test results, with live checks explicitly excluded. |
 
@@ -19,6 +26,15 @@ node scripts/test-n8n-workflow.mjs
 ```
 
 The local suite currently passes **49/49** cases. It covers all 10 authors/18 books, reconciled totals, nullable dates, production zeros, timestamps, forged inputs, date boundaries, serial replay, policy dates, output completeness, unsupported promises, failure preparation and exported Code nodes in a mocked n8n context. It does not call a live provider or modify Bubble. Its model-shaped responses are fixtures, not generated summaries.
+
+The two downloaded exports also pass `node scripts/verify-n8n-live-exports.mjs`: all six main Code nodes match the frozen template exactly, all 20 nodes and 18 graph edges are preserved, and no credential-shaped values or pinned/static execution data were found. The only runtime-field differences are benign serialization: omitted default `StopAndError.errorType=errorMessage` and empty rather than null unconnected output arrays. No downloaded file was modified by verification. This is configuration evidence, not a successful execution or a guarantee that every possible secret format is detectable.
+
+| Download | SHA256 |
+| --- | --- |
+| Main live export | `4F6A31244748A5298D398CB1AF8B14CB25BA715C858965BF0426C0A6D92E3551` |
+| Error-handler live export | `5BD993F7F2355B5D353BFE3E9E2D50FDE0CB9A5B1C5D92E278C2F50ADF8CF8A6` |
+
+The selected live credential names are `Header Auth account` on the webhook, `Header Auth account 2` on OpenRouter and `Header Auth account 3` on both callback nodes. They map to the descriptive template names below. Exported credential IDs/names are references, not stored values and not proof that the bearer/shared secret works.
 
 ## Import and credentials
 
@@ -34,7 +50,7 @@ Assign three **HTTP Header Auth** credentials. The JSON references names only an
 
 Select these on the webhook, OpenRouter HTTP node, and both callback HTTP nodes respectively. Missing credentials are configuration errors, not a reason to disable authentication. The user must enter new values directly into credential forms, never chat, exports, scripts or documentation.
 
-Import the error-audit workflow and select its ID in the main workflow's **Settings → Error Workflow**. Its safe output contains workflow name, execution ID, last node and a generic error. It sends no message or email.
+Import the error workflow and select its ID in the main workflow's **Settings → Error Workflow**. Its transient sanitized output contains workflow name, execution ID when available, last node and a generic error. It sends no message or email and saves no execution data. The historical name includes “Error Audit”, but this is not a durable audit store. Current n8n documentation requires publishing an Error Trigger workflow before it handles automatic failures; selecting it alone does not verify invocation.
 
 ## Request contract
 
@@ -98,7 +114,7 @@ AI and callback nodes attempt up to three times, three seconds apart. Callback t
 
 ## Execution-data privacy
 
-Main-workflow successful, failed, manual and progress execution-data saving is **OFF**. This intentionally differs from the generic original spec: Webhook output includes incoming headers, so the custom `X-BookLeaf-Key` must not be retained. Bubble NotificationLog stores results; the error workflow stores safe metadata. Runtime input can still be visible while a manual editor is open: never show headers in screenshots/recording. Verify live settings after import.
+Successful, failed, manual and progress execution-data saving is **OFF on both the main and error workflows**. This intentionally differs from the generic original spec: Webhook output includes incoming headers, and Error Trigger input can contain upstream error details before the sanitizing Code node. Those inputs must not be retained. Bubble NotificationLog is the durable operational record, including its timeout failure path. The error workflow's sanitized output is transient, not a durable audit. Runtime input can still be visible while a manual editor is open: never show headers in screenshots/recording. Verify live settings after import.
 
 The official [Webhook source](https://github.com/n8n-io/n8n/blob/master/packages/nodes-base/nodes/Webhook/Webhook.node.ts) lists Authorization/cookie as sensitive output and emits incoming headers; the project's custom header needs explicit retention precautions.
 
@@ -107,6 +123,8 @@ The official [Webhook source](https://github.com/n8n-io/n8n/blob/master/packages
 Static data remembers exact IDs for 24 hours and throttles authors for 60 seconds. It is a **secondary sequential-demo safeguard**, not an atomic lock. It persists only after successful published execution, not manual tests or failed executions, and may race under concurrency. Callback failure can therefore lose a marker. Bubble must create and guard NotificationLog first and preserve terminal states. Use a durable atomic unique-key claim store before claiming concurrent exactly-once behavior. See official [static-data limitations](https://docs.n8n.io/code/cookbook/builtin/get-workflow-static-data/).
 
 Still required live:
+
+**14 November checkpoint:** Bubble reports that the Free-plan workflow-testing limit has been reached. Further live integration tests are blocked under the no-purchases constraint. Do not bypass the limit or claim a verified credential, AI response or callback. The list below remains pending until testing becomes legitimately available within the authorized plan.
 
 - Assign/test all three credentials and verify imported node settings.
 - Select the error workflow, verify protected callback and stale/terminal handling.
