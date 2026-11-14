@@ -1,0 +1,26 @@
+Agent
+Properties
+Properties
+Thing to change
+Search for NotificationLogs:first item
+Fields
+Add all fields
+status=status
+summary_subject=
+  summary_subject
+summary_body=
+  summary_body
+error_message=
+  error_message
+ai_model=
+  ai_model
+n8n_execution_id=
+  n8n_execution_id
+completed_at=Current date/time
+email_sent="no"
+Execution options
+Disable action
+Only when
+Condition
+Add
+Expand

@@ -1,0 +1,37 @@
+Agent
+Properties
+n8n_callback is called
+Properties
+Endpoint name
+Expose as a public API workflow
+Authentication
+Admin only
+Ignore privacy rules when running the workflow
+Trigger workflow with
+POST
+Parameter definition
+Manual definition
+Response type
+JSON Object
+Return a 200 if condition is not met
+Parameters
+request_id
+text, Required
+status
+NotificationStatus, Required
+summary_subject
+text, Optional
+summary_body
+text, Optional
+error_message
+text, Optional
+ai_model
+text, Optional
+n8n_execution_id
+text, Optional
+completed_at
+date, Optional
+Only when
+Condition
+status is not Queued and Search for NotificationLogs:count > 0 and status is not Processing
+Expand
