@@ -1,0 +1,7 @@
+Response schema restored manually after the deliberate invalid initialization diagnostic. Synthetic schema values are not live success evidence.
+			22 button Description: 0, ID: issues-button
+				668 text INITIALIZED
+				678 text accepted: true
+				685 text request_id: string value
+				692 text duplicate: false
+				699 text error: string value

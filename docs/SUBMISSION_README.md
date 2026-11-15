@@ -1,10 +1,10 @@
 # BookLeaf — Author Royalty Dashboard & Automated Notification System
 
-> **Latest checkpoint:** genuine reviewed provider generation and three user-assisted reset/login checks are now established. The hardened main draft is saved and export-audited. Full Bubble callback/bulk/security acceptance and reviewer access remain pending; the collection shared-secret field was observed empty. See [current acceptance](22_CURRENT_ACCEPTANCE.md), which supersedes older pending-work statements below. No password or key is included in this package.
+> **Latest checkpoint — 16 November 2026:** genuine reviewed provider generation, three user-assisted reset/login checks and the hardened main export audit are established. Shared-secret matching is now verified. A real callback attempt returned Bubble's explicit Free-plan Workflow API restriction; full callback/bulk/security acceptance and reviewer access remain pending. See [current acceptance](22_CURRENT_ACCEPTANCE.md), which supersedes older statements below. No password or key is included here.
 
 > **Packaging checkpoint — 15 November 2026.** Earlier portal/request evidence and the 3:46 narrated saved-evidence walkthrough are preserved. New evidence covers a real reviewed provider summary, three user-assisted reset/login destinations and current metadata checks. Full Bubble callback/bulk/security acceptance, reviewer access and an interactive recording remain pending.
 
-**Current connection limit:** the Bubble collection shared-secret field remains empty. Matching private credentials are required before full integration testing. The earlier [Free-plan notice](bubble-free-limit-live.txt) is preserved, but login and the backend reset route subsequently ran; a blanket workflow block is not established. No upgrade/trial was taken.
+**Current connection limit:** the shared webhook secret is saved and verified by n8n's authenticated stale-timestamp rejection of the dummy initialization payload. The [callback-only test](callback-platform-block-2026-11-16.txt) returned HTTP 401 stating that this Bubble application does not expose an API and requires an upgrade for API calls. This is a Workflow API restriction, not proof of a bad key or a blanket login block. The new Single request genuinely timed out to Failed; history now includes twelve Failed requests. Main was unpublished and callback disabled again after testing. Keep-Free remains in force; no upgrade/trial was taken.
 
 ## 1. Overview
 

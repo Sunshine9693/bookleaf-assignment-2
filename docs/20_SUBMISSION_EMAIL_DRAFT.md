@@ -1,6 +1,6 @@
 # Submission email draft — do not send
 
-Packaging refreshed 15 November 2026, using 13–14 November captures. This is an unsent draft. Complete the access fields from the final ledger before use; do not put passwords, API keys or bearer tokens in this file. Sending to HR is outside this document's preparation.
+Acceptance refreshed 16 November 2026, preserving earlier captures and video as historical evidence. This is an unsent draft. Complete the access fields from the final ledger before use; do not put passwords, API keys or bearer tokens in this file. Sending to HR is outside this document's preparation.
 
 **Subject:** BookLeaf Technical Assignment 2 — Sana Fatma
 
@@ -15,9 +15,11 @@ Please find my Assignment 2 work below:
 
 The portal preserves the supplied 10 Authors and 18 Books. Captured checks cover admin totals/filters, two author sessions and protected-route redirects, author logout, selected-author data and required book metadata. Royalty values reconcile to ₹2,43,382 earned, ₹2,02,543 paid and ₹40,839 pending. The dataset has no transaction-level payout history; the detail view identifies its payout information as aggregates.
 
-The real provider-component test produced a reviewed 252-word summary with the supplied figures, quarterly/45-day policy and separate overdue review guidance. Three user-assisted password-reset/login steps reached the expected Admin and Author dashboards. The full Bubble request-to-callback connection and successful bulk/security acceptance remain incomplete; they are not presented as passed. The package preserves eleven genuine Failed requests, retry/bulk eligibility/recovery evidence, rejected AI outputs and the later accepted provider response.
+The real provider-component test produced a reviewed 252-word summary with the supplied figures, quarterly/45-day policy and separate overdue review guidance. Three user-assisted password-reset/login steps reached the expected Admin and Author dashboards. On 16 November, the shared-secret match was verified: an authenticated stale dummy request reached n8n and returned its timestamp-validation HTTP 400. A new real Priya request timed out through server recovery. There are now twelve genuine Failed requests and no Success; the earlier eleven-row reconciliation remains historical evidence.
 
-This uses the Bubble development preview and existing n8n workspace. No paid upgrade was taken. Matching private shared-secret entry remains outstanding. The callback is unexposed and the main workflow inactive for handoff. The saved hardened main export passes audit; the error handler is attached/published, without an invocation claim. No real author email was sent. Search-based duplicate guards are non-atomic, as documented.
+The remaining callback test returned HTTP 401 with Bubble's message that the application does not expose an API and requires a subscription upgrade for API calls. This establishes the Free-plan Workflow API restriction; it does not prove an invalid credential or successful authentication/terminal protection. The existing Failed log stayed unchanged. Full end-to-end Success and successful bulk/security acceptance remain incomplete.
+
+The Keep Free instruction was honored: no upgrade or trial was taken. After the approved test, the main was unpublished again and the callback unexposed; the Data API remains off. Credential entry is complete, while callback bearer validity and old-key revocation remain unverified. The hardened export audit and attached/published error handler are configuration evidence, not proof of error-handler invocation. No real author email, public Bubble deployment or collaborator invitation occurred. Search-based duplicate guards are non-atomic, as documented.
 
 The private repository URL alone does not grant reviewer access. I can provide the verified-work ZIP and the test logins through an agreed private channel; no credentials are included in the repository or video.
 

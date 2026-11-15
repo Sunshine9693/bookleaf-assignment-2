@@ -1,0 +1,260 @@
+Browser tab: 34, Title: "▶️ BookLeaf — Royalty Summary - n8n", URL: "https://sanafatma.app.n8n.cloud/workflow/THfIQmhfGo1r8Hzk".
+1 AXWebArea ▶️ BookLeaf — Royalty Summary - n8n, URL: sanafatma.app.n8n.cloud/workflow/THfIQmhfGo1r8Hzk
+	2 container n8n-app
+		3 container
+			4 container
+				5 text Get ready for n8n 3.0: see which workflows need changes in
+				6 link Description: Settings > Migration Report, Value: sanafatma.app.n8n.cloud/settings/migration-report
+				7 text .
+		8 container
+			9 container
+				10 container
+					11 link sanafatma.app.n8n.cloud/projects/0bOtppAi6lxHT6OC
+					12 text /
+					13 container
+						14 text BookLeaf — Royalty Summary
+					15 pop up button (collapsed) Description: More actions, ID: reka-dropdown-menu-trigger-v-0-28, Secondary Actions: Expand
+					16 button Publish
+					17 pop up button (collapsed) Description: More actions, ID: reka-dropdown-menu-trigger-v-0-31, Secondary Actions: Expand
+				18 radio button Description: Editor, Value: 1
+				19 radio button Description: Executions, Value: 0
+				20 radio button Description: Evaluations, Value: 0
+			21 container side-menu
+				22 pop up button (collapsed) Description: Add new item, ID: reka-dropdown-menu-trigger-v-0-5, Secondary Actions: Expand
+				23 button Open command palette
+				24 button Description: Toggle sidebar, ID: toggle-sidebar-button
+				25 container
+					26 Description: Assistant, ID: instance-ai
+					27 Description: Overview, ID: home
+					28 Description: Personal, ID: 0bOtppAi6lxHT6OC
+				29 Description: Cloud console, ID: cloud-admin
+				30 Description: Templates, ID: templates
+				31 Description: Insights, ID: insights
+				32 Description: Help, ID: help
+				33 pop up button (collapsed) Settings, ID: reka-dropdown-menu-trigger-v-0-18, Secondary Actions: Expand
+					34 Description: Settings, ID: settings
+			35 container content
+				36 container
+					37 container
+						38 container
+							39 image
+								40 container Edge from 28fe2f08-6c3e-4c20-a368-1ca6e12a72f0 to 2a160e87-07c1-4593-b0dc-0a380c30efed
+							41 image
+								42 container Edge from 2a160e87-07c1-4593-b0dc-0a380c30efed to 8d1beb7a-218c-4b1b-a8b2-795d8357dbde
+							43 image
+								44 container Edge from 8d1beb7a-218c-4b1b-a8b2-795d8357dbde to 4e4d422d-9b4b-4e39-8bed-167044574856
+							45 image
+								46 container Edge from 8d1beb7a-218c-4b1b-a8b2-795d8357dbde to d4017802-fd9f-405f-b03d-7dc2fd0f3673
+							47 image
+								48 container Edge from 4e4d422d-9b4b-4e39-8bed-167044574856 to b8111d81-2690-4bbe-bb1a-5c3044b7eead
+							49 image
+								50 container Edge from b8111d81-2690-4bbe-bb1a-5c3044b7eead to cd946c39-7e8e-4d00-b0f3-2dad1e8489b0
+							51 image
+								52 container Edge from b8111d81-2690-4bbe-bb1a-5c3044b7eead to 0862fecb-21b2-46f3-a51a-9d587895d4cc
+							53 image
+								54 container Edge from cd946c39-7e8e-4d00-b0f3-2dad1e8489b0 to 04b5aed0-cae2-4024-8685-7de734df0790
+							55 image
+								56 container Edge from 04b5aed0-cae2-4024-8685-7de734df0790 to 08159cce-195f-4218-9d3a-ed2455d252b7
+							57 image
+								58 container Edge from 08159cce-195f-4218-9d3a-ed2455d252b7 to b05d803d-0983-4736-8cec-440548971fad
+							59 image
+								60 container Edge from 08159cce-195f-4218-9d3a-ed2455d252b7 to ce655146-1719-4342-8b81-5f9181d52a9f
+							61 image
+								62 container Edge from b05d803d-0983-4736-8cec-440548971fad to f7ed4f33-0604-4118-987b-692d119a82c5
+							63 image
+								64 container Edge from f7ed4f33-0604-4118-987b-692d119a82c5 to 36e59cb5-3cc5-4371-a6f7-3c55577a7133
+							65 image
+								66 container Edge from f7ed4f33-0604-4118-987b-692d119a82c5 to ce655146-1719-4342-8b81-5f9181d52a9f
+							67 image
+								68 container Edge from 36e59cb5-3cc5-4371-a6f7-3c55577a7133 to f9c8596a-7bd0-40ff-b1cc-3f85f8ae1f12
+							69 image
+								70 container Edge from ce655146-1719-4342-8b81-5f9181d52a9f to f999c071-45c1-4ca7-9209-22684a317735
+							71 image
+								72 container Edge from f9c8596a-7bd0-40ff-b1cc-3f85f8ae1f12 to a4a3dd86-9ac6-40a2-9ffe-b274345cd319
+							73 image
+								74 container Edge from f999c071-45c1-4ca7-9209-22684a317735 to a4a3dd86-9ac6-40a2-9ffe-b274345cd319
+							75 container
+								76 text POST
+								77 button Execute step
+								78 button Deactivate
+								79 button Delete
+								80 button Add to chat
+								81 button More actions
+								82 text Webhook royalty summary
+								83 container
+									84 button Execute workflow
+							85 container
+								86 button Execute step
+								87 button Deactivate
+								88 button Delete
+								89 button Add to chat
+								90 button More actions
+								91 text Validate payload
+							92 container
+								93 text true
+								94 text false
+								95 button Execute step
+								96 button Deactivate
+								97 button Delete
+								98 button Add to chat
+								99 button More actions
+								100 text Payload valid
+							101 container
+								102 button Execute step
+								103 button Deactivate
+								104 button Delete
+								105 button Add to chat
+								106 button More actions
+								107 text Reject invalid payload
+							108 container
+								109 button Execute step
+								110 button Deactivate
+								111 button Delete
+								112 button Add to chat
+								113 button More actions
+								114 text Request guard
+							115 container
+								116 text true
+								117 text false
+								118 button Execute step
+								119 button Deactivate
+								120 button Delete
+								121 button Add to chat
+								122 button More actions
+								123 text Request accepted
+							124 container
+								125 button Execute step
+								126 button Deactivate
+								127 button Delete
+								128 button Add to chat
+								129 button More actions
+								130 text Reject duplicate request
+							131 container
+								132 button Execute step
+								133 button Deactivate
+								134 button Delete
+								135 button Add to chat
+								136 button More actions
+								137 text Accept 202
+							138 container
+								139 button Execute step
+								140 button Deactivate
+								141 button Delete
+								142 button Add to chat
+								143 button More actions
+								144 text Build grounded prompt
+							145 container
+								146 text Success
+								147 text Error
+								148 button Execute step
+								149 button Deactivate
+								150 button Delete
+								151 button Add to chat
+								152 button More actions
+								153 container
+									154 text OpenRouter AI POST: https://openrouter.ai/api/v1/chat/completions
+							155 container
+								156 button Execute step
+								157 button Deactivate
+								158 button Delete
+								159 button Add to chat
+								160 button More actions
+								161 text Validate AI summary
+							162 container
+								163 text true
+								164 text false
+								165 button Execute step
+								166 button Deactivate
+								167 button Delete
+								168 button Add to chat
+								169 button More actions
+								170 text Summary valid
+							171 container
+								172 button Execute step
+								173 button Deactivate
+								174 button Delete
+								175 button Add to chat
+								176 button More actions
+								177 text Success callback payload
+							178 container
+								179 button Execute step
+								180 button Deactivate
+								181 button Delete
+								182 button Add to chat
+								183 button More actions
+								184 text Failure callback payload
+							185 container
+								186 text Success
+								187 text Error
+								188 button Execute step
+								189 button Deactivate
+								190 button Delete
+								191 button Add to chat
+								192 button More actions
+								193 container
+									194 text Success callback to Bubble POST: https://sanathesunshine9693.bubbleapps.io/version-test/api/1.1/wf/n8n_callback
+							195 container
+								196 text Success
+								197 text Error
+								198 button Execute step
+								199 button Deactivate
+								200 button Delete
+								201 button Add to chat
+								202 button More actions
+								203 container
+									204 text Failure callback to Bubble POST: https://sanathesunshine9693.bubbleapps.io/version-test/api/1.1/wf/n8n_callback
+							205 container
+								206 button Execute step
+								207 button Deactivate
+								208 button Delete
+								209 button Add to chat
+								210 button More actions
+								211 text Callback delivery failed
+							212 container
+								213 button Delete
+								214 container
+									215 color well (settable) #000000
+								216 button More actions
+								217 container
+									218 heading Receive and validate, Value: 2
+										219 text Receive and validate
+									220 text Header Auth credential is required before activation. Timestamp must be within ±300 seconds. Books and totals are validated; statuses are recomputed from dates. No real email is sent.
+							221 container
+								222 button Delete
+								223 container
+									224 color well (settable) #000000
+								225 button More actions
+								226 container
+									227 heading Important: sequential-demo guard, Value: 2
+										228 text Important: sequential-demo guard
+									229 text Static data is a secondary server-side guard, not an atomic lock. Exact request IDs are remembered for 24 hours after successful workflow executions; an author is throttled for 60 seconds. Static data does not persist in manual tests or after failed executions, and may race across concurrent executions. Bubble must create and guard NotificationLog first. Do not claim concurrent exactly-once processing. Replace with an atomic unique-key store before production.
+							230 container
+								231 button Delete
+								232 container
+									233 color well (settable) #000000
+								234 button More actions
+								235 container
+									236 heading Generate and return, Value: 2
+										237 text Generate and return
+									238 text OpenRouter credential must use a newly configured key, never the exposed portfolio key. Provider receives only the allowlisted author/book data, without email or phone. Failure never becomes a fake Success. Callback URL is fixed; payloads cannot choose another destination. Three attempts per HTTP node; callback errors fail the execution visibly. Execution-data saving is OFF because incoming webhook headers include the shared secret. Bubble NotificationLog and the safe error audit retain operational results. Keep this draft inactive until Bubble authentication, terminal-state guards and stale handling are verified.
+						239 image
+						240 image
+						241 container
+							242 button Zoom to Fit
+							243 button Zoom In
+							244 button Zoom Out
+							245 button Tidy Up
+					246 button Execute workflow
+						247 text Execute
+					248 button Open nodes panel
+					249 button Command bar
+					250 button Add sticky note
+					251 button Open side panel
+					252 button Open in Assistant
+				253 container
+					254 container
+						255 text Logs
+						256 button Pop out panel
+						257 button Open panel
+
+The focused UI element is 1 AXWebArea ▶️ BookLeaf — Royalty Summary - n8n, URL: sanafatma.app.n8n.cloud/workflow/THfIQmhfGo1r8Hzk

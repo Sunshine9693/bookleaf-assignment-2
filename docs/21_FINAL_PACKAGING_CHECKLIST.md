@@ -1,6 +1,6 @@
 # Final checkpoint packaging checklist
 
-**Newest checkpoint:** [22_CURRENT_ACCEPTANCE.md](22_CURRENT_ACCEPTANCE.md) records the later real provider pass, three user-assisted reset/login destinations, disabled temporary provisioning and saved hardened main draft audit. Earlier pending-login/provider statements below describe the previous packaging checkpoint. The full connection remains unaccepted while the collection shared secret is empty.
+**Newest checkpoint — 16 November:** [22_CURRENT_ACCEPTANCE.md](22_CURRENT_ACCEPTANCE.md) records the provider pass, three user-assisted logins, hardened export audit, verified matching webhook secret, and a real callback rejected by Bubble's Free-plan Workflow API restriction. Main was unpublished and callback disabled again after approved testing. One new Single timeout brings history to twelve genuine Failed requests. Earlier pending-credential/login/provider statements and eleven-request counts below are historical. Full integration remains unaccepted; no upgrade/trial was taken.
 
 Additional files are staged by exact filename after review: current acceptance and user-assisted login/configuration captures; source/policy hardening module/builders/checks; accepted/rejected provider evidence and iteration ledger; prepared/saved hardened main plus distinct audits; reviewed metadata and accepted-provider screenshots. Credential-form images, passwords, tokens, source correspondence, local ID maps and unreviewed screenshots remain excluded. No whole-folder staging is authorized by this paragraph.
 

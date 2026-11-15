@@ -1,0 +1,10 @@
+OUTPUT
+1 item
+Authorization failed - please check your credentials
+401 - {"error_class":"Unauthorized","args":{"code":"1794769458852x627382492356301200"},"message":null,"translation":"This application does not expose an API. Please upgrade your Bubble subscription for your API calls to run."}
+Ask n8n Assistant
+
+Error details
+
+ From HTTP Request
+ Other info

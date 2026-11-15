@@ -1,0 +1,106 @@
+Browser tab: 33, Title: "Your Bubble app", URL: "https://sanathesunshine9693.bubbleapps.io/version-test/admin-notifications".
+1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/admin-notifications
+	2 container
+		3 text Author Royalty Portal
+		4 text Log out
+		15 container
+			16 container
+				17 text Author: Priya Sharma | Status: Failed
+Requested: Nov 16, 2026 12:20 am
+				18 text Subject:
+				19 text Summary:
+				20 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				21 text Model:  | Completed: Nov 16, 2026 12:25 am
+				22 text Request ID: 1794768658023x237745833225024200
+				23 text Source: Single
+				24 text Email delivery: disabled (test mode).
+			25 button Retry failed summary
+		26 container
+			27 container
+				28 text Author: Diya Chatterjee | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				29 text Subject:
+				30 text Summary:
+				31 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				32 text Model:  | Completed: Nov 14, 2026 10:46 am
+				33 text Request ID: 1794633116905x398606905264543800
+				34 text Source: Bulk
+				35 text Email delivery: disabled (test mode).
+			36 button Retry failed summary
+		37 container
+			38 container
+				39 text Author: Kavita Deshmukh | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				40 text Subject:
+				41 text Summary:
+				42 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				43 text Model:  | Completed: Nov 14, 2026 10:46 am
+				44 text Request ID: 1794633111932x758645877625330200
+				45 text Source: Bulk
+				46 text Email delivery: disabled (test mode).
+			47 button Retry failed summary
+		48 container
+			49 container
+				50 text Author: Sneha Kulkarni | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				51 text Subject:
+				52 text Summary:
+				53 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				54 text Model:  | Completed: Nov 14, 2026 10:46 am
+				55 text Request ID: 1794633106896x413746211259253570
+				56 text Source: Bulk
+				57 text Email delivery: disabled (test mode).
+			58 button Retry failed summary
+		59 container
+			60 container
+				61 text Author: Arjun Malhotra | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				62 text Subject:
+				63 text Summary:
+				64 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				65 text Model:  | Completed: Nov 14, 2026 10:46 am
+				66 text Request ID: 1794633101808x151908692346280220
+				67 text Source: Bulk
+				68 text Email delivery: disabled (test mode).
+			69 button Retry failed summary
+		70 container
+			71 container
+				72 text Author: Meera Nair | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				73 text Subject:
+				74 text Summary:
+				75 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				76 text Model:  | Completed: Nov 14, 2026 10:46 am
+				77 text Request ID: 1794633096840x808368880756631400
+				78 text Source: Bulk
+				79 text Email delivery: disabled (test mode).
+			80 button Retry failed summary
+		81 container
+			82 container
+				83 text Author: Vikram Joshi | Status: Failed
+Requested: Nov 14, 2026 10:41 am
+				84 text Subject:
+				85 text Summary:
+				86 text Error: Summary request timed out. No completed AI response was recorded within five minutes. You can retry.
+				87 text Model:  | Completed: Nov 14, 2026 10:46 am
+				88 text Request ID: 1794633091887x291278089722804030
+				89 text Source: Bulk
+				90 text Email delivery: disabled (test mode).
+			91 button Retry failed summary
+		5 text Notification history
+		6 button Back to authors
+		7 pop up button (collapsed, settable) Value: All statuses, Secondary Actions: Expand
+			8 menu
+				9 (selected) All statuses
+				10 Queued
+				11 Processing
+				12 Success
+				13 Failed
+		14 link Description: Clear filter, Value: sanathesunshine9693.bubbleapps.io/version-test/admin-notifications
+	92 container
+		93 container
+			94 image Bubble
+			95 text Built on Bubble
+		96 link bubble.io/?utm_source=app_mention&utm_content=sanathesunshine9693
+
+The focused UI element is 1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/admin-notifications

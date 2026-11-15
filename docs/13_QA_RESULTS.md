@@ -228,3 +228,10 @@ Use the exact test IDs in [09_TEST_PLAN.md](09_TEST_PLAN.md). The groups below r
 | Final delivery | Saved live export audit and 3:46 evidence slideshow are ready; actual reviewer/password preview access, final checkpoint push and any interactive recording remain separate gates |
 
 Do not call the assignment fully verified while these live gates remain pending.
+
+
+## 16 November authenticated connection follow-up
+
+The user entered the shared secret privately. A real authenticated dummy initialization request returned n8n HTTP 400 with its stale-timestamp validation message, verifying the secret match. The new Single request 1794768658023x237745833225024200 genuinely timed out to Failed; no outbound/provider success is claimed. A separate unpublished manual callback workflow returned HTTP 401 with Bubble's explicit subscription restriction for API calls. This is not proof of bad bearer credentials or executed terminal protection. The prior Failed record remained unchanged. Main was unpublished and callback disabled again; Data API remains off and Keep-Free was honored. After the deliberately invalid initialization, the documented synthetic response schema was restored and the UI showed INITIALIZED; this is configuration only.
+
+Six local test/audit groups passed: frozen 49/49 checks, hardened output regressions, provider-only artifact, callback-only artifact, hardened saved-export audit, and historical export audit. Audit report writes were intercepted in memory, leaving existing evidence unchanged. See [current acceptance](22_CURRENT_ACCEPTANCE.md) and its linked captures for evidence and remaining gates.
