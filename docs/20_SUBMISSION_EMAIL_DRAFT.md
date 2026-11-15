@@ -1,28 +1,49 @@
-# Submission email draft - not sent
+# HR submission email - copy into the existing email thread
 
-Reply in the existing HR email thread. Do not put passwords or API keys in this file. Confirm the reviewer has accepted the repository invitation and arrange private test-password delivery before sending.
+Fill the two test-password placeholders directly in your private email composer. Never save real passwords in this file or Git. This draft has not been sent.
 
-Hello Saloni Ma'am and BookLeaf team,
+Subject: keep the existing thread subject: Re: BookLeaf Technical Assignment Submission - Sana Fatma
 
-Please find my Assignment 2 Free-plan submission below:
+Dear Saloni Ma'am and BookLeaf Team,
 
-- [Bubble development app](https://sanathesunshine9693.bubbleapps.io/version-test/login)
-- [README and implementation documentation](https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/docs/SUBMISSION_README.md)
-- [n8n hardened workflow export](https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/n8n/royalty-summary-hardened-live-export.json)
-- [n8n error workflow export](https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/n8n/royalty-summary-error-live-export.json)
-- [4:46 current UI walkthrough](https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/deliverables/bookleaf-current-ui-walkthrough.mp4)
-- [Reviewer entry instructions and evidence](https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/docs/23_FREE_PLAN_REVIEWER_HANDOFF.md)
+Thank you for the opportunity to work on the second technical assignment. Please find my Author Royalty Dashboard and Automated Notification System implementation and review materials below.
 
-The repository remains private. A collaborator invitation has been sent to musavir@bookleafpub.in, resolved by GitHub to musavir-khurshid, and currently awaits acceptance. The approved test accounts are bookleaf.admin@example.com and bookleaf.author1@example.com; their existing user-set passwords will be provided separately through a private channel. No secrets are stored in the repository or video.
+1. Bubble application (Free-plan development preview)
+https://sanathesunshine9693.bubbleapps.io/version-test/login
 
-The Bubble portal preserves the supplied 10 authors and 18 books, with role-based views, royalty totals, filters and notification history. Three user-assisted logins reached their expected dashboards. The new video shows current Admin views, a fresh real AI component execution with valid output, the callback error, an editor-assisted Author preview and an Admin-route redirect. It is a silent, captioned, low-frame-rate capture of actual UI, with last-observed-frame holds across capture gaps. It is not a full-motion or successful integrated callback recording.
+Test accounts:
+- Admin email: bookleaf.admin@example.com
+  Password: [ENTER THE NEW ADMIN TEST PASSWORD HERE]
+- Author email: bookleaf.author1@example.com
+  Password: [ENTER THE NEW AUTHOR 1 TEST PASSWORD HERE]
 
-I kept the Free plan. The shared webhook secret is verified to match, and real AI summary generation works independently. However, the n8n callback returned Bubble's explicit subscription-required Workflow API error. The real app request recovered to Failed after five minutes. Full Bubble-to-AI-to-callback Success, successful bulk summaries and accepted replay/security tests therefore remain unverified. The main workflow is unpublished and callback disabled for handoff; no real author emails were sent. The documentation includes the actual error and completed checks rather than presenting a simulated Success.
+2. README and implementation documentation
+https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/docs/SUBMISSION_README.md
 
-The private exports and actual-run recording are provided for review; n8n workspace viewer access has not been granted. Please let me know how you would prefer the Free-plan callback limitation to be assessed.
+This covers the database structure and relationships, Bubble/n8n integration and payload approach, AI prompt strategy, privacy rules, error handling, testing and implementation challenges.
 
-Regards,
+3. n8n workflow exports
+Main workflow:
+https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/n8n/royalty-summary-hardened-live-export.json
+Error-handling workflow:
+https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/n8n/royalty-summary-error-live-export.json
+
+4. Fullscreen walkthrough (approximately 3 minutes 28 seconds)
+https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/deliverables/bookleaf-fullscreen-walkthrough.mp4
+
+This is a silent, captioned, edited actual-browser capture at 5 fps, with idle gaps shortened. It shows the Author/Admin views, a real isolated AI execution and the callback restriction; it is not a demonstration of successful end-to-end callback delivery.
+
+Repository access
+The repository is private. A collaborator invitation was sent to musavir@bookleafpub.in, resolved by GitHub to musavir-khurshid. Please accept the invitation to open the repository, documentation, exports and video links. The repository has not been made public.
+
+Implementation status and Free-plan limitation
+The app preserves the supplied 10 authors and 18 books. Role-based dashboards, royalty figures, filters and notification history are implemented, and the Admin and Author test passwords have been reset for review. Shared-secret matching and real AI component generation were verified.
+
+During the callback test, Bubble returned an explicit subscription-required Workflow API error. The full callback-to-NotificationLog Success path and successful bulk/replay acceptance therefore remain unverified. The main automation is unpublished and callback disabled after testing, so the live trigger is not currently operational. The actual failure and recovery evidence are documented; no paid plan or real author email was used. n8n Cloud workspace viewer access has not yet been configured; workflow exports and the recorded execution are provided for review.
+
+I have used the Free-plan review approach described in your email, with the app URL, test logins and walkthrough. Please advise how you would prefer the remaining API restriction and workspace-view access requirement to be assessed.
+
+Thank you for reviewing my work.
+
+Best regards,
 Sana Fatma
-
----
-Preparation status: draft only; no HR submission email sent. Reviewer invitation acceptance and private password delivery remain external steps.

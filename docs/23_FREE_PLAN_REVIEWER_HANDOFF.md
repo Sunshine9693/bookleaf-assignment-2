@@ -17,6 +17,8 @@ The user personally completed password reset/login steps, after which the builde
 
 The HR fallback allows **app URL + test logins + short recording** where Bubble collaborator access is limited. It does **not** waive the assignment's authenticated callback/status-update requirement or turn the current platform failure into a successful integration.
 
+**Latest recording for HR:** [3:28 fullscreen walkthrough](../deliverables/bookleaf-fullscreen-walkthrough.mp4). Use the [final delivery checklist](24_HR_DELIVERY_CHECKLIST.md) and [unsent HR email](20_SUBMISSION_EMAIL_DRAFT.md). The later recording preserves full UI images and shortens unrecorded idle gaps; it does not establish accepted callback delivery.
+
 ## Workflow files and evidence
 
 Private GitHub file links require repository access; the same paths are included in the handoff package:
