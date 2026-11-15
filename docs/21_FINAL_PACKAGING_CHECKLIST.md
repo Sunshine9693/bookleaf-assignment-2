@@ -1,5 +1,9 @@
 # Final checkpoint packaging checklist
 
+**Newest checkpoint:** [22_CURRENT_ACCEPTANCE.md](22_CURRENT_ACCEPTANCE.md) records the later real provider pass, three user-assisted reset/login destinations, disabled temporary provisioning and saved hardened main draft audit. Earlier pending-login/provider statements below describe the previous packaging checkpoint. The full connection remains unaccepted while the collection shared secret is empty.
+
+Additional files are staged by exact filename after review: current acceptance and user-assisted login/configuration captures; source/policy hardening module/builders/checks; accepted/rejected provider evidence and iteration ledger; prepared/saved hardened main plus distinct audits; reviewed metadata and accepted-provider screenshots. Credential-form images, passwords, tokens, source correspondence, local ID maps and unreviewed screenshots remain excluded. No whole-folder staging is authorized by this paragraph.
+
 Packaging refreshed **15 November 2026**, for the final one-hour handoff window. Historical captures/checks remain dated 13–14 November. This plan does not declare the assignment complete or authorize email, collaborator invitations, new activation, purchases or trials. The user has chosen to keep the Free plan.
 
 ## Current acceptance boundary

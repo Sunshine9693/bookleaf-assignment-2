@@ -1,0 +1,30 @@
+{
+  "evidence_date_ist": "2026-11-15",
+  "frozen_main_sha256": "66A20C051A143F2ED0B6E4FAA7023BA58BEBDA5FE4698D2C7E30A917874F8353",
+  "promotion_sha256": "E06C2446245A13C34B6167A30F0909FE8745D8D29B2B61CF9B5D1312F902E8D6",
+  "modified_nodes": [
+    "Build grounded prompt",
+    "Validate AI summary"
+  ],
+  "modified_fields": [
+    "parameters.jsCode"
+  ],
+  "all_other_node_fields_unchanged": true,
+  "node_count": 20,
+  "edge_count": 18,
+  "connections_settings_metadata_unchanged": true,
+  "live_candidate_workflow_id": "sCa7eqUyTpIoVwq1",
+  "execution_id": null,
+  "request_id": "manual-provider-AUTH001-1794720059626",
+  "provider_model": "openai/gpt-4o-mini",
+  "finish_reason": "stop",
+  "captured_table_matches_json": true,
+  "actual_response_replay_matches_delivered": true,
+  "normalization_changed_this_response": false,
+  "source_factual_parser_pass": true,
+  "exact_promoted_code_runtime_pass": true,
+  "body_words": 252,
+  "human_review": "PASS for this AUTH001 response: exact source figures/titles/dates/totals, general quarterly45day policy with correct calendar dates, separately overdue48hourreview, paidtitleack, plain text/no internal labels, no false threshold/rollover or fabricated transaction/payment schedule.",
+  "scope": "Provider component evidence only; promotion artifact prepared, not proof of live main deployment, Bubble callback or email.",
+  "no_new_network_request": true
+}

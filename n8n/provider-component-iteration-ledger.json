@@ -1,0 +1,17 @@
+{
+  "evidence_date_ist": "2026-11-15",
+  "scope": "Isolated provider component attempts; no Bubble callback or email",
+  "execution_ids": "Not captured",
+  "attempts": [
+    { "request_id": "manual-provider-AUTH001-1794684139733", "workflow_id": "tpaIMrUqgNbEgBiY", "valid": false, "result": "AI provider request failed after retries; root cause/actual attempt count unknown" },
+    { "request_id": "manual-provider-AUTH001-1794687022554", "workflow_id": "tpaIMrUqgNbEgBiY", "valid": true, "result": "Real generation and original factual validator pass; human review rejects internal status labels/Markdown and missing general quarterly policy.211words were below the old self-imposed target, not a brief requirement." },
+    { "request_id": "manual-provider-AUTH001-1794688161155", "workflow_id": "sCa7eqUyTpIoVwq1", "valid": false, "result": "Original hardening250–400editorial word guard rejected" },
+    { "request_id": "manual-provider-AUTH001-1794719057210", "workflow_id": "sCa7eqUyTpIoVwq1", "valid": false, "result": "Consolidated totals rejected; raw response also falsely applied below-threshold rollover to3570against1000" },
+    { "request_id": "manual-provider-AUTH001-1794719664485", "workflow_id": "sCa7eqUyTpIoVwq1", "valid": false, "result": "Old250–400editorial word guard rejected; subsequently corrected to200–400because brief has no word count" },
+    { "request_id": "manual-provider-AUTH001-1794720059626", "workflow_id": "sCa7eqUyTpIoVwq1", "valid": true, "result": "Real252word generation; hardened validator and human source/policy/plain-text review pass; provider returnedopenai/gpt-4o-mini withfinish_reasonstop" }
+  ],
+  "evidence_sources": ["Primary builder live UI captures", "Sanitized real response JSON", "Local exact-source/raw-to-delivered replay checks"],
+  "reviewer_browser_independent_verification": false,
+  "no_rejected_response_padded_or_repaired_into_evidence": true,
+  "live_main_callback_email_success_established": false
+}

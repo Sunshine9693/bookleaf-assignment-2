@@ -1,0 +1,39 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+const read = path => readFileSync(new URL('../' + path, import.meta.url), 'utf8');
+const frozen = '66A20C051A143F2ED0B6E4FAA7023BA58BEBDA5FE4698D2C7E30A917874F8353';
+if (createHash('sha256').update(read('n8n/royalty-summary-workflow.json')).digest('hex').toUpperCase() !== frozen) throw Error('Frozen template changed');
+const flow = JSON.parse(read('n8n/provider-component-verification-workflow.json'));
+flow.name = 'BookLeaf — Candidate Provider Output Hardening';
+const prompt = flow.nodes.find(n => n.name === 'Build grounded prompt');
+// Append instructions directly to the HTTP request's existing system message through
+// the prompt node's output, preserving the configured model and HTTP credentials.
+const originalPrompt = JSON.parse(read('n8n/provider-component-verification-workflow.json')).nodes.find(n => n.name === 'Build grounded prompt').parameters.jsCode;
+const suffix = `
+EDITORIAL CONSISTENCY CORRECTION: The brief specifies no word count. Override the earlier self-imposed250–400-word instruction: the allowed body range is200–400 words, preferred250–350. All factual/policy guards remain in force.
+OUTPUT CONTRACT — FINAL CHECK BEFORE ANSWERING
+Write approximately 300 words: target 250–350 whitespace-separated words in BODY, with an absolute permitted range of 200–400. Count BODY only, excluding SUBJECT and BODY labels. Do not return a short200-word email. Use this substantive structure to reach the target through your own genuine grounded writing:
+1. Brief first-name greeting/opening; then each original book title with copies sold, earned, paid, pending and last-payout date, and a clearly labelled consolidated totals section. Preserve all exact supplied facts.
+2. In ADDITION to those figure lines, write FOUR explanatory paragraphs of 40–50 words EACH. These must explain the supplied facts, not add new facts. Prefer45–50words each to keep the whole BODY above200words:
+Paragraph one: explain the outstanding title/balance with a sincere apology, priority review, and confirmation of the payout date within48hours when overdue. Confirming a date is not a promise that payment is scheduled or completed. For non-overdue authors, apply the original relevant policy instead.
+Paragraph two: acknowledge the fully paid title and explain that its paid and earned figures reconcile, with no pending amount for that title. If no title is fully paid, explain only its actual supplied payment/production position. Thank the author without inventing a transaction or cause of delay.
+Paragraph three: whenever any amount remains outstanding, explain the general quarterly royalty policy: normal payouts occur within45days after quarter end. For an overdue balance, clearly distinguish this normal policy from its separate priority review and48hour date confirmation; do not promise that the overdue payment waits for or is scheduled in the next quarter. Explain this context without repeating money or all three accounting labels.
+Paragraph four: provide a warm closing and practical next step: invite a reply with questions about these figures or titles, and accurately repeat the required48hour follow-up for overdue cases. Do not invent a support contact, operational step, bank request, service promise or additional deadline. Finish with Team BookLeaf.
+AMOUNT AND TOTALS DISCIPLINE: Currency figures may appear ONLY in the original per-book figure lines and ONE consolidated block with separately labelled Total Earned, Total Paid and Total Pending lines. After that block, do not repeat currency amounts, do not make another totals paragraph, and do not combine all three accounting labels in any prose paragraph. Use phrases such as outstanding balance or settled title instead. This prevents contradictory or ambiguous restatements. No unsupported claim that a title is performing well or that bank/payment actions occurred.
+POLICY APPLICABILITY: Use supplied flags as authoritative applicability instructions. If below_threshold=false, NEVER say below the minimum, minimum threshold, ₹1,000, or rollover. For EVERY pending balance, include the general quarterly policy and45day payout window. If any_overdue=true, ALSO explain separate priority review and payout-date confirmation within48hours; the normal policy is context, not a schedule for the overdue payment. No specific future date is needed for an overdue balance. If any_overdue=false, include the original supplied next-quarter-end and payout-by dates. Do not invent a payment date. Apply threshold/rollover only when below_threshold=true, never as an excuse for overdue review.
+Before returning, silently check that the four explanatory paragraphs are each40–50words and total BODY is250–350words. If too short, expand your own explanation of the supplied statement and required review language; never invent facts or repeat filler. Output only the requested SUBJECT/BODY, not this word count or checklist.
+Plain text only: no Markdown, bold wrappers, or headings marked with asterisks. Never print Red, Green, Yellow, badges, status codes, or Royalty Status lines. Translate internal statuses into the applicable payment explanation. All original factual and policy constraints still apply.`;
+// The prompt node returns an item whose ai_request.messages feed the unchanged HTTP node.
+const match = originalPrompt.match(/return \[\{ json: ([\s\S]*)$/);
+if (!match) throw Error('Prompt return shape changed');
+// Execute original Code body in a function, then augment its existing system prompt.
+prompt.parameters.jsCode = `const originalItems = (() => {\n${originalPrompt}\n})();\nfor (const item of originalItems) {\n const body = item.json.ai_request;\n if (!body?.messages?.length) throw new Error('Missing ai_request.messages');\n body.messages[0].content += ${JSON.stringify(suffix)};\n const flags = item.json.prompt_data.flags;\n body.messages[0].content += '\\nTHIS REQUEST APPLICABILITY: ' + JSON.stringify(flags);\n if (flags.any_overdue && !flags.below_threshold) body.messages[0].content += '\\nFor THIS request: overdue review AND general quarterly45day policy both apply; threshold and rollover DO NOT apply. Explain the normal quarterly policy with a45day window AND the separate overdue priority review with48hour payout-date confirmation. Do NOT claim payment is scheduled, deferred to next quarter, below a threshold or rolling over. Acknowledge the settled title. No currency amounts outside the per-book and single consolidated figure blocks.';\n}\nreturn originalItems;`;
+const lib = read('n8n/lib/royalty.mjs').replace(/^export /gm, '');
+const hardening = read('n8n/lib/provider-output-hardening.mjs').replace(/^export /gm, '');
+const validator = flow.nodes.find(n => n.name === 'Validate AI summary');
+validator.parameters.jsCode = `${lib}\n${hardening}\nconst context = $('Build grounded prompt').first().json;\nconst parsed = parseHardenedResponse($input.first().json, context.prompt_data, parseSummary);\nreturn [{ json: { ...parsed, request_id: context.request_id } }];`;
+validator.notes = 'Candidate only: strips paired bold wrappers and standalone Royalty Status: color lines, then unchanged factual validator plus remaining internal-label, Markdown and 200–400 body-word guards. Does not add or pad content. Raw evidence remains separate. No Bubble callback/email.';
+writeFileSync(new URL('../n8n/provider-output-hardening-candidate.json', import.meta.url), JSON.stringify(flow, null, 2) + '\n');
+writeFileSync(new URL('../n8n/provider-hardening-build-grounded-prompt.js.txt', import.meta.url), prompt.parameters.jsCode + '\n');
+writeFileSync(new URL('../n8n/provider-hardening-validate-ai-summary.js.txt', import.meta.url), validator.parameters.jsCode + '\n');
+console.log('Prepared inactive isolated candidate; frozen main unchanged.');

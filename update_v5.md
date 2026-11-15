@@ -1,5 +1,7 @@
 # BookLeaf Assignment 2 — latest checkpoint
 
+**Newest follow-up:** [22_CURRENT_ACCEPTANCE.md](docs/22_CURRENT_ACCEPTANCE.md) now supersedes older pending-provider/password statements in this file. A real 252-word summary passes factual/policy review; the user completed three reset/login checks and expected dashboards were observed. The main's two Code fields are saved and export-audited. Full callback/bulk/security acceptance remains unverified; matching shared-secret entry in Bubble collection authentication is still required. Temporary test-password setup is disabled.
+
 Packaging updated **15 November 2026 (IST)**, preserving 13–14 November captures plus new 15 November read-only history checks. Work remains incomplete; no live AI/callback success or password-login pass is claimed. This checkpoint supersedes older remaining-work lists where they differ. The user has chosen to keep the Free plan.
 
 ## Current blockers
@@ -10,6 +12,7 @@ Packaging updated **15 November 2026 (IST)**, preserving 13–14 November captur
 
 ## Established evidence
 
+- **Latest display/credential preparation:** Both Author and Admin book cards now explain blank unavailable metadata. Fresh Priya/Rohit/Kavita captures pass 93 local source comparisons, including BK004's five platforms and BK015's exact production stage/zeros. The OpenRouter allowed-domain field was found malformed and prepared as `openrouter.ai`; the user was handed the form for private key entry and Save. No rerun or successful credential/provider result is yet claimed. [Current follow-up](docs/15-NOVEMBER-FOLLOWUP.md).
 - **Final Free-plan packaging follow-up:** [15 November checks](docs/15-NOVEMBER-FOLLOWUP.md) add successful admin-detail logout, wrong-password rejection and protected-route denial after that rejection. Production-stage/zero rendering was observed, with missing-value label gaps recorded. The user cannot enter credentials now and requested continued packaging. Successful password login and AI/callback remain unverified. Since the negative-login workflow ran, do not interpret the earlier workflow-limit notice as proof that every workflow is blocked.
 - **15 November provider-only follow-up:** A separate manual n8n workflow (`tpaIMrUqgNbEgBiY`) used the existing `Header Auth account 2` selection and returned `valid=false`, controlled error `AI provider request failed after retries`, request ID `manual-provider-AUTH001-1794684139733`. No usable summary or underlying provider-error category was verified. This attempt had no Bubble callback or email node and created no Bubble log. It does not change the acceptance boundary or establish credential validity. The user reaffirmed **Keep Free** after the Bubble limit was rechecked.
 - Original source preserved: 10 Authors / 18 Books; earned ₹2,43,382, paid ₹2,02,543, pending ₹40,839. Local isolated converter checks pass 686/686 at both original and 14 November dates; source and eight data files are unchanged.

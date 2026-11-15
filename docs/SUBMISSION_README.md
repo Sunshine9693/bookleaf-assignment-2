@@ -1,35 +1,43 @@
 # BookLeaf — Author Royalty Dashboard & Automated Notification System
 
-> **Packaging checkpoint — 15 November 2026.** Earlier portal/request evidence is preserved, with new read-only history-filter checks on 15 November. A 3:46 narrated saved-evidence walkthrough of the earlier captures is ready. Genuine AI/callback success, password-login acceptance, reviewer access and an interactive recording remain pending. This is not a declaration of completed acceptance.
+> **Latest checkpoint:** genuine reviewed provider generation and three user-assisted reset/login checks are now established. The hardened main draft is saved and export-audited. Full Bubble callback/bulk/security acceptance and reviewer access remain pending; the collection shared-secret field was observed empty. See [current acceptance](22_CURRENT_ACCEPTANCE.md), which supersedes older pending-work statements below. No password or key is included in this package.
 
-**Current platform limit:** Bubble reports a Free-plan workflow limit requesting an upgrade to continue testing. No upgrade/trial was authorized or taken. The [plan evidence](bubble-free-limit-live.txt) and [latest checkpoint](../update_v5.md) record this blocker. Private credential replacement/setup also remains pending before further live integration testing.
+> **Packaging checkpoint — 15 November 2026.** Earlier portal/request evidence and the 3:46 narrated saved-evidence walkthrough are preserved. New evidence covers a real reviewed provider summary, three user-assisted reset/login destinations and current metadata checks. Full Bubble callback/bulk/security acceptance, reviewer access and an interactive recording remain pending.
+
+**Current connection limit:** the Bubble collection shared-secret field remains empty. Matching private credentials are required before full integration testing. The earlier [Free-plan notice](bubble-free-limit-live.txt) is preserved, but login and the backend reset route subsequently ran; a blanket workflow block is not established. No upgrade/trial was taken.
 
 ## 1. Overview
 
 A two-sided royalty portal for BookLeaf Publishing:
 
-- **Authors** have a role-scoped portal for their books, royalty figures, payout status and dynamic green/yellow/red badges. Two editor Run as sessions are verified; password login is pending.
+- **Authors** have a role-scoped portal for their books, royalty figures, payout status and dynamic green/yellow/red badges. Two editor Run as sessions and two user-assisted reset/login destinations are evidenced.
 - **Admins** see every author, filter and search the portfolio, open an author's detail, and trigger an AI-generated royalty summary.
-- **n8n** is configured to receive a protected webhook, validate the payload, call an AI API and return a Success/Failed callback. Live success is not yet verified.
+- **n8n** is configured to receive a protected webhook, validate the payload, call an AI API and return a Success/Failed callback. Real provider generation passes; the full callback remains unverified.
 - **Bubble** records requests in a Notification Log. Captured history contains Failed requests with timestamps, IDs and safe errors; generated-text fields are empty in those observations.
 
 **Stack:** Bubble.io (database, UI, authentication, privacy rules, backend workflows) · n8n (webhook, validation, idempotency, AI call, callback) · OpenRouter/OpenAI `gpt-4o-mini` class model.
 
-**Development preview:** [BookLeaf login](https://sanathesunshine9693.bubbleapps.io/version-test/login) — non-editor/password access pending verification.
+**Development preview:** [BookLeaf login](https://sanathesunshine9693.bubbleapps.io/version-test/login) — three user-assisted login destinations observed; independent reviewer access still needs confirmation.
 
 **Private repository:** [bookleaf-assignment-2](https://github.com/Sunshine9693/bookleaf-assignment-2) — reviewer access must be confirmed.
 
-**n8n artifacts:** generated [main workflow](../n8n/royalty-summary-workflow.json) and [safe error audit](../n8n/royalty-summary-error-workflow.json), plus saved live [main](../n8n/royalty-summary-live-export.json) and [error](../n8n/royalty-summary-error-live-export.json) exports. [Configuration audit](../n8n/live-export-verification.json) passes; the main remains inactive and error handler is published/attached, with raw retention off. This does not prove invocation, credential validity or live success.
+**n8n artifacts:** current [hardened main](../n8n/royalty-summary-hardened-workflow.json), [saved main draft](../n8n/royalty-summary-hardened-live-export.json), [current export audit](../n8n/hardened-live-export-verification.json) and [safe error audit](../n8n/royalty-summary-error-workflow.json). Earlier main/error exports remain historical evidence. Main is inactive and error handler attached/published, with raw retention off; this does not prove full callback or error-handler invocation.
 
 **Existing n8n draft:** [workspace workflow](https://sanafatma.app.n8n.cloud/workflow/THfIQmhfGo1r8Hzk) — workspace authorization required.
 
 **Evidence video:** [3:46 narrated saved-evidence walkthrough](../deliverables/bookleaf-evidence-walkthrough-final.mp4), with [validation](../deliverables/video-validation.json). It contains actual safe screenshots and labeled panels with local synthetic speech. It is not an interactive screen recording or login/live-success demonstration. [Conditional interactive script](14_RECORDING_SCRIPT.md) remains available.
 
-**Test credentials:** three approved development users exist; passwords/provisioning and actual login tests remain pending. No password is stored here.
+**Test credentials:** the user completed private reset/login steps for the three approved development users, and expected dashboards were observed. Password delivery to the reviewer remains the user's private step. No password is stored here.
 
-**Final Free-plan follow-up:** Wrong-password rejection, admin-detail logout and subsequent logged-out admin-route denial are now observed passes; successful password login remains pending. Production-book metadata has explicit stage/zero values but missing-value label gaps. [Details and evidence](15-NOVEMBER-FOLLOWUP.md). A login workflow ran, so the earlier workflow-limit notice does not establish that all app workflows are blocked. The user requested continued packaging without credential entry.
+| Role | Test email | Expected destination |
+| --- | --- | --- |
+| Admin | `bookleaf.admin@example.com` | Admin dashboard |
+| Author 1 | `bookleaf.author1@example.com` | Priya Sharma's dashboard |
+| Author 2 | `bookleaf.author2@example.com` | Rohit Kapoor's dashboard |
 
-**15 November provider-only follow-up:** A separate manual n8n test returned `valid=false` and `AI provider request failed after retries`. It produced no usable summary and made no Bubble callback or email request. The underlying provider failure is unconfirmed; this is not an integration pass. See the [component procedure](../n8n/PROVIDER_VERIFICATION_STEPS.md).
+**Free-plan follow-up:** wrong-password rejection, admin-detail logout and logged-out admin-route denial pass. Both book-card views explain blank unavailable metadata; fresh captures pass 93 source comparisons. OpenRouter domain/key setup and three user-assisted reset/logins subsequently completed. [Current evidence and remaining gates](22_CURRENT_ACCEPTANCE.md).
+
+**Provider-only result:** a real 252-word summary passes source, policy and formatting review. The [iteration ledger](../n8n/provider-component-iteration-ledger.json) preserves prior failures and rejected outputs. No Bubble callback or email was performed by this component test.
 
 ## 2. Dataset
 
@@ -94,7 +102,7 @@ No transaction-level payout history exists in the dataset, so none is shown. The
 
 ## 4. Author portal
 
-- Native email/password login UI; actual password acceptance remains pending.
+- Native email/password login UI; user-assisted reset/login destinations observed for the three approved test users.
 - **My Books:** title, ISBN, genre, status, publication date, MRP, platform availability.
 - **Royalty Overview:** copies sold, earned, paid, pending, last payout date.
 - **Consolidated summary:** total earned, total paid, total pending.
@@ -148,7 +156,7 @@ This is the **intended configured success path**. The observed run reached rejec
 - Branches:
   - Fully paid → positive acknowledgement.
   - Yellow → quarterly cycle + 45-day window + next dates.
-  - Red → own the delay, escalate, confirm within 48 hours; no promised date.
+  - Red → explain normal quarterly/45-day policy as context, separately own the overdue delay and confirm the payout date within 48 hours; no scheduled-payment promise.
   - In production → exact stage, no sales/royalty claims.
   - Pending below ₹1,000 → explain the threshold and rollover.
 - Output is validated for subject/body, length, placeholders and required content before Success.
@@ -158,7 +166,7 @@ This is the **intended configured success path**. The observed run reached rejec
 - The observed disconnected-service path records Failed with a safe visible error.
 - Seven bulk requests have captured timeout failures with requested 10:41/completed 10:46 display times. Exact elapsed seconds, early-call rejection and successful-terminal protection remain untested.
 - Retry creates a new request rather than resetting the prior row. Distinct original/retry Priya IDs and preserved original displayed fields are captured; action causation is builder-reported.
-- n8n's provider/callback retry paths are configured and fixture-tested; real provider/callback failures remain untested.
+- Manual real-provider attempts include a service failure, rejected responses and a reviewed pass. Actual retry-attempt counts, full callback failures and error-handler invocation remain unverified.
 - Busy controls, active-request searches, callback terminal exclusions and static-data guards reduce serial duplicates. Searches/static data are non-atomic; concurrent exactly-once behavior is not guaranteed.
 
 ## 9. Privacy rules
@@ -186,22 +194,24 @@ The full plan is in `docs/09_TEST_PLAN.md`. Summary:
 
 **Results:** local converter 686/686 checks at original and 14 November dates; eleven classifier boundary fixtures; 49/49 n8n local logic/export checks. Saved live evidence reconciles all ten admin rows/four payout filters, two author dashboards/six denials, fourteen Priya metadata fields, Ananya no-payout display, and eleven request-history rows. The nine-request bulk window matches all eligible authors exactly once; all outcomes are failures, including seven timeouts. See [QA ledger](13_QA_RESULTS.md), [notification reconciliation](notification-live-reconciliation.json) and [latest checkpoint](../update_v5.md). These local reconciliations do not execute a browser or AI call.
 
+Later evidence adds 93 current metadata/source comparisons, three user-assisted reset/login destinations, a genuine reviewed 252-word provider summary and the audited saved hardened main draft. These additional observations and their precise limits are in [current acceptance](22_CURRENT_ACCEPTANCE.md).
+
 ## 11. Challenges and learning
 
 - Live `Author.total_pending` was a NotificationLog relation and cached earned/paid fields were empty. Dashboard money values now sum numeric Book royalties, independently reconciled against the supplied JSON.
 - Fully Paid option display did not match stored Fully paid values. Correcting the display restored the one-author filter result without changing source records.
 - A copied author layout needed every admin detail search rebound to Current page Author. Priya's selected-detail capture now matches her source books and metadata.
 - Bubble AI credits were exhausted, so the remaining configuration was edited manually without upgrading. Editor configuration is tracked separately from live acceptance.
-- Credential completion and service connectivity remain unresolved. The implementation records safe failures/timeouts instead of substituting fixture text as a successful AI summary.
+- OpenRouter generation and private user-assisted password setup now work. Matching webhook-secret entry and the full callback remain unresolved. Genuine provider results are distinguished from local fixtures and failed/rejected attempts.
 
 ## 12. Limitations
 
 - Bubble Free may require a development/preview URL rather than a published live app.
 - n8n Cloud trial may expire; the JSON export and recording are the durable evidence.
 - No transaction-level payout history exists in the dataset.
-- No real email is sent by default; the generated summary is logged in Bubble.
+- No real email was sent. Persisting a successful generated summary in Bubble remains a callback acceptance gate.
 - The sample dataset uses fake author emails.
-- Genuine AI/callback success, live auth/replay security tests, successful bulk summaries, actual password logins, current author metadata/production edges, an interactive recording and reviewer access remain pending. The narrated evidence slideshow is complete.
+- Full Bubble callback, live auth/replay security tests, successful bulk summaries, an interactive recording and independent reviewer access remain pending. Real provider generation, user-assisted password-login destinations and current author/production captures are established. The older narrated evidence slideshow is complete.
 - Search/static-data duplicate protection is non-atomic. Native Bubble unknown-ID rejection may be HTTP 400 rather than the originally planned 404; actual callback responses remain to be tested.
 
 ## 13. Reproduce / import
@@ -210,8 +220,8 @@ See [the import runbook](05_DATA_IMPORT_RUNBOOK.md). Original source/reference f
 
 ## 14. Deliverables
 
-- Bubble app: development preview linked above; actual reviewer/password access pending.
-- Author/Admin test logins: approved users created; actual password provisioning/testing and secure reviewer delivery pending.
+- Bubble app: development preview linked above; independent reviewer access pending.
+- Author/Admin test logins: three user-assisted reset/login destinations observed; secure reviewer password delivery pending.
 - n8n workflow JSON: generated artifacts and saved live exports linked above; local export audit passes, credential values/invocation unverified.
 - n8n workspace view: existing draft linked above; no public access implied.
 - README: this document

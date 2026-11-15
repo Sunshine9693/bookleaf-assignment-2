@@ -1,0 +1,185 @@
+{
+  "checked_at": "2026-11-15T06:22:00.829Z",
+  "scope": "Read-only actual saved UI export configuration audit; no network/execution",
+  "workflow_id": "THfIQmhfGo1r8Hzk",
+  "active": false,
+  "node_count": 20,
+  "edge_count": 18,
+  "all20_runtime_nodes_match_prepared_hardened_revision": true,
+  "node_comparisons": [
+    {
+      "node": "Webhook royalty summary",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Validate payload",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": true,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Payload valid",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Reject invalid payload",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Request guard",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": true,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Request accepted",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Reject duplicate request",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Accept 202",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Build grounded prompt",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": false,
+      "promoted_code_exact_to_supplied_txt": true,
+      "normalization": "One terminal newline from supplied TXT; no executable Code change"
+    },
+    {
+      "node": "OpenRouter AI",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Validate AI summary",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": false,
+      "promoted_code_exact_to_supplied_txt": true,
+      "normalization": "One terminal newline from supplied TXT; no executable Code change"
+    },
+    {
+      "node": "Summary valid",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Success callback payload",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": true,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Failure callback payload",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": true,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Success callback to Bubble",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Failure callback to Bubble",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Callback delivery failed",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Receive and validate",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Idempotency limitation",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    },
+    {
+      "node": "Generate and return",
+      "runtime_fields_match": true,
+      "code_exact_to_prepared_json": null,
+      "promoted_code_exact_to_supplied_txt": null,
+      "normalization": null
+    }
+  ],
+  "known_default_normalization": "StopAndError omitted errorType means errorMessage",
+  "settings_match_historical_live_export": true,
+  "error_workflow_id": "CNrpnRtjpWmuCFjq",
+  "timezone": "Asia/Kolkata",
+  "timeout_seconds": 180,
+  "all4_retention_modes_off": true,
+  "credential_references_names_only": [
+    {
+      "node": "Webhook royalty summary",
+      "name": "Header Auth account"
+    },
+    {
+      "node": "OpenRouter AI",
+      "name": "Header Auth account 2"
+    },
+    {
+      "node": "Success callback to Bubble",
+      "name": "Header Auth account 3"
+    },
+    {
+      "node": "Failure callback to Bubble",
+      "name": "Header Auth account 3"
+    }
+  ],
+  "credential_values_verified": false,
+  "pin_data_empty": true,
+  "static_data_empty": true,
+  "credential_pattern_findings": [],
+  "pattern_scan_limitation": "Cannot prove absence of every possible secret",
+  "prepared_sha256": "E06C2446245A13C34B6167A30F0909FE8745D8D29B2B61CF9B5D1312F902E8D6",
+  "actual_live_export_sha256": "2CA8D623BAD4AEC6A266C97F0A1599064E04D0740C6461BC0823136E7102777B",
+  "frozen_historical_main_unchanged": true,
+  "configuration_checks_passed": true,
+  "integration_acceptance": "Not established: Bubble shared secret remains pending, callback/end-to-end run not verified, main remains inactive."
+}

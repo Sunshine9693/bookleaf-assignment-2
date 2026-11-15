@@ -1,0 +1,16 @@
+OUTPUT
+Schema
+Table
+JSON
+1 item
+valid
+	
+error
+	
+summary_subject
+	
+summary_body
+	
+request_id
+	
+true	empty	Your Royalty Summary from BookLeaf Publishing	Dear Priya,\n\nI hope this email finds you well. I’m reaching out to provide you with an update on your royalty account.\n\nHere’s the summary for your published books:\n\n- Title: Whispers of the Ganges\n  Copies Sold: 342\n  Royalty Earned: ₹11,970\n  Royalty Paid: ₹8,400\n  Royalty Pending: ₹3,570\n  Last Payout Date: 15 Oct 2025\n\n- Title: The Saffron Diaries\n  Copies Sold: 189\n  Royalty Earned: ₹7,938\n  Royalty Paid: ₹7,938\n  Royalty Pending: ₹0\n  Last Payout Date: 01 Dec 2025\n\nTotal Earned: ₹19,908\nTotal Paid: ₹16,338\nTotal Pending: ₹3,570\n\nI sincerely apologize for the delay regarding the pending balance for "Whispers of the Ganges." This amount is being flagged for priority review, and our royalties team will confirm the payout date within 48 hours. We understand the importance of timely payments and appreciate your patience.\n\nFor "The Saffron Diaries," I’m pleased to inform you that your royalty account for this title is fully settled, with all earned and paid figures reconciling perfectly. Thank you for your contributions to this project.\n\nAs a reminder, our normal royalty payouts occur within 45 days after the end of each quarter. The next quarter will end on 31 Dec 2026, with payouts expected by 14 Feb 2027. However, please note that your current pending balance is under separate review due to the delay.\n\nIf you have any questions or need further clarification regarding these figures, please feel free to reply to this email. For the overdue balance, we will follow up with you within 48 hours.\n\nWarm regards,  \nTeam BookLeaf	manual-provider-AUTH001-1794720059626	

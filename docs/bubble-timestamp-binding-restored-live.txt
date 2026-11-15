@@ -1,0 +1,248 @@
+Browser tab: 16, Title: "Sanathesunshine9693 | Bubble Editor", URL: "https://bubble.io/page?id=sanathesunshine9693&tab=BackendWorkflows&type=api&name=settings&wf_item=bTGZi".
+0 AXWebArea Sanathesunshine9693 | Bubble Editor, URL: bubble.io/page?id=sanathesunshine9693&tab=BackendWorkflows&type=api&name=settings&wf_item=bTGZi
+	1 container
+		2 container
+			3 button Description: Main Menu, ID: main-menu-button
+				4 image
+				5 image
+			6 pop up button (collapsed) Description: Selected app: Web, ID: dropdownmenu-cl-34-trigger, Secondary Actions: Expand
+				7 image
+				8 image
+			9 button Description: App Manager Button, ID: app-interface-manager-button
+				10 image
+				11 text settings
+				12 image
+			613 container workflowSearch
+				614 button button
+					706 text BookLeaf n8n - Request royalty summary
+					615 image
+			13 button Description: Open app search tool, ID: menubar-search-button
+				14 image
+			15 button button
+				16 image
+			17 button Description: button, ID: undo-button
+				18 image
+			19 button (disabled) Description: button, ID: redo-button
+				20 image
+			21 button Description: 0, ID: issues-button
+				22 image
+				23 text 0
+			24 button Description: Show AI Agent, ID: menubar-agent-panel-toggle
+			25 container menubar-preview-button
+				26 button Preview
+					27 image
+				28 pop up button (collapsed) ID: dropdownmenu-cl-77-trigger, Secondary Actions: Expand
+					29 image
+			30 button Description: Upgrade to deploy, ID: upgrade-to-deploy
+		31 button Preview
+			32 image
+		33 button Design
+			34 image
+		35 button Workflow
+			36 image
+		37 button Backend Workflows
+			38 image
+		39 button Data
+			40 image
+		41 button API Connector
+			42 image
+		43 button Global
+			44 image
+		45 button Plugins
+			46 image
+		47 button Settings
+			48 image
+		49 button Logs
+			50 image
+		51 button Description: button, ID: leftnav-theme-toggle-button
+			52 image
+		53 button Description: button, ID: menubar-help-menu-button
+			54 image
+		55 button S
+		616 container
+			617 text Backend Workflows
+			618 button Add Workflow
+				619 image
+				620 text New
+			621 text IN THIS APP 4
+			622 button button
+				623 image
+			624 container
+				625 button button
+					626 image
+			627 button button
+				628 image
+			629 container
+				630 container Description: tree-item-uncategorized, ID: uncategorized
+					631 button Caret
+						632 image
+					633 image
+					634 text field (settable) Description: inline input, Value: Uncategorized
+					635 text 4
+				636 container Description: tree-item-bTGZQ, ID: bTGZQ
+					637 container Icon Badge
+						638 image
+					639 text field (settable) Description: inline input, Value: mark_summary_timeout
+					640 text Current User's role is Admin and log's status is not Success and log's status is not Failed and log is not empty
+				641 container Description: tree-item-bTGSX0, ID: bTGSX0
+					642 container Icon Badge
+						643 image
+					644 text field (settable) Description: inline input, Value: n8n_callback
+					645 text status is not Queued and Search for NotificationLogs:count > 0 and status is not Processing
+				646 container Description: tree-item-bTGex, ID: bTGex
+					647 container Icon Badge
+						648 image
+					649 text field (settable) Description: inline input, Value: test_self_password_reset
+				650 container Description: tree-item-bTGYx, ID: bTGYx
+					651 container Icon Badge
+						652 image
+					653 text field (settable) Description: inline input, Value: trigger_royalty_summary
+					654 text Current User's role is Admin and author is not empty and Search for NotificationLogs:count is 0
+			709 text WORKFLOW:
+			710 text field (settable) Description: Current workflow name, Value: trigger_royalty_summary
+			711 button button
+				712 image
+				713 text 3
+				714 text  trigger
+				715 text s
+			716 button
+				717 image
+			718 button
+				719 image
+			720 button Add/view notes button
+				721 image
+				722 text Add notes
+			723 button Explain this workflow
+				724 image
+				725 text Explain this workflow
+			726 container
+				727 button Card
+					728 image
+					729 text API Event
+					730 text trigger_royalty_summary is called
+					731 text Only when Current User's role is Admin and author is not empty and Search for NotificationLogs:count is 0
+				732 button Add
+					733 image
+				734 container
+					735 button Drag handle
+					736 button Card
+						737 image
+						738 text Step 
+						739 text 1
+						740 text Create a new NotificationLog...
+				741 button Add
+					742 image
+				743 container
+					744 button Drag handle
+					745 button Card
+						746 image
+						747 text Step 
+						748 text 2
+						749 text Make changes to NotificationLog...
+				750 button Add
+					751 image
+				752 container
+					753 button Card
+					754 button Card
+					755 container
+						756 button Drag handle
+						757 button Card
+							758 image
+							759 text Step 
+							760 text 3
+							761 text Schedule API Workflow mark_summary_timeout
+				762 button Add
+					763 image
+				764 container
+					765 button Drag handle
+						789 image
+					766 button Card
+						767 image
+						768 text Step 
+						769 text 4
+						770 text BookLeaf n8n - Request royalty summary
+						790 button More options
+							791 image
+				771 button Add
+					772 image
+				773 container
+					774 button Drag handle
+					775 button Card
+						776 image
+						777 text Step 
+						778 text 5
+						779 text Make changes to NotificationLog...
+						780 text Only when Result of step 4 (BookLeaf n8n - Re...)'s accepted is no and Result of step 4 (BookLeaf n8n - Re...)'s duplicate is no
+				781 button Add
+					782 image
+				783 button Zoom out
+					784 image
+				785 container
+					786 text 100 %
+				787 button Zoom in
+					788 image
+		230 container
+			231 button Agent
+				702 image
+				233 text Agent
+			703 button Properties
+				704 image
+				705 text Properties
+			236 button Close panel
+				237 image
+			792 container BookLeaf n8n - Request royalty summary
+				793 container
+					794 image
+					795 container Description: BookLeaf n8n - Request royalty summary, ID: property-editor-title-label
+						796 text field (settable) Description: Current node name, Value: BookLeaf n8n - Request royalty summary
+				797 button button
+					798 image
+				799 container
+					800 image
+					801 heading Properties, Value: 3
+						802 text Properties
+					803 text (header) X-BookLeaf-Timestamp
+					804 container
+						805 container
+							806 text Current date/time
+							807 text :formatted as 2026-11-15T06:07:01.638Z
+					808 text (body) request_id_json
+					809 container
+						810 container
+							811 text Result of step 2 (Make changes to N...)
+							812 text 's request_id
+							813 text :formatted as JSON-safe
+					814 text (body) author_id_json
+					815 container
+						816 container
+							817 text author
+							818 text 's author_id
+							819 text :formatted as JSON-safe
+					820 text (body) author_name_json
+					821 container
+						822 container
+							823 text author
+							824 text 's name
+							825 text :formatted as JSON-safe
+					826 text (body) books_json
+					827 container
+						828 container
+							829 text Search for Books
+							830 text :format as text
+					831 image
+					832 heading Execution options, Value: 3
+						833 text Execution options
+					834 text Disable action
+					835 switch Description: Disable action, Value: 0, ID: field_action_disabled
+					836 image
+					837 heading Only when, Value: 3
+						838 text Only when
+					839 text Condition
+					840 button Add
+					841 container
+						842 text Expand
+						843 image
+		611 AXWebArea bubble.io/appeditor/clipboard
+		612 text entry area (settable)
+
+The focused UI element is 766 button Card

@@ -1,6 +1,10 @@
 # QA results and acceptance ledger
 
+**Newest acceptance update:** real reviewed provider generation, three user-assisted reset/login destinations, disabled temporary provisioning and the saved hardened main draft export are recorded in [22_CURRENT_ACCEPTANCE.md](22_CURRENT_ACCEPTANCE.md). This supersedes older pending-password/provider statements. Full Bubble callback and successful bulk/security gates remain pending.
+
 **15 November follow-up:** Author-detail logout, wrong-password rejection and subsequent logged-out admin-route denial passed in the browser. Production/null rendering is partial: exact stage and numeric zeros are correct, but missing metadata lacks explicit unavailable labels. See [scoped follow-up evidence](15-NOVEMBER-FOLLOWUP.md). Successful password login and live AI/callback remain pending. The negative-login workflow ran; the previously reported platform notice does not prove that all workflows are blocked.
+
+**Later display correction:** Both book-card views now explain that blank publication date, MRP or platforms mean Not available. Priya and Rohit author-role metadata and the production-card layout were captured after this edit. This is an explanatory note, not individual default-value replacement. See the same follow-up for current evidence and the pending private OpenRouter credential handoff.
 
 Last local verification: **14 November 2026 (IST)**. Machine evidence: [qa-evidence.json](qa-evidence.json). Saved live UI captures were re-reconciled locally on this date; this does not make them new browser sessions.
 

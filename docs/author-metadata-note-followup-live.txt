@@ -1,0 +1,50 @@
+Browser tab: 19, Title: "Your Bubble app", URL: "https://sanathesunshine9693.bubbleapps.io/version-test/author-dashboard".
+1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/author-dashboard
+	2 container
+		3 text BOOK
+		4 text EARNED
+		5 text LAST PAYOUT
+		6 text PAID
+		7 text PENDING
+		8 text STATUS
+		17 container
+			18 text Green — Fully paid
+			19 text 7938
+			20 text Dec 1, 2025 12:00 pm
+			21 text 7938
+			22 text 0
+			23 text The Saffron Diaries
+			24 container
+				25 text ISBN: 978-93-5XXXX-02-8  |  Genre: Non-Fiction / Memoir  |  Published: Jan 10, 2024 12:00 pm
+MRP: Rs 450  |  Available on: Amazon India, BookLeaf Store  |  Copies sold: 189
+				26 text Blank publication date, MRP or platforms = Not available.
+				27 text Publication status: Published & Live
+			28 text Red — Overdue
+			29 text 11970
+			30 text Oct 15, 2025 12:00 pm
+			31 text 8400
+			32 text 3570
+			33 text Whispers of the Ganges
+			34 container
+				35 text ISBN: 978-93-5XXXX-01-1  |  Genre: Literary Fiction  |  Published: Jun 20, 2023 12:00 pm
+MRP: Rs 399  |  Available on: Amazon India, Flipkart, BookLeaf Store  |  Copies sold: 342
+				36 text Blank publication date, MRP or platforms = Not available.
+				37 text Publication status: Published & Live
+		9 text My Books
+		10 text Author Royalty Portal
+		11 text Log out
+		38 text Welcome back, Priya Sharma
+		13 text Your royalty overview, updated live.
+		14 text TOTAL PAID
+		39 text 16338
+		15 text PENDING ROYALTY
+		40 text 3570
+		16 text TOTAL EARNED
+		41 text 19908
+	42 container
+		43 container
+			44 image Bubble
+			45 text Built on Bubble
+		46 link bubble.io/?utm_source=app_mention&utm_content=sanathesunshine9693
+
+The focused UI element is 1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/author-dashboard

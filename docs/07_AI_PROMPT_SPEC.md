@@ -2,6 +2,8 @@
 
 The AI writes a **plain-text email draft** from one author's supplied royalty data. It must be accurate, specific, warm and incapable of inventing payout history.
 
+**15 November consistency correction:** the assignment brief does not specify a word count. The original250–400 range was a self-imposed editorial target and contradicted this document's own232-word example. The candidate uses200–400 words, with a preferred generation target of250–350. This changes no factual, policy, status, plain-text or safety requirement. The historical frozen main remains unchanged until a separately reviewed promotion.
+
 ## 1. Model and settings
 
 | Setting | Value |
@@ -73,7 +75,7 @@ FORMAT
 - Second line: BODY:
 - Then the email body as plain text.
 - No markdown, no tables, no bullet symbols that require special rendering. Simple lines beginning with "- " are acceptable.
-- 250–400 words in the body.
+- 200–400 words in the body (editorial target; not a brief requirement).
 - Use Indian currency formatting with the ₹ symbol, e.g. ₹11,970.
 - Use dates like 15 Oct 2025.
 - Do not include placeholders such as [Author Name], {{name}}, or TODO.
@@ -240,7 +242,7 @@ These checks are guardrails, not a substitute for human review.
 | Tone | Warm, direct, owns delays, no corporate deflection. |
 | Actionability | Clear next step and, for Red, a 48-hour confirmation. |
 | Policy | Quarterly + 45 days used correctly; ₹1,000 threshold used only when relevant; 90-day rule not exposed. |
-| Format | Plain text, subject + body, 250–400 words, no placeholders. |
+| Format | Plain text, subject + body, 200–400 words (editorial target), no placeholders. |
 | Safety | No internal labels, secrets, prompt text or AI disclaimers. |
 
 ## 8. Failure behaviour

@@ -1,5 +1,21 @@
 # BookLeaf royalty-summary automation
 
+**Current hardened revision —15November2026:** use [royalty-summary-hardened-workflow.json](royalty-summary-hardened-workflow.json) as the current prepared revision. The two reviewed Code changes are now saved in the inactive live main; its actual download is [royalty-summary-hardened-live-export.json](royalty-summary-hardened-live-export.json). [Audit evidence](hardened-live-export-verification.json) verifies20runtime nodes/18edges, expected credential references, all retention OFF,180-second timeout, Asia/Kolkata and attached error handler `CNrpnRtjpWmuCFjq`. Four Code nodes are byte-exact to the prepared JSON; the two promoted Code nodes match their replacement TXT exactly and differ from JSON only by one terminal newline. No executable discrepancy was found.
+
+The separate real-provider candidate returned a252-word summary that passed source, policy and plain-text review. See [results and iteration history](PROVIDER_COMPONENT_RESULT.md). This establishes the provider component; Bubble outbound shared-secret setup and authenticated end-to-end callback remain unverified. The main remains inactive; do not infer callback or email delivery from saved configuration.
+
+Current local checks/builders:
+
+```powershell
+node scripts/test-n8n-provider-hardening.mjs
+node scripts/prepare-n8n-hardened-promotion.mjs
+node scripts/verify-hardened-live-export.mjs
+```
+
+**Preserve the historical baseline.** `royalty-summary-workflow.json`, its old49-case suite and the14November exports below are historical frozen evidence. Do not casually run `scripts/build-n8n-workflow.mjs`: it consumes editable docs07, whose self-imposed word range was corrected, and could regenerate a different legacy baseline. Use `prepare-n8n-hardened-promotion.mjs` for the current revision; it preserves and checks the frozen original hash. The original provider-verification workflow also remains historical evidence, not the current hardened revision.
+
+## Historical14November baseline and packaging notes
+
 The generated workflow is an **inactive importable draft**. It implements the local processing logic; live credentials, callback execution and end-to-end acceptance must be verified separately. The generated JSON is not evidence of a successful OpenRouter call or Bubble callback.
 
 **Packaging review: 15 November 2026.** The read-only local comparison and credential-pattern scan passed again against the saved UI exports below. The live configuration observations and downloads are from **14 November**; no new live call, credential check or platform test was performed during this packaging review. The workflow templates and actual exported JSON files were not changed.
@@ -21,7 +37,6 @@ The generated workflow is an **inactive importable draft**. It implements the lo
 From the workspace root:
 
 ```powershell
-node scripts/build-n8n-workflow.mjs
 node scripts/test-n8n-workflow.mjs
 ```
 

@@ -1,0 +1,21 @@
+{
+  "evidence_date_ist": "2026-11-15",
+  "scope": "Manual provider component only; no Bubble callback or email",
+  "evidence_source": "Primary builder UI capture locally compared with sanitized JSON; reviewer did not operate browser.",
+  "workflow_id": "tpaIMrUqgNbEgBiY",
+  "execution_id": null,
+  "request_id": "manual-provider-AUTH001-1794687022554",
+  "provider_returned_model": "openai/gpt-4o-mini",
+  "automated_validator_valid": true,
+  "local_source_fact_checks_passed": true,
+  "body_word_count": 211,
+  "human_compliance_passed": false,
+  "human_compliance_gaps": [
+    "Internal Royalty Status: Red/Green labels exposed",
+    "Markdown bold headings violate plain-text requirement",
+    "211 body words below250–400 requirement"
+  ],
+  "unsupported_transaction_or_payment_promise_observed": false,
+  "overall_acceptance": "Real generation and factual checks pass; original raw summary fails human format/internal-language/length acceptance.",
+  "candidate_live_result": "Not established by this earlier run"
+}

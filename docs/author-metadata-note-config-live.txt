@@ -1,0 +1,525 @@
+Browser tab: 16, Title: "Sanathesunshine9693 | Bubble Editor", URL: "https://bubble.io/page?id=sanathesunshine9693&tab=Design&type=page&name=author-dashboard&elements=bTGXT".
+0 AXWebArea Sanathesunshine9693 | Bubble Editor, URL: bubble.io/page?id=sanathesunshine9693&tab=Design&type=page&name=author-dashboard&elements=bTGXT
+	1 container
+		2 container
+			3 button Description: Main Menu, ID: main-menu-button
+				4 image
+				5 image
+			6 pop up button (collapsed) Description: Selected app: Web, ID: dropdownmenu-cl-34-trigger, Secondary Actions: Expand
+				7 image
+				8 image
+			855 button Description: App Manager Button, ID: app-interface-manager-button
+				856 image
+				857 text author-dashboard
+				858 image
+			1060 container
+				1061 button button
+					1062 image
+					1063 text book-metadata
+				1064 button button
+					1065 image
+			863 button Description: button, ID: menubar-zoom-dropdown-btn
+				864 text 100%
+				865 image
+			94 button Description: Switch to responsive mode, ID: responsive-mode-toggle
+				95 image
+			866 button Description: Show component library, ID: component-library-button
+				867 image
+			17 button (disabled) button
+			19 button Description: Open app search tool, ID: menubar-search-button
+				20 image
+			21 button button
+				22 image
+			23 button Description: button, ID: undo-button
+				24 image
+			25 button (disabled) Description: button, ID: redo-button
+				26 image
+			27 button Description: 0, ID: issues-button
+				28 image
+				29 text 0
+			30 button Description: Show AI Agent, ID: menubar-agent-panel-toggle
+			31 container menubar-preview-button
+				32 button Preview
+					33 image
+				34 pop up button (collapsed) ID: dropdownmenu-cl-77-trigger, Secondary Actions: Expand
+					35 image
+			36 button Description: Upgrade to deploy, ID: upgrade-to-deploy
+		37 button Preview
+			38 image
+		39 button Design
+			40 image
+		41 button Workflow
+			42 image
+		43 button Backend Workflows
+			44 image
+		45 button Data
+			46 image
+		47 button API Connector
+			48 image
+		49 button Global
+			50 image
+		51 button Plugins
+			52 image
+		53 button Settings
+			54 image
+		55 button Logs
+			56 image
+		57 button Description: button, ID: leftnav-theme-toggle-button
+			58 image
+		59 button Description: button, ID: menubar-help-menu-button
+			60 image
+		61 button S
+		868 container pop-toolbox
+			869 container
+				870 button
+					871 image
+				872 text field (settable)
+				873 text Elements Tree
+				874 button button
+					875 image
+				876 button button
+					877 image
+				878 button Close panel
+					879 image
+				1066 container
+					1067 image
+					1068 text author-dashboard
+				1069 container
+					1070 image
+					1071 text Layers
+				1072 container
+					1073 image
+					1074 image
+					1075 text books-card
+				1076 container
+					1077 image
+					1078 text Book Text
+				1079 container
+					1080 image
+					1081 text Earned Text
+				1082 container
+					1083 image
+					1084 text Last Text
+				1085 container
+					1086 image
+					1087 text Paid Text
+				1088 container
+					1089 image
+					1090 text Pending Text
+				1091 container
+					1092 image
+					1093 text Status Text
+				1094 container
+					1095 image
+					1096 image
+					1097 text books-list
+				1098 container
+					1099 image
+					1100 image
+					1101 text book-status-badge
+				1102 container
+					1103 image
+					1104 text book-earned
+				1105 container
+					1106 image
+					1107 text book-last-payout
+				1108 container
+					1109 image
+					1110 text book-paid
+				1111 container
+					1112 image
+					1113 text book-pending
+				1114 container
+					1115 image
+					1116 text book-title
+				1117 container
+					1118 image
+					1119 text book-metadata
+				1120 container
+					1121 image
+					1122 text Books Title
+				1123 container
+					1124 image
+					1125 image
+					1126 text header
+				1127 container
+					1128 image
+					1129 text welcome-title
+				1130 container
+					1131 image
+					1132 text welcome-sub
+				1133 container
+					1134 image
+					1135 image
+					1136 text stat-paid
+				1137 container
+					1138 image
+					1139 image
+					1140 text stat-pending
+				1141 container
+					1142 image
+					1143 image
+					1144 text stat-earned
+			899 container
+				900 button
+					901 image
+				902 text field (settable)
+			903 container
+				904 container accordion-cl-255-item-cl-256
+					905 button (expanded) Visual Elements, ID: accordion-cl-255-item-cl-256-trigger, Secondary Actions: Collapse
+						906 image
+						907 text Visual Elements
+					908 container Visual Elements, ID: accordion-cl-255-item-cl-256-content
+						909 image
+						910 text Text
+						911 image
+						912 text Button
+						913 image
+						914 text Icon
+						915 image
+						916 text Link
+						917 image
+						918 text Image
+						919 image
+						920 text Shape
+						921 image
+						922 text Alert
+						923 image
+						924 text Video
+						925 image
+						926 text HTML
+						927 image
+						928 text Map
+						929 image
+						930 text Built on Bubble
+						931 image
+						932 text Install More
+				933 container accordion-cl-258-item-cl-259
+					934 button (expanded) Containers, ID: accordion-cl-258-item-cl-259-trigger, Secondary Actions: Collapse
+						935 image
+						936 text Containers
+					937 container Containers, ID: accordion-cl-258-item-cl-259-content
+						938 image
+						939 text Group
+						940 image
+						941 text Repeating Group
+						942 image
+						943 text Popup
+						944 image
+						945 text Floating Group
+						946 image
+						947 text Group Focus
+						948 image
+						949 text Table
+						950 image
+						951 text Install More
+				952 container accordion-cl-261-item-cl-262
+					953 button (expanded) Input forms, ID: accordion-cl-261-item-cl-262-trigger, Secondary Actions: Collapse
+						954 image
+						955 text Input forms
+					956 container Input forms, ID: accordion-cl-261-item-cl-262-content
+						957 image
+						958 text Input
+						959 image
+						960 text Multiline Input
+						961 image
+						962 text Checkbox
+						963 image
+						964 text Dropdown
+						965 image
+						966 text Searchbox
+						967 image
+						968 text Radio Buttons
+						969 image
+						970 text Slider Input
+						971 image
+						972 text Date/Time Picker
+						973 image
+						974 text Picture Uploader
+						975 image
+						976 text File Uploader
+						977 image
+						978 text Install More
+				979 container accordion-cl-264-item-cl-265
+					980 button (expanded) Authentication, ID: accordion-cl-264-item-cl-265-trigger, Secondary Actions: Collapse
+						981 image
+						982 text Authentication
+					983 container Authentication, ID: accordion-cl-264-item-cl-265-content
+						984 image
+						985 text Apple Sign-In Button
+				986 container accordion-cl-267-item-cl-268
+					987 button (expanded) Reusable elements, ID: accordion-cl-267-item-cl-268-trigger, Secondary Actions: Collapse
+						988 image
+						989 text Reusable elements
+					990 container Reusable elements, ID: accordion-cl-267-item-cl-268-content
+						991 image
+						992 text New Reusable
+		993 container bTGMa
+			994 container ad_books_card
+				995 text BOOK
+				996 text EARNED
+				997 text LAST PAYOUT
+				998 text PAID
+				999 text PENDING
+				1000 text STATUS
+				1001 container ad_books_list
+					1002 container
+						1003 text Yellow — Pending
+						1004 text 1200
+						1005 text Jan 5, 2025
+						1006 text 800
+						1007 text 400
+						1008 text The Silent Harbor
+						1009 text The Silent Harbor
+						1145 container
+							1146 image
+							1147 text book-metadata
+							1148 button Edit with agent
+					1035 container
+						1342 text Yellow — Pending
+						1343 text 1200
+						1344 text Jan 5, 2025
+						1345 text 800
+						1346 text 400
+						1347 text The Silent Harbor
+						1348 text The Silent Harbor
+					1043 container
+						1349 text Yellow — Pending
+						1350 text 1200
+						1351 text Jan 5, 2025
+						1352 text 800
+						1353 text 400
+						1354 text The Silent Harbor
+						1355 text The Silent Harbor
+					1051 container
+						1356 text Yellow — Pending
+						1357 text 1200
+						1358 text Jan 5, 2025
+						1359 text 800
+						1360 text 400
+						1361 text The Silent Harbor
+						1362 text The Silent Harbor
+				1010 text My Books
+			1011 container bTGPM
+				1012 text BookLeaf
+				1013 text Author Royalty Portal
+				1014 text Log out
+			1015 text Welcome back, Author name
+			1059 text Your royalty overview, updated live.
+			1020 container ad_stat_paid
+				1021 text TOTAL PAID
+				1022 text 24
+			1023 container ad_stat_pending
+				1024 text PENDING ROYALTY
+				1025 text 24
+			1026 container bTGQQ
+				1027 text TOTAL EARNED
+				1028 text 24
+		390 container
+			391 button Agent
+				392 image
+				393 text Agent
+			394 button Properties
+				395 image
+				396 text Properties
+			397 button Close panel
+				398 image
+			1149 container book-metadata
+				1150 container
+					1151 image
+					1152 container Description: book-metadata, ID: property-editor-title-label
+						1153 text field (settable) Description: Current node name, Value: book-metadata
+				1154 button button
+					1155 image
+				1156 pop up button (collapsed) Description: More options, ID: dropdownmenu-cl-270-trigger, Secondary Actions: Expand
+					1157 image
+				1158 container
+					1159 button Visual
+					1160 button Interaction
+					1161 button Conditional
+					1162 image
+					1163 heading Content, Value: 3
+						1164 text Content
+					1165 button rich-text-button
+						1166 image
+					1167 text Text
+					1363 container
+						1364 text ISBN: 
+						1365 container
+							1366 text Current cell's Book
+							1367 text 's isbn
+						1368 text   |  Genre: 
+						1369 container
+							1370 text Current cell's Book
+							1371 text 's genre
+						1372 text   |  Published: 
+						1373 container
+							1374 text Current cell's Book
+							1375 text 's publication_date
+						1376 text 
+MRP: Rs 
+						1377 container
+							1378 text Current cell's Book
+							1379 text 's mrp
+						1380 text   |  Available on: 
+						1381 container
+							1382 text Current cell's Book
+							1383 text 's available_on
+						1384 text   |  Copies sold: 
+						1385 container
+							1386 text Current cell's Book
+							1387 text 's total_copies_sold
+						1388 text 
+Blank publication date, MRP or platforms = Not available.
+Publication status: 
+						1389 container
+							1390 text Current cell's Book
+							1391 text 's status
+					1197 text Canvas Placeholder
+					1198 text field (settable) Canvas Placeholder, Value: The Silent Harbor, ID: field_editor_preview_text
+					1199 image
+					1200 heading Configure, Value: 3
+						1201 text Configure
+					1202 text Recognize links and emails
+					1203 switch Description: Recognize links and emails, Value: 0, ID: field_recognize_links
+					1204 text BBCode applies
+					1205 switch Description: BBCode applies, Value: 1, ID: field_no_bbcode
+					1206 image
+					1207 heading Size, Value: 3
+						1208 text Size
+					1209 text Width
+					1210 pop up button (disabled, collapsed) Fixed, ID: select-cl-275-trigger, Secondary Actions: Expand
+						1211 text Fixed
+						1212 image
+					1213 container NumberField-cl-277
+						1214 text field (settable)
+							1215 stepper (settable, integer) Value: 950, ID: field_width
+						1216 text px
+					1217 text Height
+					1218 pop up button (disabled, collapsed) Fixed, ID: select-cl-279-trigger, Secondary Actions: Expand
+						1219 text Fixed
+						1220 image
+					1221 container NumberField-cl-281
+						1222 text field (settable)
+							1223 stepper (settable, integer) Value: 68, ID: field_height
+						1224 text px
+					1225 image
+					1226 heading Layout, Value: 3
+						1227 text Layout
+					1228 text Position
+					1229 text field (settable) X
+						1230 text X
+						1231 stepper (settable, integer) Value: 24, ID: field_left
+					1232 text field (settable) Y
+						1233 text Y
+						1234 stepper (settable, integer) Value: 48, ID: field_top
+					1235 text Spacing
+					1236 text Padding
+					1237 text field (settable)
+						1238 image
+						1239 stepper (settable, integer) Value: 0, ID: NumberField-cl-287-input
+					1240 text field (settable)
+						1241 image
+						1242 stepper (settable, integer) Value: 0, ID: NumberField-cl-289-input
+					1243 button button
+						1244 image
+					1245 text Margin
+					1246 text field (settable)
+						1247 image
+						1248 stepper (settable, integer) Value: 0, ID: NumberField-cl-291-input
+					1249 text field (settable)
+						1250 image
+						1251 stepper (settable, integer) Value: 0, ID: NumberField-cl-293-input
+					1252 button button
+						1253 image
+					1254 container
+						1255 image
+						1256 heading Style, Value: 3
+							1257 text Style
+						1258 button Reset Style
+							1259 image
+						1260 button Create Style
+							1261 image
+						1262 button Edit Style
+							1263 image
+						1264 button Detach Style
+							1265 image
+						1266 button (collapsed) Body 16 Overridden, Secondary Actions: Expand
+							1267 image
+							1268 text Body 16
+							1269 text Overridden
+					1270 image
+					1271 heading Text, Value: 3
+						1272 text Text
+					1273 combo box (collapsed) Secondary Actions: Expand
+						1274 text App Font (Inter)
+						1275 image
+					1276 combo box (collapsed) Secondary Actions: Expand
+						1277 text 400
+						1278 image
+					1279 combo box (collapsed) Secondary Actions: Expand
+						1280 text 13px
+						1281 image
+					1282 container group-cl-295
+						1283 checkbox Description: Left, Value: 1, ID: group-cl-295-item-cl-296
+							1284 image
+						1285 checkbox Description: Center, Value: 0, ID: group-cl-295-item-cl-297
+							1286 image
+						1287 checkbox Description: Right, Value: 0, ID: group-cl-295-item-cl-298
+							1288 image
+					1289 container group-cl-299
+						1290 checkbox Description: Bold, Value: 0, ID: group-cl-299-item-cl-321
+							1291 image
+						1292 checkbox Description: Italic, Value: 0, ID: group-cl-299-item-cl-322
+							1293 image
+						1294 checkbox Description: Underline, Value: 0, ID: group-cl-299-item-cl-323
+							1295 image
+					1296 button button
+						1297 image
+					1298 button #64748B %
+						1299 Color Swatch
+						1300 text field (settable) Value: #64748B, ID: field_font_color
+						1301 stepper (settable, integer) Value: 0, Details: 100, ID: NumberField-cl-303-input
+						1302 text %
+					1303 button Make dynamic
+						1304 image
+					1305 image
+					1306 heading Appearance, Value: 3
+						1307 text Appearance
+					1308 text Opacity
+					1309 container NumberField-cl-307
+						1310 text field (settable)
+							1311 image
+							1312 stepper (settable, integer) Opacity, Value: 100, ID: field_opacity
+						1313 text %
+					1314 text Rotation
+					1315 text field (settable)
+						1316 image
+						1317 stepper (settable, integer) Rotation, Value: 0, ID: field_rotation_angle
+					1318 text Radius
+					1319 text field (settable)
+						1320 image
+						1321 stepper (settable, integer) Value: 0, ID: NumberField-cl-311-input
+					1322 button button
+						1323 image
+					1324 image
+					1325 heading Border, Value: 3
+						1326 text Border
+					1327 button Add
+						1328 image
+					1329 text No border added yet.
+					1330 image
+					1331 heading Background, Value: 3
+						1332 text Background
+					1333 combo box (collapsed) Secondary Actions: Expand
+						1334 image
+					1335 text No background added yet.
+					1336 image
+					1337 heading Shadow, Value: 3
+						1338 text Shadow
+					1339 combo box (collapsed) Secondary Actions: Expand
+						1340 image
+					1341 text No shadow added yet.
+		82 AXWebArea bubble.io/appeditor/clipboard
+
+The focused UI element is 1159 button Visual

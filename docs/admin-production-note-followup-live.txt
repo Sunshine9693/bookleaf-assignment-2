@@ -1,0 +1,53 @@
+Browser tab: 21, Title: "Your Bubble app", URL: "https://sanathesunshine9693.bubbleapps.io/version-test/admin-author-detail/1794393533696x508146151545592060".
+1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/admin-author-detail/1794393533696x508146151545592060
+	2 container
+		3 text BOOK
+		4 text LAST PAYOUT
+		5 text PAID
+		6 text EARNED
+		7 text STATUS
+		8 text PENDING
+		20 container
+			21 text Raising Roots
+			22 text In Production
+			23 text 0
+			24 text 0
+			25 text 0
+			26 text No payout recorded
+			27 container
+				28 text ISBN: 978-93-5XXXX-15-8  |  Genre: Parenting / Non-Fiction  |  Published: 
+MRP: Rs   |  Available on:   |  Copies sold: 0
+				29 text Blank publication date, MRP or platforms = Not available.
+				30 text Publication status: In Production - Typesetting
+			31 text The Nagpur Notebooks
+			32 text Red — Overdue
+			33 text 850
+			34 text 0
+			35 text 850
+			36 text No payout recorded
+			37 container
+				38 text ISBN: 978-93-5XXXX-16-5  |  Genre: Essays / Memoir  |  Published: Nov 5, 2024 12:00 pm
+MRP: Rs 299  |  Available on: Amazon India, BookLeaf Store  |  Copies sold: 34
+				39 text Blank publication date, MRP or platforms = Not available.
+				40 text Publication status: Published & Live
+		9 text Author books
+		10 text Author Royalty Portal
+		11 text Log out
+		12 text Author: Kavita Deshmukh
+		13 text Aggregate royalties and last payout dates only. The supplied data has no transaction-level payout history.
+		14 text TOTAL PAID
+		41 text 0
+		15 text PENDING ROYALTY
+		42 text 850
+		16 text TOTAL EARNED
+		43 text 850
+		17 button Generate & Send Royalty Summary
+		18 link sanathesunshine9693.bubbleapps.io/version-test/admin-dashboard
+		19 link sanathesunshine9693.bubbleapps.io/version-test/admin-notifications
+	44 container
+		45 container
+			46 image Bubble
+			47 text Built on Bubble
+		48 link bubble.io/?utm_source=app_mention&utm_content=sanathesunshine9693
+
+The focused UI element is 1 AXWebArea Your Bubble app, URL: sanathesunshine9693.bubbleapps.io/version-test/admin-author-detail/1794393533696x508146151545592060

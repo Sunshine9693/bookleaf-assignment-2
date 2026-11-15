@@ -1,0 +1,16 @@
+OUTPUT
+Schema
+Table
+JSON
+1 item
+valid
+	
+error
+	
+summary_subject
+	
+summary_body
+	
+request_id
+	
+true	empty	Your Royalty Summary from BookLeaf Publishing	Dear Priya,\n\nI hope this email finds you well. I am writing to provide you with your royalty summary for your published works.\n\n**Whispers of the Ganges**\n- Copies Sold: 342\n- Total Royalty Earned: ₹11,970\n- Royalty Paid: ₹8,400\n- Royalty Pending: ₹3,570\n- Last Payout Date: 15 Oct 2025\n- Royalty Status: Red\n\n**The Saffron Diaries**\n- Copies Sold: 189\n- Total Royalty Earned: ₹7,938\n- Royalty Paid: ₹7,938\n- Royalty Pending: ₹0\n- Last Payout Date: 01 Dec 2025\n- Royalty Status: Green\n\n**Totals**\n- Total Earned: ₹19,908\n- Total Paid: ₹16,338\n- Total Pending: ₹3,570\n\nI want to sincerely apologize for the delay in processing your pending royalties for "Whispers of the Ganges." The pending balance of ₹3,570 is being flagged for priority review, and our royalties team will confirm the payout date within the next 48 hours. \n\nAs for "The Saffron Diaries," I am pleased to inform you that your royalty account for this title is fully paid up. Thank you for your patience and understanding as we work to resolve the pending amount.\n\nIf you have any questions or need further assistance, please feel free to reply to this email. We appreciate your partnership and look forward to supporting you further.\n\nWarm regards,\n\nTeam BookLeaf	manual-provider-AUTH001-1794687022554	

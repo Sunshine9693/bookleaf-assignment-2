@@ -1,5 +1,7 @@
 # Narrated saved-evidence walkthrough
 
+**Historical scope:** this video predates the later real provider pass and three user-assisted password-login checks. Its spoken pending-work statements describe its recording checkpoint. Use [current acceptance](../docs/22_CURRENT_ACCEPTANCE.md) for the latest results; the video itself has not been relabeled as new live evidence.
+
 **Primary artifact:** [bookleaf-evidence-walkthrough-final.mp4](bookleaf-evidence-walkthrough-final.mp4) — **3 minutes 46 seconds**, 1280 × 720, H.264 video and AAC audio, approximately 3.2 MB.
 
 This is a narrated slideshow of actual saved screenshots and clearly labeled text panels. It is **not an interactive screen recording, live AI execution, password-login demonstration or claim of completed acceptance**. Narration is generated locally with the installed Microsoft Zira Desktop speech voice. No external speech service or purchase was used.
