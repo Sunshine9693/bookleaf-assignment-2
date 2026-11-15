@@ -1,0 +1,126 @@
+Browser tab: 14, Title: "Manage access", URL: "https://github.com/Sunshine9693/bookleaf-assignment-2/settings/access?guidance_task=".
+1 AXWebArea Manage access, URL: github.com/Sunshine9693/bookleaf-assignment-2/settings/access?guidance_task=
+	2 container
+		3 link Description: Skip to content, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/access?guidance_task=#start-of-content
+		4 container Global navigation menu
+			5 pop up button Open menu
+			6 link Description: Homepage ( g then d ), Value: github.com/
+			7 container Breadcrumbs
+				8 content list
+					9 container
+						10 link Description: Sunshine9693, Value: github.com/Sunshine9693
+					11 container
+						12 link Description: bookleaf-assignment-2, Value: github.com/Sunshine9693/bookleaf-assignment-2
+						13 pop up button (collapsed) Switch repository ( alt shift r ), Secondary Actions: Expand
+			14 button Open quick search dialog, type / to search
+			15 pop up button (collapsed) Create new..., Secondary Actions: Expand
+			16 link Description: You have no unread notifications ( g then n ), Value: github.com/notifications
+			17 pop up button Open user navigation menu
+				18 image Sana Fatma
+			19 heading Repository navigation, Value: 2
+				20 text Repository navigation
+			21 container Repository
+				22 content list
+					23 link Description: Code, Value: github.com/Sunshine9693/bookleaf-assignment-2
+					24 link Description: Issues, Value: github.com/Sunshine9693/bookleaf-assignment-2/issues
+					25 link Description: Pull requests, Value: github.com/Sunshine9693/bookleaf-assignment-2/pulls
+					26 link Description: Agents, Value: github.com/Sunshine9693/bookleaf-assignment-2/agents?author=Sunshine9693
+					27 link Description: Actions, Value: github.com/Sunshine9693/bookleaf-assignment-2/actions
+					28 link Description: Projects, Value: github.com/Sunshine9693/bookleaf-assignment-2/projects
+					29 link Description: Wiki, Value: github.com/Sunshine9693/bookleaf-assignment-2/wiki
+				33 pop up button (collapsed) Description: More items, including current item, Secondary Actions: Expand
+	34 container
+		35 button Dismiss this message
+		36 text musavir@bookleafpub.in has been added as a collaborator on the repository.
+	37 container repo-content-pjax-container
+		38 heading Settings: Sunshine9693/bookleaf-assignment-2, Value: 1
+			39 text Settings: Sunshine9693/bookleaf-assignment-2
+		40 container General settings
+			41 content list
+				42 link Description: General, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings, ID: item-0c6ae2c1-c076-45a5-a325-60d144bc8602
+				43 container
+					44 heading Access, Value: 2, ID: heading-title-a041a717-0e45-4745-adfc-0c895588884f
+						45 text Access
+					46 content list Access, ID: group-cfdb4eda-6aab-497b-8db0-d9c293fa0614
+						47 link Description: Collaborators, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/access, ID: item-293c2c99-3cd9-4c96-ba35-d808a2d66739
+				48 container
+					49 heading Code, planning, and automation, Value: 2, ID: heading-title-9488f33c-3b03-44ef-a4f3-6aea48822b31
+						50 text Code, planning, and automation
+					51 content list Code, planning, and automation, ID: group-3fc2f1ed-6165-49b1-adca-0c74187c3a29
+						52 button (collapsed) Rulesets, ID: repo_rules, Secondary Actions: Expand
+						53 link Description: Branches, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/branches, ID: item-f627583a-4c9e-426f-90e1-70e7b0b4401b
+						54 link Description: Tags, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/tag_protection, ID: item-603d566c-469c-47d3-846d-4e3080194718
+						55 button (collapsed) Actions, ID: item-f93bc591-7cb0-47ae-873d-f2e88e80d06e, Secondary Actions: Expand
+						56 link Description: Webhooks, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/hooks, ID: item-da9e0375-921f-42fd-bd45-81143a0cae4a
+						57 button (collapsed) Copilot, ID: item-8178b73a-2743-41e6-b942-9d6f96eab144, Secondary Actions: Expand
+						58 button (collapsed) Planning, ID: repo_planning, Secondary Actions: Expand
+						59 link Description: Environments, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/environments, ID: item-20b3af10-1e3a-454e-ac44-8c581b3cea10
+						60 link Description: Codespaces, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/codespaces, ID: item-f3dd43d5-9438-4b81-a77c-8eabafcc6dc3
+						61 link Description: Pages, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/pages, ID: item-81518cc3-b978-45fc-ad7c-9a0572f8a724
+				62 container
+					63 heading Security and quality, Value: 2, ID: heading-title-f838b1bb-2f62-468f-a388-946ca2ccac72
+						64 text Security and quality
+					65 content list Security and quality, ID: group-9e57df20-4af1-459c-90ec-5329a1e93a46
+						66 link Description: Advanced Security, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/security_analysis, ID: item-96ac800c-8f39-407e-9358-11582445a149
+						67 link Description: Deploy keys, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/keys, ID: item-3c15b1dc-6202-4690-bc95-b285297fc21e
+						68 button (collapsed) Secrets and variables, ID: item-3f63c344-c916-45a5-a40e-509784be2f53, Secondary Actions: Expand
+				69 container
+					70 heading Integrations, Value: 2, ID: heading-title-289152d7-d720-4f8d-a776-3051844eb8ec
+						71 text Integrations
+					72 content list Integrations, ID: group-e8b4a9e1-d753-45c1-9e3d-da19899a1a6d
+						73 link Description: GitHub Apps, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/installations, ID: item-0a8f1e9c-4efe-477e-9df2-62fcfb74a2b8
+						74 link Description: Autolink references, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/key_links, ID: item-ed3716eb-ba30-40aa-a6d1-19fe1bc18118
+		75 heading Collaborators and teams, Value: 1
+			76 text Collaborators and teams
+		77 heading Private repository, Value: 2
+			78 text Private repository
+		79 text Only those with access to this repository can view it
+		80 link Description: Manage visibility, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings#danger-zone
+		81 text Direct access
+		82 container
+			83 text 1 entity  has access to this repository.
+			84 link Description: 0 collaborators, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/access?query=filter%3Acollaborators
+			85 text .
+			86 link Description: 1 invitation, Value: github.com/Sunshine9693/bookleaf-assignment-2/settings/access?query=filter%3Apending_invitations
+			87 text .
+		88 heading Manage access, Value: 2
+			89 text Manage access
+		90 button Add people, ID: dialog-show-add-access-dialog-user
+		91 container
+			92 checkbox (settable, integer) Description: Select all, Value: 0, ID: select-all-checkbox
+			93 pop up button (collapsed) Type, Secondary Actions: Expand
+			94 container
+				95 search text field (settable) Find a collaborator…
+				96 text Loading
+			97 container repository-access-table
+				98 text 1 result loaded
+				99 checkbox (settable, integer) Description: invitation musavir-khurshid, Value: 0, ID: invitation-343917680
+				100 link Description: @musavir-khurshid, Value: github.com/musavir-khurshid
+				101 link Description: musavir-khurshid, Value: github.com/musavir-khurshid
+				102 text Awaiting musavir-khurshid’s response
+				103 text Pending Invite
+				104 button Copy invite link
+				105 button (collapsed) Description: cancel invitation for user to access this repository, Secondary Actions: Expand
+				106 container Pagination
+					107 container
+						108 text  Previous Next
+	109 container
+		110 heading Footer, Value: 2
+			111 text Footer
+		112 link Description: GitHub Homepage, Value: github.com/
+		113 text © 2026 GitHub, Inc.
+		114 container Footer
+			115 heading Footer navigation, Value: 3, ID: sr-footer-heading
+				116 text Footer navigation
+			117 content list Footer navigation
+				118 link Description: Terms, Value: docs.github.com/site-policy/github-terms/github-terms-of-service
+				119 link Description: Privacy, Value: docs.github.com/site-policy/privacy-policies/github-privacy-statement
+				120 link Description: Security, Value: github.com/security
+				121 link Description: Status, Value: githubstatus.com/
+				122 link Description: Community, Value: github.community/
+				123 link Description: Docs, Value: docs.github.com/
+				124 link Description: Contact, Value: support.github.com/?tags=dotcom-footer
+				125 button Manage cookies
+				126 button Do not share my personal information
+
+The focused UI element is 35 button Dismiss this message

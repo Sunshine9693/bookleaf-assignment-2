@@ -2,6 +2,8 @@
 
 Acceptance checkpoint: **16 November 2026 (IST)**, preserving earlier captures as historical evidence. Implementation remains incomplete and the user has chosen to keep the Free plan. This document supersedes outdated pending-work claims; it does not replace the live ledger. [22_CURRENT_ACCEPTANCE.md](22_CURRENT_ACCEPTANCE.md) is the current acceptance source; earlier handoffs remain historical where they differ.
 
+**Free-plan delivery follow-up:** A new 4:46 silent low-fps actual UI walkthrough and fresh valid 235-word provider result are included. The approved private GitHub invitation was sent to musavir@bookleafpub.in / musavir-khurshid and is pending acceptance. Existing passwords still require private user delivery. See [reviewer handoff](23_FREE_PLAN_REVIEWER_HANDOFF.md). This completes the available Free-plan evidence package, not full callback acceptance.
+
 **Current status:** A real reviewed 252-word provider summary and three user-assisted reset/login destinations are established. Matching shared-secret entry is now verified by an authenticated stale-request diagnostic returning HTTP 400. A new Priya Single request timed out through server recovery; there are now twelve genuine Failed logs and no Success. A terminal-callback attempt returned HTTP 401 with Bubble's explicit Free-plan Workflow API upgrade message; this proves a platform restriction, not a bad credential or successful bearer/terminal-guard test. The existing log stayed unchanged. Main unpublished, callback unexposed and Data API off were restored after approved testing. No upgrade/trial was taken. Full callback/bulk/security acceptance and reviewer access remain pending.
 
 ## Delivery inventory

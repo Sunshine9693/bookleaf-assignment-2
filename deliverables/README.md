@@ -1,4 +1,10 @@
-# Narrated saved-evidence walkthrough
+# Current and historical walkthroughs
+
+**Current reviewer artifact:** [bookleaf-current-ui-walkthrough.mp4](bookleaf-current-ui-walkthrough.mp4), **4:46**, H264/yuv420p, 1280x800, silent with captions. It contains 108 fresh browser screenshots over 285.272 seconds of actual capture time, encoded at 1 fps with last-observed-frame holds across gaps. It shows Admin portfolio/search/detail, a real AI execution with valid output, callback subscription rejection, editor-assisted Priya Author preview and Admin-route redirect. It is low-frame-rate actual UI capture, not full-motion recording or an accepted end-to-end callback demonstration. The full AI output is in [the fresh result](../n8n/fresh-provider-ui-result-2026-11-16.json).
+
+[Current validation](current-ui-video-validation.json) records full bitstream decode, start/middle/end decodes, actual timestamps, capture/output hashes and unchanged historical-video hashes. Reproduction uses scripts/build-current-ui-walkthrough.py with Pillow and imageio-ffmpeg; raw capture frames remain local and excluded from Git. The video samples do not include password entry or secret values.
+
+## Historical narrated saved-evidence walkthrough
 
 **Historical scope:** this video predates the later real provider pass and three user-assisted password-login checks. Its spoken pending-work statements describe its recording checkpoint. Use [current acceptance](../docs/22_CURRENT_ACCEPTANCE.md) for the latest results; the video itself has not been relabeled as new live evidence.
 

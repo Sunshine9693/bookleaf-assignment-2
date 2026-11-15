@@ -2,7 +2,7 @@
 
 > **Latest checkpoint — 16 November 2026:** genuine reviewed provider generation, three user-assisted reset/login checks and the hardened main export audit are established. Shared-secret matching is now verified. A real callback attempt returned Bubble's explicit Free-plan Workflow API restriction; full callback/bulk/security acceptance and reviewer access remain pending. See [current acceptance](22_CURRENT_ACCEPTANCE.md), which supersedes older statements below. No password or key is included here.
 
-> **Packaging checkpoint — 15 November 2026.** Earlier portal/request evidence and the 3:46 narrated saved-evidence walkthrough are preserved. New evidence covers a real reviewed provider summary, three user-assisted reset/login destinations and current metadata checks. Full Bubble callback/bulk/security acceptance, reviewer access and an interactive recording remain pending.
+> **Packaging checkpoint — 15 November 2026.** Earlier portal/request evidence and the 3:46 narrated saved-evidence walkthrough are preserved. New evidence covers a real reviewed provider summary, three user-assisted reset/login destinations and current metadata checks. At that historical checkpoint, callback/bulk/security acceptance, reviewer access and a current UI recording were pending. The 16 November video/access updates below supersede that recording/access status.
 
 **Current connection limit:** the shared webhook secret is saved and verified by n8n's authenticated stale-timestamp rejection of the dummy initialization payload. The [callback-only test](callback-platform-block-2026-11-16.txt) returned HTTP 401 stating that this Bubble application does not expose an API and requires an upgrade for API calls. This is a Workflow API restriction, not proof of a bad key or a blanket login block. The new Single request genuinely timed out to Failed; history now includes twelve Failed requests. Main was unpublished and callback disabled again after testing. Keep-Free remains in force; no upgrade/trial was taken.
 
@@ -25,7 +25,7 @@ A two-sided royalty portal for BookLeaf Publishing:
 
 **Existing n8n draft:** [workspace workflow](https://sanafatma.app.n8n.cloud/workflow/THfIQmhfGo1r8Hzk) — workspace authorization required.
 
-**Evidence video:** [3:46 narrated saved-evidence walkthrough](../deliverables/bookleaf-evidence-walkthrough-final.mp4), with [validation](../deliverables/video-validation.json). It contains actual safe screenshots and labeled panels with local synthetic speech. It is not an interactive screen recording or login/live-success demonstration. [Conditional interactive script](14_RECORDING_SCRIPT.md) remains available.
+**Current evidence video:** [4:46 current UI walkthrough](../deliverables/bookleaf-current-ui-walkthrough.mp4), with [timing/codec validation](../deliverables/current-ui-video-validation.json). Silent captions accompany actual low-fps browser captures of Admin views, a fresh real AI execution with valid output, callback rejection, editor-assisted Author preview and Admin-route redirect. Capture gaps hold the last observed frame. This is not full-motion recording, password entry or a successful end-to-end callback demo. The complete [fresh provider result](../n8n/fresh-provider-ui-result-2026-11-16.json) is readable separately where the narrow viewport clips output. The older [3:46 saved-evidence slideshow](../deliverables/bookleaf-evidence-walkthrough-final.mp4) is unchanged historical evidence.
 
 **Test credentials:** the user completed private reset/login steps for the three approved development users, and expected dashboards were observed. Password delivery to the reviewer remains the user's private step. No password is stored here.
 
@@ -211,7 +211,7 @@ Later evidence adds 93 current metadata/source comparisons, three user-assisted 
 - No transaction-level payout history exists in the dataset.
 - No real email was sent. Persisting a successful generated summary in Bubble remains a callback acceptance gate.
 - The sample dataset uses fake author emails.
-- Full Bubble callback, live auth/replay security tests, successful bulk summaries, an interactive recording and independent reviewer access remain pending. Real provider generation, user-assisted password-login destinations and current author/production captures are established. The older narrated evidence slideshow is complete.
+- Full Bubble callback, live auth/replay security tests, successful bulk summaries and independent reviewer access remain pending. Real provider generation, user-assisted password-login destinations and the new low-fps actual UI walkthrough are established. The approved repository invitation is pending acceptance. No full-motion or password-entry recording is claimed.
 - Search/static-data duplicate protection is non-atomic. Native Bubble unknown-ID rejection may be HTTP 400 rather than the originally planned 404; actual callback responses remain to be tested.
 
 ## 13. Reproduce / import
@@ -225,5 +225,5 @@ See [the import runbook](05_DATA_IMPORT_RUNBOOK.md). Original source/reference f
 - n8n workflow JSON: generated artifacts and saved live exports linked above; local export audit passes, credential values/invocation unverified.
 - n8n workspace view: existing draft linked above; no public access implied.
 - README: this document
-- Video: 226-second narrated saved-evidence walkthrough linked above; interactive screen recording absent.
+- Video: current 286-second silent low-fps actual UI walkthrough, with timing/codec validation; earlier 226-second narrated slideshow retained as historical. No full-motion capture or successful integrated callback demonstration is claimed.
 - Submission email: [unsent draft](20_SUBMISSION_EMAIL_DRAFT.md); no email sent by this work.

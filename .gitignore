@@ -20,6 +20,7 @@ reference/HR_EMAIL.eml
 
 # Local tooling
 node_modules/
+/.local-tools/
 .DS_Store
 Thumbs.db
 *.log
@@ -35,3 +36,5 @@ n8n-webhook-credential-form.png
 !/deliverables/bookleaf-evidence-walkthrough-final.mp4
 !/deliverables/evidence-video-manifest.json
 !/deliverables/video-validation.json
+!/deliverables/bookleaf-current-ui-walkthrough.mp4
+!/deliverables/current-ui-video-validation.json

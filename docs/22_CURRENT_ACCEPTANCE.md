@@ -25,10 +25,18 @@ The prior Windows-clipboard secret attempt did not successfully provide the usab
 
 The historical timestamp-row correction remains documented in [the restored binding](bubble-timestamp-binding-restored-live.txt): `X-BookLeaf-Timestamp` is nonprivate and bound to Current date/time formatted as ISO UTC. The shared secret is separate collection authentication under `X-BookLeaf-Key`.
 
-## Outstanding acceptance and reviewer gates
+## Free-plan submission completion follow-up
+
+A fresh 4:46 silent, captioned current-browser walkthrough now covers Admin portfolio/search/detail, an actual isolated AI execution and valid output, a callback-only rejection, Priya's editor-assisted Author preview and Admin-route redirect. It samples actual screenshots at approximately 1 fps with original wall-clock timing; gaps hold the last observed image. It is not full-motion recording, user password entry, or proof of a successful integrated callback. [Current UI video](../deliverables/bookleaf-current-ui-walkthrough.mp4), [validation and capture hashes](../deliverables/current-ui-video-validation.json). The older 3:46 saved-evidence slideshow remains historical and unchanged.
+
+The fresh component request `manual-provider-AUTH001-1794770774245` returned `valid=true` and a 235-word body. Book figures/totals match, quarterly/45-day guidance is present, the overdue balance is treated separately and the paid title acknowledged. The proposed future-cycle dates are general calendar guidance, not an agreed payout date for the overdue amount. [Fresh result](../n8n/fresh-provider-ui-result-2026-11-16.json), [UI text](fresh-provider-ui-result-2026-11-16.txt). This adds component evidence only; the earlier fully reviewed 252-word result remains separate. No real author email or source-data mutation occurred.
+
+The [Free-plan reviewer handoff](23_FREE_PLAN_REVIEWER_HANDOFF.md) provides the preview, approved account identifiers, direct private export links and remaining private-password/access steps. HR's collaborator-access fallback does not waive the callback requirement. This is a completed Free-plan evidence package with explicit unresolved integration acceptance, not a claim of 100% functionality.
+
+## Remaining integration and delivery gates
 
 The complete UI dispatch → real AI → authenticated callback → original NotificationLog Success path remains incomplete. Successful bulk summaries, accepted/duplicate/late callback security, callback bearer validity, old-key revocation and error-handler invocation are not established. Do not change a log manually to Success to manufacture proof.
 
 The earlier general workflow-limit notice did not mean every workflow was blocked: login, reset and server recovery ran. The new authenticated callback attempt provides a specific Workflow API subscription restriction. Keep Free remains the constraint; there is no authorized paid workaround or weakening of callback authentication.
 
-Reviewer GitHub identity/access and delivery of preview passwords remain unconfirmed. The documented business reviewer contact does not itself establish GitHub access. No collaborator invitation, submission email, real author email or paid upgrade was performed. The verified-work ZIP and historical saved-evidence video remain handoff artifacts; neither replaces the missing callback acceptance.
+With explicit action-time approval, a private-repository invitation was sent to musavir@bookleafpub.in. GitHub resolved it to musavir-khurshid and shows Pending Invite / awaiting response. This is a sent invitation, not accepted reviewer access. [Invitation evidence](reviewer-invitation-pending-2026-11-16.txt). Existing test-account passwords still need private delivery by the user; they are not in Git or the recording. No submission email, real author email or paid upgrade was performed. The new UI video and verified-work ZIP support the Free-plan handoff and do not replace missing callback acceptance.

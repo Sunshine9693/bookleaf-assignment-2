@@ -1,35 +1,28 @@
-# Submission email draft — do not send
+# Submission email draft - not sent
 
-Acceptance refreshed 16 November 2026, preserving earlier captures and video as historical evidence. This is an unsent draft. Complete the access fields from the final ledger before use; do not put passwords, API keys or bearer tokens in this file. Sending to HR is outside this document's preparation.
+Reply in the existing HR email thread. Do not put passwords or API keys in this file. Confirm the reviewer has accepted the repository invitation and arrange private test-password delivery before sending.
 
-**Subject:** BookLeaf Technical Assignment 2 — Sana Fatma
+Hello Saloni Ma'am and BookLeaf team,
 
-Hello BookLeaf team,
+Please find my Assignment 2 Free-plan submission below:
 
-Please find my Assignment 2 work below:
+- [Bubble development app](https://sanathesunshine9693.bubbleapps.io/version-test/login)
+- [README and implementation documentation](https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/docs/SUBMISSION_README.md)
+- [n8n hardened workflow export](https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/n8n/royalty-summary-hardened-live-export.json)
+- [n8n error workflow export](https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/n8n/royalty-summary-error-live-export.json)
+- [4:46 current UI walkthrough](https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/deliverables/bookleaf-current-ui-walkthrough.mp4)
+- [Reviewer entry instructions and evidence](https://github.com/Sunshine9693/bookleaf-assignment-2/blob/main/docs/23_FREE_PLAN_REVIEWER_HANDOFF.md)
 
-- Bubble development preview: [BookLeaf app](https://sanathesunshine9693.bubbleapps.io/version-test/login)
-- Private repository: [bookleaf-assignment-2](https://github.com/Sunshine9693/bookleaf-assignment-2)
-- Workflow exports: `n8n/royalty-summary-hardened-workflow.json`, its saved live draft export and the error workflow in the repository/package.
-- Walkthrough: `deliverables/bookleaf-evidence-walkthrough-final.mp4` in the verified-work package: a 3:46 narrated saved-evidence slideshow of its earlier checkpoint, not an interactive screen recording. New results are recorded separately in `docs/22_CURRENT_ACCEPTANCE.md`.
+The repository remains private. A collaborator invitation has been sent to musavir@bookleafpub.in, resolved by GitHub to musavir-khurshid, and currently awaits acceptance. The approved test accounts are bookleaf.admin@example.com and bookleaf.author1@example.com; their existing user-set passwords will be provided separately through a private channel. No secrets are stored in the repository or video.
 
-The portal preserves the supplied 10 Authors and 18 Books. Captured checks cover admin totals/filters, two author sessions and protected-route redirects, author logout, selected-author data and required book metadata. Royalty values reconcile to ₹2,43,382 earned, ₹2,02,543 paid and ₹40,839 pending. The dataset has no transaction-level payout history; the detail view identifies its payout information as aggregates.
+The Bubble portal preserves the supplied 10 authors and 18 books, with role-based views, royalty totals, filters and notification history. Three user-assisted logins reached their expected dashboards. The new video shows current Admin views, a fresh real AI component execution with valid output, the callback error, an editor-assisted Author preview and an Admin-route redirect. It is a silent, captioned, low-frame-rate capture of actual UI, with last-observed-frame holds across capture gaps. It is not a full-motion or successful integrated callback recording.
 
-The real provider-component test produced a reviewed 252-word summary with the supplied figures, quarterly/45-day policy and separate overdue review guidance. Three user-assisted password-reset/login steps reached the expected Admin and Author dashboards. On 16 November, the shared-secret match was verified: an authenticated stale dummy request reached n8n and returned its timestamp-validation HTTP 400. A new real Priya request timed out through server recovery. There are now twelve genuine Failed requests and no Success; the earlier eleven-row reconciliation remains historical evidence.
+I kept the Free plan. The shared webhook secret is verified to match, and real AI summary generation works independently. However, the n8n callback returned Bubble's explicit subscription-required Workflow API error. The real app request recovered to Failed after five minutes. Full Bubble-to-AI-to-callback Success, successful bulk summaries and accepted replay/security tests therefore remain unverified. The main workflow is unpublished and callback disabled for handoff; no real author emails were sent. The documentation includes the actual error and completed checks rather than presenting a simulated Success.
 
-The remaining callback test returned HTTP 401 with Bubble's message that the application does not expose an API and requires a subscription upgrade for API calls. This establishes the Free-plan Workflow API restriction; it does not prove an invalid credential or successful authentication/terminal protection. The existing Failed log stayed unchanged. Full end-to-end Success and successful bulk/security acceptance remain incomplete.
-
-The Keep Free instruction was honored: no upgrade or trial was taken. After the approved test, the main was unpublished again and the callback unexposed; the Data API remains off. Credential entry is complete, while callback bearer validity and old-key revocation remain unverified. The hardened export audit and attached/published error handler are configuration evidence, not proof of error-handler invocation. No real author email, public Bubble deployment or collaborator invitation occurred. Search-based duplicate guards are non-atomic, as documented.
-
-The private repository URL alone does not grant reviewer access. I can provide the verified-work ZIP and the test logins through an agreed private channel; no credentials are included in the repository or video.
+The private exports and actual-run recording are provided for review; n8n workspace viewer access has not been granted. Please let me know how you would prefer the Free-plan callback limitation to be assessed.
 
 Regards,
 Sana Fatma
 
-## Final preparation checks
-
-- Attach the current verified-work ZIP, or confirm a reviewer-accessible repository/video link before sending.
-- Make the email, final README, QA ledger and recording agree on verified scope.
-- Test the preview/recording links outside the editor and confirm actual reviewer repository access.
-- Keep passwords and secrets out of Git and recording; provide credentials through an explicitly authorized secure channel.
-- Do not send this draft automatically.
+---
+Preparation status: draft only; no HR submission email sent. Reviewer invitation acceptance and private password delivery remain external steps.

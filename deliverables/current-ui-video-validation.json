@@ -1,0 +1,1249 @@
+{
+  "source_manifest": "deliverables\\current-ui-capture-assets\\manifest.json",
+  "manifest_sha256": "31bffd114d9d5283dabed1193300b3deec78eee967aa258699b6e34a7a455647",
+  "started_at_utc": "2026-11-15T19:24:31.148Z",
+  "actual_capture_duration_seconds": 285.272,
+  "encoded_duration_seconds": 286.0,
+  "fps": 1,
+  "encoded_frame_count": 286,
+  "screenshot_count": 108,
+  "canvas_pixels": [
+    1280,
+    800
+  ],
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "audio": "none",
+  "output": "deliverables\\bookleaf-current-ui-walkthrough.mp4",
+  "output_sha256": "ca153325b44d60367d450ebc4f8f6709be69a881c3691a07f9647bca762963cb",
+  "screenshots": [
+    {
+      "file": "frame-00000.png",
+      "elapsed_ms": 1,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "d41c274cff194ca04867be6358195313e6124985075781c67dd93d54e9244c80"
+    },
+    {
+      "file": "frame-00001.png",
+      "elapsed_ms": 1014,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "59eb7e134ecdfd1d17c2b16099d5460702073b2f9f96235e8f1c7d079bce26c8"
+    },
+    {
+      "file": "frame-00002.png",
+      "elapsed_ms": 2027,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "59eb7e134ecdfd1d17c2b16099d5460702073b2f9f96235e8f1c7d079bce26c8"
+    },
+    {
+      "file": "frame-00003.png",
+      "elapsed_ms": 3040,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "59eb7e134ecdfd1d17c2b16099d5460702073b2f9f96235e8f1c7d079bce26c8"
+    },
+    {
+      "file": "frame-00004.png",
+      "elapsed_ms": 4048,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "59eb7e134ecdfd1d17c2b16099d5460702073b2f9f96235e8f1c7d079bce26c8"
+    },
+    {
+      "file": "frame-00005.png",
+      "elapsed_ms": 5057,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "59eb7e134ecdfd1d17c2b16099d5460702073b2f9f96235e8f1c7d079bce26c8"
+    },
+    {
+      "file": "frame-00006.png",
+      "elapsed_ms": 6059,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "59eb7e134ecdfd1d17c2b16099d5460702073b2f9f96235e8f1c7d079bce26c8"
+    },
+    {
+      "file": "frame-00007.png",
+      "elapsed_ms": 7062,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "59eb7e134ecdfd1d17c2b16099d5460702073b2f9f96235e8f1c7d079bce26c8"
+    },
+    {
+      "file": "frame-00008.png",
+      "elapsed_ms": 8076,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "59eb7e134ecdfd1d17c2b16099d5460702073b2f9f96235e8f1c7d079bce26c8"
+    },
+    {
+      "file": "frame-00009.png",
+      "elapsed_ms": 9089,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "59eb7e134ecdfd1d17c2b16099d5460702073b2f9f96235e8f1c7d079bce26c8"
+    },
+    {
+      "file": "frame-00010.png",
+      "elapsed_ms": 10090,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "59eb7e134ecdfd1d17c2b16099d5460702073b2f9f96235e8f1c7d079bce26c8"
+    },
+    {
+      "file": "frame-00011.png",
+      "elapsed_ms": 11098,
+      "chapter": "Admin portfolio",
+      "note": "Live development preview. Original 10 Authors and 18 Books; pending total INR40,839.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "59eb7e134ecdfd1d17c2b16099d5460702073b2f9f96235e8f1c7d079bce26c8"
+    },
+    {
+      "file": "frame-00012.png",
+      "elapsed_ms": 20301,
+      "chapter": "Admin search",
+      "note": "Live author-name filter. Priya totals: earned19,908; paid16,338; pending3,570.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "67bcfdb42db9445e2311e845cbf5c3d668a2a3c770ca7aa2815f2704f262c442"
+    },
+    {
+      "file": "frame-00013.png",
+      "elapsed_ms": 21316,
+      "chapter": "Admin search",
+      "note": "Live author-name filter. Priya totals: earned19,908; paid16,338; pending3,570.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "67bcfdb42db9445e2311e845cbf5c3d668a2a3c770ca7aa2815f2704f262c442"
+    },
+    {
+      "file": "frame-00014.png",
+      "elapsed_ms": 22318,
+      "chapter": "Admin search",
+      "note": "Live author-name filter. Priya totals: earned19,908; paid16,338; pending3,570.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "502dd4b7ca0b685a81f5e7af41a4c10852610c46edbc3d2141bffdc45a7447ef"
+    },
+    {
+      "file": "frame-00015.png",
+      "elapsed_ms": 23332,
+      "chapter": "Admin search",
+      "note": "Live author-name filter. Priya totals: earned19,908; paid16,338; pending3,570.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "502dd4b7ca0b685a81f5e7af41a4c10852610c46edbc3d2141bffdc45a7447ef"
+    },
+    {
+      "file": "frame-00016.png",
+      "elapsed_ms": 24346,
+      "chapter": "Admin search",
+      "note": "Live author-name filter. Priya totals: earned19,908; paid16,338; pending3,570.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "502dd4b7ca0b685a81f5e7af41a4c10852610c46edbc3d2141bffdc45a7447ef"
+    },
+    {
+      "file": "frame-00017.png",
+      "elapsed_ms": 25350,
+      "chapter": "Admin search",
+      "note": "Live author-name filter. Priya totals: earned19,908; paid16,338; pending3,570.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "502dd4b7ca0b685a81f5e7af41a4c10852610c46edbc3d2141bffdc45a7447ef"
+    },
+    {
+      "file": "frame-00018.png",
+      "elapsed_ms": 26359,
+      "chapter": "Admin search",
+      "note": "Live author-name filter. Priya totals: earned19,908; paid16,338; pending3,570.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "502dd4b7ca0b685a81f5e7af41a4c10852610c46edbc3d2141bffdc45a7447ef"
+    },
+    {
+      "file": "frame-00019.png",
+      "elapsed_ms": 27373,
+      "chapter": "Admin search",
+      "note": "Live author-name filter. Priya totals: earned19,908; paid16,338; pending3,570.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "502dd4b7ca0b685a81f5e7af41a4c10852610c46edbc3d2141bffdc45a7447ef"
+    },
+    {
+      "file": "frame-00020.png",
+      "elapsed_ms": 30106,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "c7d13dfee3cecdc4e308cf50673fc57ba11cd29a00a86bb3aa1aa0709bafcd83"
+    },
+    {
+      "file": "frame-00021.png",
+      "elapsed_ms": 31112,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "f181073df623c9e783127d0e6a698d83ed740db26af0656bfa9ec1d73087f997"
+    },
+    {
+      "file": "frame-00022.png",
+      "elapsed_ms": 32125,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "f181073df623c9e783127d0e6a698d83ed740db26af0656bfa9ec1d73087f997"
+    },
+    {
+      "file": "frame-00023.png",
+      "elapsed_ms": 33140,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "f181073df623c9e783127d0e6a698d83ed740db26af0656bfa9ec1d73087f997"
+    },
+    {
+      "file": "frame-00024.png",
+      "elapsed_ms": 34155,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "f181073df623c9e783127d0e6a698d83ed740db26af0656bfa9ec1d73087f997"
+    },
+    {
+      "file": "frame-00025.png",
+      "elapsed_ms": 35166,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "f181073df623c9e783127d0e6a698d83ed740db26af0656bfa9ec1d73087f997"
+    },
+    {
+      "file": "frame-00026.png",
+      "elapsed_ms": 36166,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "f181073df623c9e783127d0e6a698d83ed740db26af0656bfa9ec1d73087f997"
+    },
+    {
+      "file": "frame-00027.png",
+      "elapsed_ms": 37169,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "f181073df623c9e783127d0e6a698d83ed740db26af0656bfa9ec1d73087f997"
+    },
+    {
+      "file": "frame-00028.png",
+      "elapsed_ms": 38182,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "f181073df623c9e783127d0e6a698d83ed740db26af0656bfa9ec1d73087f997"
+    },
+    {
+      "file": "frame-00029.png",
+      "elapsed_ms": 39197,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "f181073df623c9e783127d0e6a698d83ed740db26af0656bfa9ec1d73087f997"
+    },
+    {
+      "file": "frame-00030.png",
+      "elapsed_ms": 40210,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "f181073df623c9e783127d0e6a698d83ed740db26af0656bfa9ec1d73087f997"
+    },
+    {
+      "file": "frame-00031.png",
+      "elapsed_ms": 41221,
+      "chapter": "Author detail in Admin view",
+      "note": "Source books and payout aggregates; no transaction history is invented.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "f181073df623c9e783127d0e6a698d83ed740db26af0656bfa9ec1d73087f997"
+    },
+    {
+      "file": "frame-00032.png",
+      "elapsed_ms": 72512,
+      "chapter": "Royalty figures",
+      "note": "Priya: paid16,338 and pending3,570. Status follows source dates; no email delivery.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "383900857f46f6f47eeedd87b914c0dc901ccc9f7058e68a6a8027e11daf09b1"
+    },
+    {
+      "file": "frame-00033.png",
+      "elapsed_ms": 73515,
+      "chapter": "Royalty figures",
+      "note": "Priya: paid16,338 and pending3,570. Status follows source dates; no email delivery.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "383900857f46f6f47eeedd87b914c0dc901ccc9f7058e68a6a8027e11daf09b1"
+    },
+    {
+      "file": "frame-00034.png",
+      "elapsed_ms": 74518,
+      "chapter": "Royalty figures",
+      "note": "Priya: paid16,338 and pending3,570. Status follows source dates; no email delivery.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "383900857f46f6f47eeedd87b914c0dc901ccc9f7058e68a6a8027e11daf09b1"
+    },
+    {
+      "file": "frame-00035.png",
+      "elapsed_ms": 75528,
+      "chapter": "Royalty figures",
+      "note": "Priya: paid16,338 and pending3,570. Status follows source dates; no email delivery.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "383900857f46f6f47eeedd87b914c0dc901ccc9f7058e68a6a8027e11daf09b1"
+    },
+    {
+      "file": "frame-00036.png",
+      "elapsed_ms": 76541,
+      "chapter": "Royalty figures",
+      "note": "Priya: paid16,338 and pending3,570. Status follows source dates; no email delivery.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "383900857f46f6f47eeedd87b914c0dc901ccc9f7058e68a6a8027e11daf09b1"
+    },
+    {
+      "file": "frame-00037.png",
+      "elapsed_ms": 77552,
+      "chapter": "Royalty figures",
+      "note": "Priya: paid16,338 and pending3,570. Status follows source dates; no email delivery.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "383900857f46f6f47eeedd87b914c0dc901ccc9f7058e68a6a8027e11daf09b1"
+    },
+    {
+      "file": "frame-00038.png",
+      "elapsed_ms": 78564,
+      "chapter": "Royalty figures",
+      "note": "Priya: paid16,338 and pending3,570. Status follows source dates; no email delivery.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "383900857f46f6f47eeedd87b914c0dc901ccc9f7058e68a6a8027e11daf09b1"
+    },
+    {
+      "file": "frame-00039.png",
+      "elapsed_ms": 79575,
+      "chapter": "Royalty figures",
+      "note": "Priya: paid16,338 and pending3,570. Status follows source dates; no email delivery.",
+      "size_pixels": [
+        634,
+        601
+      ],
+      "sha256": "383900857f46f6f47eeedd87b914c0dc901ccc9f7058e68a6a8027e11daf09b1"
+    },
+    {
+      "file": "frame-00040.png",
+      "elapsed_ms": 93620,
+      "chapter": "Real AI component workflow",
+      "note": "Isolated manual provider test; no webhook, Bubble callback or email in this component.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f6dcfaf9bd4cf749acadaa109bbdc25c25bd399751971264e3574309ce9782ed"
+    },
+    {
+      "file": "frame-00041.png",
+      "elapsed_ms": 94621,
+      "chapter": "Real AI component workflow",
+      "note": "Isolated manual provider test; no webhook, Bubble callback or email in this component.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f6dcfaf9bd4cf749acadaa109bbdc25c25bd399751971264e3574309ce9782ed"
+    },
+    {
+      "file": "frame-00042.png",
+      "elapsed_ms": 95626,
+      "chapter": "Real AI component workflow",
+      "note": "Isolated manual provider test; no webhook, Bubble callback or email in this component.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f6dcfaf9bd4cf749acadaa109bbdc25c25bd399751971264e3574309ce9782ed"
+    },
+    {
+      "file": "frame-00043.png",
+      "elapsed_ms": 96627,
+      "chapter": "Real AI component workflow",
+      "note": "Isolated manual provider test; no webhook, Bubble callback or email in this component.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f6dcfaf9bd4cf749acadaa109bbdc25c25bd399751971264e3574309ce9782ed"
+    },
+    {
+      "file": "frame-00044.png",
+      "elapsed_ms": 97640,
+      "chapter": "Real AI component workflow",
+      "note": "Isolated manual provider test; no webhook, Bubble callback or email in this component.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f6dcfaf9bd4cf749acadaa109bbdc25c25bd399751971264e3574309ce9782ed"
+    },
+    {
+      "file": "frame-00045.png",
+      "elapsed_ms": 98651,
+      "chapter": "Real AI component workflow",
+      "note": "Isolated manual provider test; no webhook, Bubble callback or email in this component.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f6dcfaf9bd4cf749acadaa109bbdc25c25bd399751971264e3574309ce9782ed"
+    },
+    {
+      "file": "frame-00046.png",
+      "elapsed_ms": 99664,
+      "chapter": "Real AI component workflow",
+      "note": "Isolated manual provider test; no webhook, Bubble callback or email in this component.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f6dcfaf9bd4cf749acadaa109bbdc25c25bd399751971264e3574309ce9782ed"
+    },
+    {
+      "file": "frame-00047.png",
+      "elapsed_ms": 102189,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "e74a171ffa60d044b76da4d6874d50b4e2f150b22e5fab67faf695e4c80cc839"
+    },
+    {
+      "file": "frame-00048.png",
+      "elapsed_ms": 103204,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "724f83d725545214fb37eb54ee55d55597fa38d3faf2471ca4567105fe6d1da4"
+    },
+    {
+      "file": "frame-00049.png",
+      "elapsed_ms": 104212,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "438529ec4ba51fa47fefa99ed39a4b0678d95743d8026c41cd93eece04ad9774"
+    },
+    {
+      "file": "frame-00050.png",
+      "elapsed_ms": 105228,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "76599c24abfba5eb634e849a26a3020f5a72cda7ea87fa7aaa76b2b07e9cccb9"
+    },
+    {
+      "file": "frame-00051.png",
+      "elapsed_ms": 106242,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "71fe34900e43d0a5a86ec7e714dcfbbefea14910fd837630fe79a1bcf51bfa78"
+    },
+    {
+      "file": "frame-00052.png",
+      "elapsed_ms": 107252,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "308f27fa0767532f3a57fa48b6ae50914092633c9c8ae0f2cc742ca59ca29a84"
+    },
+    {
+      "file": "frame-00053.png",
+      "elapsed_ms": 108266,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "9a17db29dc5d88f7bcf2ca842af99dc9250e2b4f4914a683fab37b5713b16c17"
+    },
+    {
+      "file": "frame-00054.png",
+      "elapsed_ms": 109280,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "43bf0aeb55bf9cb5ad0def94dafba54414bbabd4638ad1c10a6ad391291478b7"
+    },
+    {
+      "file": "frame-00055.png",
+      "elapsed_ms": 110280,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f9cf8e4c30807163f87fcb373f0c64abbe5e61911658b35c4ceaa125687136d5"
+    },
+    {
+      "file": "frame-00056.png",
+      "elapsed_ms": 111280,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "9700592c4bd0b641c1b7aab849996ea067927835e118fadf99abfd73b7e75394"
+    },
+    {
+      "file": "frame-00057.png",
+      "elapsed_ms": 112290,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "0a0bc302cb7b7ef7fecbdaf26254a7822070ac665a2ef69d9a2998662fc8d411"
+    },
+    {
+      "file": "frame-00058.png",
+      "elapsed_ms": 113300,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "0a0bc302cb7b7ef7fecbdaf26254a7822070ac665a2ef69d9a2998662fc8d411"
+    },
+    {
+      "file": "frame-00059.png",
+      "elapsed_ms": 114313,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "0a0bc302cb7b7ef7fecbdaf26254a7822070ac665a2ef69d9a2998662fc8d411"
+    },
+    {
+      "file": "frame-00060.png",
+      "elapsed_ms": 115313,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "0a0bc302cb7b7ef7fecbdaf26254a7822070ac665a2ef69d9a2998662fc8d411"
+    },
+    {
+      "file": "frame-00061.png",
+      "elapsed_ms": 116319,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "0a0bc302cb7b7ef7fecbdaf26254a7822070ac665a2ef69d9a2998662fc8d411"
+    },
+    {
+      "file": "frame-00062.png",
+      "elapsed_ms": 117332,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "0a0bc302cb7b7ef7fecbdaf26254a7822070ac665a2ef69d9a2998662fc8d411"
+    },
+    {
+      "file": "frame-00063.png",
+      "elapsed_ms": 118345,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "0a0bc302cb7b7ef7fecbdaf26254a7822070ac665a2ef69d9a2998662fc8d411"
+    },
+    {
+      "file": "frame-00064.png",
+      "elapsed_ms": 119357,
+      "chapter": "Executing real AI component",
+      "note": "Fresh execution using the saved OpenRouter credential. Component result is separate from end-to-end callback acceptance.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "0a0bc302cb7b7ef7fecbdaf26254a7822070ac665a2ef69d9a2998662fc8d411"
+    },
+    {
+      "file": "frame-00065.png",
+      "elapsed_ms": 143052,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "060b0469196b9cdacabab33b9f328429ae0ccbadd0fad8d556a62a916c3784f3"
+    },
+    {
+      "file": "frame-00066.png",
+      "elapsed_ms": 144057,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "01574a3efc7136ab31f527ea63ce78a83fb5898a5ad46c2999a11e04ea010e07"
+    },
+    {
+      "file": "frame-00067.png",
+      "elapsed_ms": 145067,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "fe9baacb58c2b069aea5d4bf3877131362ad216bc353d2f162ab08ac31c02ad4"
+    },
+    {
+      "file": "frame-00068.png",
+      "elapsed_ms": 146081,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f85acbbec872b77b8bf3866f73b528177be17d161cadc8003f399f5754af22c2"
+    },
+    {
+      "file": "frame-00069.png",
+      "elapsed_ms": 147091,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f85acbbec872b77b8bf3866f73b528177be17d161cadc8003f399f5754af22c2"
+    },
+    {
+      "file": "frame-00070.png",
+      "elapsed_ms": 148101,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f85acbbec872b77b8bf3866f73b528177be17d161cadc8003f399f5754af22c2"
+    },
+    {
+      "file": "frame-00071.png",
+      "elapsed_ms": 149115,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f85acbbec872b77b8bf3866f73b528177be17d161cadc8003f399f5754af22c2"
+    },
+    {
+      "file": "frame-00072.png",
+      "elapsed_ms": 150125,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f85acbbec872b77b8bf3866f73b528177be17d161cadc8003f399f5754af22c2"
+    },
+    {
+      "file": "frame-00073.png",
+      "elapsed_ms": 151139,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f85acbbec872b77b8bf3866f73b528177be17d161cadc8003f399f5754af22c2"
+    },
+    {
+      "file": "frame-00074.png",
+      "elapsed_ms": 152150,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f85acbbec872b77b8bf3866f73b528177be17d161cadc8003f399f5754af22c2"
+    },
+    {
+      "file": "frame-00075.png",
+      "elapsed_ms": 153156,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f85acbbec872b77b8bf3866f73b528177be17d161cadc8003f399f5754af22c2"
+    },
+    {
+      "file": "frame-00076.png",
+      "elapsed_ms": 154156,
+      "chapter": "AI output validation",
+      "note": "Fresh provider result shown here. A valid component result does not prove Bubble callback delivery.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "f85acbbec872b77b8bf3866f73b528177be17d161cadc8003f399f5754af22c2"
+    },
+    {
+      "file": "frame-00077.png",
+      "elapsed_ms": 201346,
+      "chapter": "Callback-only check",
+      "note": "No AI/email. Existing terminal Failed request; callback remains disabled for safe handoff.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "0fd6271d338eab8fc98f47bb76cbc48985f958ad29568e1a62891bc7eeb69127"
+    },
+    {
+      "file": "frame-00078.png",
+      "elapsed_ms": 202356,
+      "chapter": "Callback-only check",
+      "note": "No AI/email. Existing terminal Failed request; callback remains disabled for safe handoff.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "822d2b269d3fa623c7c47c9df7462a41a9e11da613078fd111ee8a0a3c26f71b"
+    },
+    {
+      "file": "frame-00079.png",
+      "elapsed_ms": 203369,
+      "chapter": "Callback-only check",
+      "note": "No AI/email. Existing terminal Failed request; callback remains disabled for safe handoff.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "bcbf5541e7594b0fe7256cbde15b4a863b9e47f92dd6ffca457bdedc223d5c4f"
+    },
+    {
+      "file": "frame-00080.png",
+      "elapsed_ms": 204378,
+      "chapter": "Callback-only check",
+      "note": "No AI/email. Existing terminal Failed request; callback remains disabled for safe handoff.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "db8bf6246a5e260612cf7f5b586b740fac24ac82730cbfc911a466a21b11db78"
+    },
+    {
+      "file": "frame-00081.png",
+      "elapsed_ms": 208005,
+      "chapter": "Callback unavailable on Free",
+      "note": "Current endpoint disabled. Earlier approved enabled test returned Bubble API subscription restriction; no Success is claimed.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "563d6d3b7a781c557ff303347aeae195cbd0e178b520eacc720dc0b6fb4e557a"
+    },
+    {
+      "file": "frame-00082.png",
+      "elapsed_ms": 209004,
+      "chapter": "Callback unavailable on Free",
+      "note": "Current endpoint disabled. Earlier approved enabled test returned Bubble API subscription restriction; no Success is claimed.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "7943e8aec3fd0c6cca4adc2929f73011ef48dab9ff29a757953645cd52f58411"
+    },
+    {
+      "file": "frame-00083.png",
+      "elapsed_ms": 210016,
+      "chapter": "Callback unavailable on Free",
+      "note": "Current endpoint disabled. Earlier approved enabled test returned Bubble API subscription restriction; no Success is claimed.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "7943e8aec3fd0c6cca4adc2929f73011ef48dab9ff29a757953645cd52f58411"
+    },
+    {
+      "file": "frame-00084.png",
+      "elapsed_ms": 211027,
+      "chapter": "Callback unavailable on Free",
+      "note": "Current endpoint disabled. Earlier approved enabled test returned Bubble API subscription restriction; no Success is claimed.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "7943e8aec3fd0c6cca4adc2929f73011ef48dab9ff29a757953645cd52f58411"
+    },
+    {
+      "file": "frame-00085.png",
+      "elapsed_ms": 212040,
+      "chapter": "Callback unavailable on Free",
+      "note": "Current endpoint disabled. Earlier approved enabled test returned Bubble API subscription restriction; no Success is claimed.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "7943e8aec3fd0c6cca4adc2929f73011ef48dab9ff29a757953645cd52f58411"
+    },
+    {
+      "file": "frame-00086.png",
+      "elapsed_ms": 213055,
+      "chapter": "Callback unavailable on Free",
+      "note": "Current endpoint disabled. Earlier approved enabled test returned Bubble API subscription restriction; no Success is claimed.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "7943e8aec3fd0c6cca4adc2929f73011ef48dab9ff29a757953645cd52f58411"
+    },
+    {
+      "file": "frame-00087.png",
+      "elapsed_ms": 214069,
+      "chapter": "Callback unavailable on Free",
+      "note": "Current endpoint disabled. Earlier approved enabled test returned Bubble API subscription restriction; no Success is claimed.",
+      "size_pixels": [
+        649,
+        616
+      ],
+      "sha256": "7943e8aec3fd0c6cca4adc2929f73011ef48dab9ff29a757953645cd52f58411"
+    },
+    {
+      "file": "frame-00088.png",
+      "elapsed_ms": 251686,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "6debb76ac1de34f95afb10d97b052b4088747ad290ac499f57ea8af1bf5c9a1b"
+    },
+    {
+      "file": "frame-00089.png",
+      "elapsed_ms": 252693,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00090.png",
+      "elapsed_ms": 253707,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00091.png",
+      "elapsed_ms": 254719,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00092.png",
+      "elapsed_ms": 255725,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00093.png",
+      "elapsed_ms": 256735,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00094.png",
+      "elapsed_ms": 257750,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00095.png",
+      "elapsed_ms": 258757,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00096.png",
+      "elapsed_ms": 259771,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00097.png",
+      "elapsed_ms": 260782,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00098.png",
+      "elapsed_ms": 261792,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00099.png",
+      "elapsed_ms": 262805,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00100.png",
+      "elapsed_ms": 263809,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00101.png",
+      "elapsed_ms": 264822,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00102.png",
+      "elapsed_ms": 265830,
+      "chapter": "Author portal — Priya Sharma",
+      "note": "Editor-assisted Run as preview for recording. Three separate user-assisted password logins were verified earlier.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00103.png",
+      "elapsed_ms": 280210,
+      "chapter": "Author access guard",
+      "note": "Author session returns to its own dashboard when requesting the Admin route. Full callback acceptance remains incomplete.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "2ca434aeca3af7492379cb377b617f65672cda1354a53bd45424e67a87ef237e"
+    },
+    {
+      "file": "frame-00104.png",
+      "elapsed_ms": 281226,
+      "chapter": "Author access guard",
+      "note": "Author session returns to its own dashboard when requesting the Admin route. Full callback acceptance remains incomplete.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00105.png",
+      "elapsed_ms": 282236,
+      "chapter": "Author access guard",
+      "note": "Author session returns to its own dashboard when requesting the Admin route. Full callback acceptance remains incomplete.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00106.png",
+      "elapsed_ms": 283245,
+      "chapter": "Author access guard",
+      "note": "Author session returns to its own dashboard when requesting the Admin route. Full callback acceptance remains incomplete.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    },
+    {
+      "file": "frame-00107.png",
+      "elapsed_ms": 284260,
+      "chapter": "Author access guard",
+      "note": "Author session returns to its own dashboard when requesting the Admin route. Full callback acceptance remains incomplete.",
+      "size_pixels": [
+        630,
+        598
+      ],
+      "sha256": "721c2bf3e6232aa4784bf244ce57f345a28e95a6416c9ce9419c2609ef6d50be"
+    }
+  ],
+  "full_bitstream_error_decode_passed": true,
+  "start_mid_end_decode": [
+    {
+      "timestamp_seconds": 0,
+      "decoded_size": [
+        320,
+        200
+      ],
+      "passed": true
+    },
+    {
+      "timestamp_seconds": 143.0,
+      "decoded_size": [
+        320,
+        200
+      ],
+      "passed": true
+    },
+    {
+      "timestamp_seconds": 285.0,
+      "decoded_size": [
+        320,
+        200
+      ],
+      "passed": true
+    }
+  ],
+  "historical_mp4_sha256": {
+    "deliverables\\bookleaf-evidence-walkthrough-final.mp4": "5753b645204a358a93791ad4bdb92a999ac8bad958b5fdf05818345061f6bd2d",
+    "deliverables\\bookleaf-evidence-walkthrough-v2.mp4": "40fd4158fe16b35732c1b8c96bda8d19d567c3770abef693f65ba38da1daf8a6",
+    "deliverables\\bookleaf-evidence-walkthrough.mp4": "67ebb1218ab2b5d9efb3f9eea70c8ee948a9ebf251445ef4b459e8d66ce8c89d"
+  },
+  "historical_videos_untouched": true,
+  "timeline_rule": "1fps wall-clock timeline; most recent actually observed capture is held between timestamps; initial gap is a labelled slate. At most subsecond rounding to complete the final1fps frame.",
+  "limitations": [
+    "Low-fps actual screenshot UI capture, not full-motion screen recording.",
+    "Subsecond UI changes can fall between the1fps sampling instants.",
+    "Silent captions; no generated UI or simulated successful state.",
+    "Shows only the observed UI; video alone does not establish full authenticated callback or email success."
+  ]
+}
